@@ -5,13 +5,14 @@
 #define minimum(a,b) (a<b ? a : b)
 #define minimum3(a,b,c) (minimum (a,minimum (b,c)))
 
+static
+int *matrix = NULL;
+
 int ld (const char *s, const char *t)
 {
   size_t m = strlen(s) + 1;
   size_t n = strlen(t) + 1;
-  int *matrix = calloc(m*n, sizeof(int));
   size_t i, j, k;
-  int r; 
 
   for (i=0; i<m; i+=1)
     matrix[i*n] = i;
@@ -36,16 +37,16 @@ int ld (const char *s, const char *t)
     }
   }
   
-  r = matrix[(m-1)*n+(n-1)];
-  free(matrix);
-  return(r);
+  return(matrix[(m-1)*n+(n-1)]);
 }
 
 int main()
 {
-  char *s0 = malloc(sizeof(char)*2000);
-  char *s1 = malloc(sizeof(char)*2000);
+  char *s0 = calloc(2000, sizeof(char));
+  char *s1 = calloc(2000, sizeof(char));
   unsigned int t, k;
+
+  matrix = calloc(2001*2001, sizeof(int));
   scanf("%d", &t);
   for (k=0; k<t; k+=1)
   {
