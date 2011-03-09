@@ -1,6 +1,1 @@
-module Main (main) where
-
-lcs :: [String] -> [[String]]
-
-main :: IO ()
-main = undefined
+z|qyr-Znv{-5znv{6-urryp-GG-h`v{tj-:K-hh`v{tjjznv{-GG-V\-56znv{-J-{qrsv{rq

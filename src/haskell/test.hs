@@ -1,3 +1,1 @@
-import qualified Data.ByteString.Lazy.Char8 as B
-
-main = B.interact (B.unlines . takeWhile (/=B.pack "42") . B.lines)
+vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Oznv{-J-O;v{rnp-5O;{yv{r-;-nxrduvyr-5<JO;}npx-/A?/6-;-O;yv{r6

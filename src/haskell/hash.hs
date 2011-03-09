@@ -1,24 +1,1 @@
-
-import qualified Data.List as L
-import qualified Data.Map as M
-import qualified Data.Maybe as M
-import qualified Data.ByteString.Lazy.Char8 as B
-import qualified Control.Monad as C
-
-h :: Integer -> Integer -> Integer -> Integer -> Integer
-h a b m y = mod (a*y + b) m
-
-hash :: (Integer -> Integer) -> Integer -> Integer -> Integer -> Integer -> Integer
-hash hx c d x n = let hlist = (M.toAscList . M.fromListWith (+) . zip [ hx k | k <- [x..x+n] ] . repeat) 1
-                  in (L.foldl' (\b (_,z) -> b+z) 0 . filter (\(k,_) -> k>=c && k<=d)) hlist
-
-readint :: B.ByteString -> Integer
-readint = fst . M.fromJust . B.readInteger
-
-main :: IO ()
-main = do (t:ts) <- fmap B.lines B.getContents
-          C.mapM (print . hash') ts
-          return ()
-  where
-    hash' s = let (a:b:x:n:c:d:m:[]) = (map readint . B.words) s
-              in hash (h a b m) c d x n
+vz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-Qnn;Zn}-n-Zvz}|-~nyvsvrq-Qnn;Znor-n-Zvz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-P|{|y;Z|{nq-n-Pu-GG-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtru-n-o-z--J-z|q-5n7-8-o6-zunu-GG-5V{rtr-:K-V{rtr6-:K-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtrunu-u-p-q--{-J-yr-uyv-J-5Z;|NpYv-;-Z;s|zYvdvu-586-;-v}-h-u-x--x-I:-h;;8{j-j-;-r}rn6->------------------v{-5Y;s|yqy4-5io-5l96-:K-o86-=-;-svyr-5i5x9l6-:K-xKJp-33-xIJq66-uyvrnqv{-GG-O;Or`v{t-:K-V{rtrrnqv{-J-s-;-Z;s|zW-;-O;rnqV{rtrznv{-GG-V\-56znv{-J-q|-5G6-I:-szn}-O;yv{r-O;trP|{r{----------P;zn}Z-5}v{-;-unu46-----------r{-56--urr----unu4--J-yr-5nGoGG{GpGqGzGhj6-J-5zn}-rnqv{-;-O;|q6---------------v{-unu-5u-n-o-z6-p-q--{

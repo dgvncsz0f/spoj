@@ -1,22 +1,1 @@
-module Main where
-
-import IO
-
-julka :: Integral a => a -> a -> (a, a)
-julka t k = (t-y, y)
-            where y = div (t-k) 2
-
-repeat_n :: (Monad a, Integral b) => b -> a c -> a ()
-repeat_n 0 f = return ()
-repeat_n n f = do {f; repeat_n (n-1) f;}
-
---m_julka :: IO (Integer,Integer)
-m_julka = do
-  x <- getLine
-  y <- getLine
-  return (julka (read x) (read y))
-
-main = do
-  hSetBuffering stdin LineBuffering
-  repeat_n 10 (m_julka >>= print_julka)
-  where print_julka (a,b) = do {print a; print b}
+z|qyr-Znv{-urrvz}|-V\wyxn-GG-V{rtny-n-JK-n-:K-n-:K-5n9-n6wyxn--x-J-5:9-6------------urr--J-qv-5:x6-?r}rnl{-GG-5Z|{nq-n9-V{rtny-o6-JK-o-:K-n-p-:K-n-56r}rnl{-=-s-J-r{-56r}rnl{-{-s-J-q|-sH-r}rnl{-5{:>6-sH::zlwyxn-GG-V\-5V{rtr9V{rtr6zlwyxn-J-q|---I:-trYv{r---I:-trYv{r--r{-5wyxn-5rnq-6-5rnq-66znv{-J-q|--u`rOssrv{t-qv{-Yv{rOssrv{t--r}rnl{->=-5zlwyxn-KKJ-}v{lwyxn6--urr-}v{lwyxn-5n9o6-J-q|-}v{-nH-}v{-o

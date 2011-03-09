@@ -1,17 +1,1 @@
-
-import qualified Data.ByteString.Lazy.Char8 as B
-import qualified Control.Monad as M
-import qualified Data.Maybe as M1
-
-
-equations :: Int -> Int
-equations _ = 0
-
-read_int :: B.ByteString -> Int
-read_int = fst . M1.fromJust . B.readInt
-
-main :: IO ()
-main = do
-  input  <- fmap (takeWhile (/=0) . map read_int . B.lines) B.getContents
-  mapM print (map equations input)
-  return ()
+vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-P|{|y;Z|{nq-n-Zvz}|-~nyvsvrq-Qnn;Znor-n-Z>r~nv|{-GG-V{-:K-V{r~nv|{-l-J-=rnqlv{-GG-O;Or`v{t-:K-V{rnqlv{-J-s-;-Z>;s|zW-;-O;rnqV{znv{-GG-V\-56znv{-J-q|--v{}--I:-szn}-5nxrduvyr-5<J=6-;-zn}-rnqlv{-;-O;yv{r6-O;trP|{r{--zn}Z-}v{-5zn}-r~nv|{-v{}6--r{-56

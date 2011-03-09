@@ -1,4 +1,1 @@
-main = do
-  a <- getLine
-  b <- getLine
-  print ((read a::Integer) + (read b::Integer))
+znv{-J-q|--n-I:-trYv{r--o-I:-trYv{r--}v{-55rnq-nGGV{rtr6-8-5rnq-oGGV{rtr66

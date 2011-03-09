@@ -1,164 +1,1 @@
-Content-Type: multipart/related; start=<op.mhtml.1239480325898.bf6cab05371a3c5c@10.10.1.36>; boundary=----------4Y5zhtGijZClE7J0HCLXeZ
-Content-Location: https://www.spoj.pl/files/src/save/1597412/
-MIME-Version: 1.0
-
-------------4Y5zhtGijZClE7J0HCLXeZ
-Content-Disposition: inline; filename=1597412-src.htm
-Content-Type: text/html; name=1597412-src.htm
-Content-Id: <op.mhtml.1239480325898.bf6cab05371a3c5c@10.10.1.36>
-Content-Location: https://www.spoj.pl/files/src/save/1597412/
-Content-Transfer-Encoding: 8bit
-
-#include <stdint.h>
-#include <string>
-#include <list>
-#include <set>
-#include <map>
-#include <iostream>
-class bexpression
-{
-  public:
-  enum bracket_t
-  {
-    RIGHT = 0,
-    LEFT  = 1
-  };
-
-  bexpression(const uint8_t &n):
-    _n(n*2),
-    _s(0),
-    _bogus(0)
-  {
-  }
-  
-  void push(const bracket_t &t)
-  {
-    _bogus += (t == LEFT ? 1 : -1);
-    _s     += 1;
-  }
-  
-  void pop(const bracket_t &t)
-  {
-    _bogus -= (t == LEFT ? 1 : -1);
-    _s     -= 1;
-  }
-
-  bool complete() const
-  {
-    return(_s == _n);
-  }
-
-  bool bogus() const
-  {
-    return(_bogus < 0 || (complete() && _bogus != 0));
-  }
-
-  uint8_t state() const
-  {
-    return(_bogus);
-  }
-
-  uint8_t size() const
-  {
-    return(_s);
-  }
-
-  uint8_t index() const
-  {
-    return(_s - 1);
-  }
-
-  private:
-  uint8_t _n;
-  uint8_t _s;
-  int8_t _bogus;
-};
-
-class sqrbr
-{
-  public:
-  virtual ~sqrbr()
-  {}
-
-  void fix_lsymbol(uint8_t i)
-  {
-    _ls.insert(i);
-  }
-
-  virtual uint32_t valid_exprs(bexpression *b)
-  {
-    if (b->bogus())
-      return(0);
-
-    if (b->complete())
-      return(1);
-    else
-    {
-      uint32_t r = 0;
-      
-      b->push(bexpression::LEFT);
-      r += valid_exprs(b);
-      b->pop(bexpression::LEFT);
-      
-      if (_ls.find(b->size()) == _ls.end())
-      {
-        b->push(bexpression::RIGHT);
-        r += valid_exprs(b);
-        b->pop(bexpression::RIGHT);
-      }
-
-      return(r);
-    }
-  }
-
-  private:
-  std::set<uint8_t> _ls;
-};
-
-class sqrbr_proxy : public sqrbr
-{
-  public:
-  virtual uint32_t valid_exprs(bexpression *b)
-  {
-    const uint16_t k = ((b->state()&0xFF) << 8) | (b->index()&0xFF);
-    std::map<uint16_t,uint32_t>::iterator it;
-    if ((it=_cache.find(k)) != _cache.end())
-      return(it->second);
-
-    uint32_t r = sqrbr::valid_exprs(b);
-    _cache[k] = r;
-    return(r);
-  }
-
-  private:
-  std::map<uint16_t,uint32_t> _cache;
-};
-
-int main()
-{
-  unsigned int test_cases;
-
-  std::cin >> test_cases;
-  for (unsigned int i=0; i<test_cases; i++)
-  {
-    unsigned int n, k;
-    std::cin >> n;
-    std::cin >> k;
-
-    sqrbr_proxy obj;
-    obj.fix_lsymbol(0);
-    for (unsigned int i=0; i<k; i++)
-    {
-      unsigned int s;
-      std::cin >> s;
-      obj.fix_lsymbol(s-1);
-    }
-
-    bexpression exp(n);
-    std::cout << obj.valid_exprs(&exp) << std::endl;
-  }
-
-  return(0);
-}
-
-------------4Y5zhtGijZClE7J0HCLXeZ--
+P|{r{:a}rG-zyv}n<rynrqH-nJI|};zuzy;>?@FAE=@?BEFE;osCpno=B@D>n@pBpM>=;>=;>;@CKH-o|{qnJ::::::::::AfBuTvwgPyRDW=UPYergP|{r{:Y|pnv|{G-u}G<<;}|w;}y<svyr<p<nr<>BFDA>?<ZVZR:crv|{G->;=::::::::::::AfBuTvwgPyRDW=UPYergP|{r{:Qv}|vv|{G-v{yv{rH-svyr{nzrJ>BFDA>?:p;uzP|{r{:a}rG-r<uzyH-{nzrJ>BFDA>?:p;uzP|{r{:VqG-I|};zuzy;>?@FAE=@?BEFE;osCpno=B@D>n@pBpM>=;>=;>;@CKP|{r{:Y|pnv|{G-u}G<<;}|w;}y<svyr<p<nr<>BFDA>?<P|{r{:an{sr:R{p|qv{tG-Eov0v{pyqr-Iqv{;uK0v{pyqr-Iv{tK0v{pyqr-IyvK0v{pyqr-IrK0v{pyqr-Izn}K0v{pyqr-Iv|rnzKpyn-or}rv|{--}oyvpG--r{z-onpxrl------_VTUa-J-=9----YRSa--J->--H--or}rv|{5p|{-v{El-3{6G----l{5{7?69----l5=69----lo|t5=6--------|vq-}u5p|{-onpxrl-36------lo|t-8J-5-JJ-YRSa-L->-G-:>6H----l-----8J->H------|vq-}|}5p|{-onpxrl-36------lo|t-:J-5-JJ-YRSa-L->-G-:>6H----l-----:J->H----o||y-p|z}yrr56-p|{------r{5l-JJ-l{6H----o||y-o|t56-p|{------r{5lo|t-I-=--5p|z}yrr56-33-lo|t-.J-=66H----v{El-nr56-p|{------r{5lo|t6H----v{El-vr56-p|{------r{5l6H----v{El-v{qr56-p|{------r{5l-:->6H----}vnrG--v{El-l{H--v{El-lH--v{El-lo|tHHpyn-~o--}oyvpG--vny-~o56----|vq-svlyzo|y5v{El-v6------ly;v{r5v6H----vny-v{@?l-nyvqlr}5or}rv|{-7o6------vs-5o:Ko|t566------r{5=6H----vs-5o:Kp|z}yrr566------r{5>6H----ryr----------v{@?l--J-=H------------o:K}u5or}rv|{GGYRSa6H-------8J-nyvqlr}5o6H------o:K}|}5or}rv|{GGYRSa6H------------vs-5ly;sv{q5o:Kvr566-JJ-ly;r{q566--------------o:K}u5or}rv|{GG_VTUa6H---------8J-nyvqlr}5o6H--------o:K}|}5or}rv|{GG_VTUa6H------------r{56H--------}vnrG--qGGrIv{ElK-lyHHpyn-~ol}|-G-}oyvp-~o--}oyvpG--vny-v{@?l-nyvqlr}5or}rv|{-7o6------p|{-v{>Cl-x-J-55o:Knr563=SS6-II-E6--5o:Kv{qr563=SS6H----qGGzn}Iv{>Cl9v{@?lKGGvrn|-vH----vs-55vJlpnpur;sv{q5x66-.J-lpnpur;r{q566------r{5v:Krp|{q6H----v{@?l--J-~oGGnyvqlr}5o6H----lpnpurhxj-J-H----r{56H----}vnrG--qGGzn}Iv{>Cl9v{@?lK-lpnpurHHv{-znv{56--{vt{rq-v{-rlpnrH--qGGpv{-KK-rlpnrH--s|-5{vt{rq-v{-vJ=H-vIrlpnrH-v886------{vt{rq-v{-{9-xH----qGGpv{-KK-{H----qGGpv{-KK-xH----~ol}|-|owH----|ow;svlyzo|y5=6H----s|-5{vt{rq-v{-vJ=H-vIxH-v886----------{vt{rq-v{-H------qGGpv{-KK-H------|ow;svlyzo|y5:>6H--------or}rv|{-r}5{6H----qGGp|-II-|ow;nyvqlr}53r}6-II-qGGr{qyH----r{5=6H::::::::::::AfBuTvwgPyRDW=UPYerg::

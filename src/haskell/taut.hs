@@ -1,103 +1,1 @@
-module Main (main) where
-
-import Control.Monad.State
-import Control.Monad.Reader
-import Control.Monad
-import Data.Maybe (fromJust)
-import qualified Data.Map as M
-
-data BoolExpr =   OR BoolExpr BoolExpr
-                | AND BoolExpr BoolExpr
-                | NOT BoolExpr
-                | TERM Char
-                | Zero
-                | One
-  deriving (Eq)
-
-mkiff :: BoolExpr -> BoolExpr -> BoolExpr
-mkiff p q = (p `mkimplies` q) `mkand` (q `mkimplies` p)
-
-mkimplies :: BoolExpr -> BoolExpr -> BoolExpr
-mkimplies p q = mknot p `mkor` q
-
-mknot :: BoolExpr -> BoolExpr
-mknot (NOT p) = p
-mknot Zero    = One
-mknot One     = Zero
-mknot p       = NOT p
-
-mkor :: BoolExpr -> BoolExpr -> BoolExpr
-mkor One _  = One
-mkor _ One  = One
-mkor Zero q = q
-mkor p Zero = p
-mkor p q | p == (mknot q) = One
-         | p == q         = Zero
-         | otherwise      = p `OR` q
-
-mkand :: BoolExpr -> BoolExpr -> BoolExpr
-mkand Zero _ = Zero
-mkand _ Zero = Zero
-mkand One q  = q
-mkand p One  = p
-mkand p q | p == (mknot q) = Zero
-          | p == q         = Zero
-          | otherwise      = p `AND` q
-
-eval :: BoolExpr -> Reader (M.Map Char Bool) Bool
-eval (AND p q) = do pv <- eval p
-                    qv <- eval q
-                    return (pv && qv)
-eval (OR p q)  = do pv <- eval p
-                    qv <- eval q
-                    return (pv || qv)
-eval (NOT p)   = do pv <- eval p
-                    return (not pv)
-eval (TERM k)  = fmap (fromJust . M.lookup k) ask
-eval Zero      = return False
-eval One       = return True
-
-compute :: Reader (M.Map Char Bool) Bool -> M.Map Char Bool -> Bool
-compute circuit = runReader circuit
-
-tautology :: String -> Bool
-tautology s = checktaut keys vars
-  where (expr,(_,vars))     = runState parser (s,M.empty)
-        keys                = M.keys vars
-        circuit             = compute (eval expr)
-        checktaut [] _      = True
-        checktaut (k:ks) vf =    circuit vt
-                              && circuit vf
-                              && checktaut ks vf
-                              && checktaut ks vt
-          where vt = M.insert k True vf
-
-parser :: State (String,M.Map Char Bool) BoolExpr
-parser = get >>= \(s,v) ->
-         case s
-         of ('N':xs) -> let (p,s0) = runState parser (xs,v)
-                        in do put s0
-                              return (mknot p)
-            ('D':xs) -> let (p,s0) = runState parser (xs,v)
-                            (q,s1) = runState parser s0
-                        in do put s1
-                              return (mkor p q)
-            ('C':xs) -> let (p,s0) = runState parser (xs,v)
-                            (q,s1) = runState parser s0
-                        in do put s1
-                              return (mkand p q)
-            ('I':xs) -> let (p,s0) = runState parser (xs,v)
-                            (q,s1) = runState parser s0
-                        in do put s1
-                              return (mkimplies p q)
-            ('E':xs) -> let (p,s0) = runState parser (xs,v)
-                            (q,s1) = runState parser s0
-                        in do put s1
-                              return (mkiff p q)
-            (x:xs)   -> do put (xs,M.insert x False v)
-                           return (TERM x)
-            _        -> error "parser: parse error"
-
-main :: IO ()
-main = do n <- fmap read getLine
-          interact (unlines . map ((\v -> if v then "YES" else "NO") . tautology) . take n . lines)
+z|qyr-Znv{-5znv{6-urrvz}|-P|{|y;Z|{nq;`nrvz}|-P|{|y;Z|{nq;_rnqrvz}|-P|{|y;Z|{nqvz}|-Qnn;Znor-5s|zW6vz}|-~nyvsvrq-Qnn;Zn}-n-Zqnn-O||yR}-J---\_-O||yR}-O||yR}-----------------N[Q-O||yR}-O||yR}-----------------[\a-O||yR}-----------------aR_Z-Pun-----------------gr|-----------------\{r--qrvv{t-5R~6zxvss-GG-O||yR}-:K-O||yR}-:K-O||yR}zxvss-}-~-J-5}-mzxvz}yvrm-~6-mzxn{qm-5~-mzxvz}yvrm-}6zxvz}yvr-GG-O||yR}-:K-O||yR}-:K-O||yR}zxvz}yvr-}-~-J-zx{|-}-mzx|m-~zx{|-GG-O||yR}-:K-O||yR}zx{|-5[\a-}6-J-}zx{|-gr|----J-\{rzx{|-\{r-----J-gr|zx{|-}-------J-[\a-}zx|-GG-O||yR}-:K-O||yR}-:K-O||yR}zx|-\{r-l--J-\{rzx|-l-\{r--J-\{rzx|-gr|-~-J-~zx|-}-gr|-J-}zx|-}-~--}-JJ-5zx{|-~6-J-\{r----------}-JJ-~---------J-gr|----------|urvr------J-}-m\_m-~zxn{q-GG-O||yR}-:K-O||yR}-:K-O||yR}zxn{q-gr|-l-J-gr|zxn{q-l-gr|-J-gr|zxn{q-\{r-~--J-~zxn{q-}-\{r--J-}zxn{q-}-~--}-JJ-5zx{|-~6-J-gr|-----------}-JJ-~---------J-gr|-----------|urvr------J-}-mN[Qm-~rny-GG-O||yR}-:K-_rnqr-5Z;Zn}-Pun-O||y6-O||yrny-5N[Q-}-~6-J-q|-}-I:-rny-}--------------------~-I:-rny-~--------------------r{-5}-33-~6rny-5\_-}-~6--J-q|-}-I:-rny-}--------------------~-I:-rny-~--------------------r{-5}--~6rny-5[\a-}6---J-q|-}-I:-rny-}--------------------r{-5{|-}6rny-5aR_Z-x6--J-szn}-5s|zW-;-Z;y||x}-x6-nxrny-gr|------J-r{-Snyrrny-\{r-------J-r{-arp|z}r-GG-_rnqr-5Z;Zn}-Pun-O||y6-O||y-:K-Z;Zn}-Pun-O||y-:K-O||yp|z}r-pvpv-J-{_rnqr-pvpvn|y|t-GG-`v{t-:K-O||yn|y|t--J-purpxn-xr-n--urr-5r}95l9n66-----J-{`nr-}nr-59Z;rz}6--------xr----------------J-Z;xr-n--------pvpv-------------J-p|z}r-5rny-r}6--------purpxn-hj-l------J-ar--------purpxn-5xGx6-s-J----pvpv-------------------------------33-pvpv-s------------------------------33-purpxn-x-s------------------------------33-purpxn-x-----------urr--J-Z;v{r-x-ar-s}nr-GG-`nr-5`v{t9Z;Zn}-Pun-O||y6-O||yR}}nr-J-tr-KKJ-i596-:K---------pnr----------|s-54[4G6-:K-yr-5}9=6-J-{`nr-}nr-596------------------------v{-q|-}-=------------------------------r{-5zx{|-}6------------54Q4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zx|-}-~6------------54P4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zxn{q-}-~6------------54V4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zxvz}yvr-}-~6------------54R4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zxvss-}-~6------------5G6---:K-q|-}-59Z;v{r--Snyr-6---------------------------r{-5aR_Z-6------------l--------:K-r|-/}nrG-}nr-r|/znv{-GG-V\-56znv{-J-q|-{-I:-szn}-rnq-trYv{r----------v{rnp-5{yv{r-;-zn}-55i-:K-vs--ur{-/fR`/-ryr-/[\/6-;-n|y|t6-;-nxr-{-;-yv{r6

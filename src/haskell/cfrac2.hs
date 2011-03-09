@@ -1,30 +1,1 @@
-module Main (main) where
-
-import Data.List (splitAt)
-
-type Z = Integer
-type Frac = (Z,Z)
-
-show_ :: Frac -> String
-show_ (p,q) = shows p . showString " " . shows q $ ""
-
-swap :: Frac -> Frac
-swap (a,b) = (b,a)
-
-parse :: [String] -> [Z]
-parse = parseix . zip [0..]
-  where parseix []                      = []
-        parseix ((ix,x):xs) | even ix   = parseix xs
-                            | otherwise = let num = (takeWhile (/='.') . dropWhile (=='.'))
-                                          in read (num x) : parseix xs
-
-unfrac :: [Z] -> Frac
-unfrac = swap . foldr unfrac' (1,1)
-  where unfrac' x (p,q) = (q,x*q+p)
-
-main :: IO ()
-main = interact (unlines . map (show_ . unfrac) . parse' . takeWhile (/= "0 0") . lines)
-  where parse' []     = []
-        parse' (x:xs) = let [l,_]   = (map read . words) x
-                            (as,bs) = splitAt l xs
-                        in parse as : parse' bs
+z|qyr-Znv{-5znv{6-urrvz}|-Qnn;Yv-5}yvN6}r-g-J-V{rtr}r-Snp-J-5g9g6u|l-GG-Snp-:K-`v{tu|l-5}9~6-J-u|-}-;-u|`v{t-/-/-;-u|-~-1-//n}-GG-Snp-:K-Snpn}-5n9o6-J-5o9n6}nr-GG-h`v{tj-:K-hgj}nr-J-}nrv-;-v}-h=;;j--urr-}nrv-hj----------------------J-hj--------}nrv-55v96G6--rr{-v---J-}nrv------------------------------|urvr-J-yr-{z-J-5nxrduvyr-5<J4;46-;-q|}duvyr-5JJ4;466------------------------------------------v{-rnq-5{z-6-G-}nrv-{snp-GG-hgj-:K-Snp{snp-J-n}-;-s|yq-{snp4-5>9>6--urr-{snp4--5}9~6-J-5~97~8}6znv{-GG-V\-56znv{-J-v{rnp-5{yv{r-;-zn}-5u|l-;-{snp6-;-}nr4-;-nxrduvyr-5<J-/=-=/6-;-yv{r6--urr-}nr4-hj-----J-hj--------}nr4-5G6-J-yr-hy9lj---J-5zn}-rnq-;-|q6-----------------------------5n9o6-J-}yvN-y-------------------------v{-}nr-n-G-}nr4-o

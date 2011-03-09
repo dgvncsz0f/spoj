@@ -1,1 +1,1 @@
-main = getLine >>= \n -> interact (show . foldr (+) 0 . filter (>0) . map read . take (read n) . lines)
+znv{-J-trYv{r-KKJ-i{-:K-v{rnp-5u|-;-s|yq-586-=-;-svyr-5K=6-;-zn}-rnq-;-nxr-5rnq-{6-;-yv{r6

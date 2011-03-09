@@ -1,33 +1,1 @@
-import Data.List (foldl')
-
-primes :: [Int]
-primes = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,443,449,457,461,463,467,479,487,491,499,503,509,521,523,541,547,557,563,569,571,577,587,593,599,601,607,613,617,619,631,641,643,647,653,659,661,673,677,683,691,701,709,719,727,733,739,743,751,757,761,769,773,787,797,809,811,821,823,827,829,839,853,857,859,863,877,881,883,887,907,911,919,929,937,941,947,953,967,971,977,983,991,997,1009]
-
-divide :: Int -> Int -> Int
-divide 0 _              = 0
-divide n0 d | r == 0    = divide q d
-            | otherwise = n0
-  where (q,r) = n0 `divMod` d
-
-primeFactors :: Int -> [Int]
-primeFactors n = first $ foldl' factor (n,[]) primeList
-  where nMax      = floor (sqrt (fromIntegral n))
-
-        primeList = takeWhile (<=nMax) primes
-
-        factor (n0,fs) p = let q = n0 `divide` p 
-                           in if (q==n0)
-                              then (n0,fs)
-                              else (q,p:fs)
-
-        first (1,xs) = xs
-        first (n,xs) = n : xs
-
-totient :: Int -> Int
-totient n = foldl' compute n . primeFactors $ n
-  where compute k p = k - (k `div` p)
-
-main :: IO ()
-main = interact (unlines . etf . lines)
-  where etf (t0:ts0) = let t = read t0
-                       in map (show.totient.read) (take t ts0)
+vz}|-Qnn;Yv-5s|yqy46}vzr-GG-hV{j}vzr-J-h?9@9B9D9>>9>@9>D9>F9?@9?F9@>9@D9A>9A@9AD9B@9BF9C>9CD9D>9D@9DF9E@9EF9FD9>=>9>=@9>=D9>=F9>>@9>?D9>@>9>@D9>@F9>AF9>B>9>BD9>C@9>CD9>D@9>DF9>E>9>F>9>F@9>FD9>FF9?>>9??@9??D9??F9?@@9?@F9?A>9?B>9?BD9?C@9?CF9?D>9?DD9?E>9?E@9?F@9@=D9@>>9@>@9@>D9@@>9@@D9@AD9@AF9@B@9@BF9@CD9@D@9@DF9@E@9@EF9@FD9A=>9A=F9A>F9A?>9A@>9A@@9A@F9AA@9AAF9ABD9AC>9AC@9ACD9ADF9AED9AF>9AFF9B=@9B=F9B?>9B?@9BA>9BAD9BBD9BC@9BCF9BD>9BDD9BED9BF@9BFF9C=>9C=D9C>@9C>D9C>F9C@>9CA>9CA@9CAD9CB@9CBF9CC>9CD@9CDD9CE@9CF>9D=>9D=F9D>F9D?D9D@@9D@F9DA@9DB>9DBD9DC>9DCF9DD@9DED9DFD9E=F9E>>9E?>9E?@9E?D9E?F9E@F9EB@9EBD9EBF9EC@9EDD9EE>9EE@9EED9F=D9F>>9F>F9F?F9F@D9FA>9FAD9FB@9FCD9FD>9FDD9FE@9FF>9FFD9>==Fjqvvqr-GG-V{-:K-V{-:K-V{qvvqr-=-l--------------J-=qvvqr-{=-q---JJ-=----J-qvvqr-~-q-------------|urvr-J-{=--urr-5~96-J-{=-mqvZ|qm-q}vzrSnp|-GG-V{-:K-hV{j}vzrSnp|-{-J-sv-1-s|yqy4-snp|-5{9hj6-}vzrYv--urr-{Zn------J-sy||-5~-5s|zV{rtny-{66--------}vzrYv-J-nxrduvyr-5IJ{Zn6-}vzr--------snp|-5{=9s6-}-J-yr-~-J-{=-mqvvqrm-}----------------------------v{-vs-5~JJ{=6------------------------------ur{-5{=9s6------------------------------ryr-5~9}Gs6--------sv-5>96-J---------sv-5{96-J-{-G-|vr{-GG-V{-:K-V{|vr{-{-J-s|yqy4-p|z}r-{-;-}vzrSnp|-1-{--urr-p|z}r-x-}-J-x-:-5x-mqvm-}6znv{-GG-V\-56znv{-J-v{rnp-5{yv{r-;-rs-;-yv{r6--urr-rs-5=G=6-J-yr--J-rnq-=-----------------------v{-zn}-5u|;|vr{;rnq6-5nxr--=6

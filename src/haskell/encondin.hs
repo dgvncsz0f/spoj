@@ -1,24 +1,1 @@
-import Data.List (foldl')
-import Data.Char (chr)
-
-encode :: String -> String
-encode = fst . foldl' flatten ([],False) . (++[(eof,0)]) . foldl' group []
-  where group [] c         = [(c,1)]
-        group ((x,n):xs) c | c==x && n<9 = (x,n+1) : xs
-                           | otherwise   = (c,1) : (x,n) : xs
-
-        flatten (acc,v) (_,0) | v         = ('1':acc,False)
-                              | otherwise = (acc,False)
-        flatten (acc,v) (x,1) | v         = (showC x acc,v)
-                              | otherwise = (showC x ('1':acc),True)
-        flatten (acc,v) (x,n) | v         = (chr (n+48):x:('1':acc),False)
-                              | otherwise = (chr (n+48):x:acc,False)
-        
-        showC '1' cs = '1':'1':cs
-        showC c cs   = c:cs
-
-        eof :: Char
-        eof = '\0'
-
-main :: IO ()
-main = interact (unlines . map encode . lines)
+vz}|-Qnn;Yv-5s|yqy46vz}|-Qnn;Pun-5pu6r{p|qr-GG-`v{t-:K-`v{tr{p|qr-J-s-;-s|yqy4-synr{-5hj9Snyr6-;-588h5r|s9=6j6-;-s|yqy4-t|}-hj--urr-t|}-hj-p---------J-h5p9>6j--------t|}-559{6G6-p--pJJ-33-{IF-J-59{8>6-G-----------------------------|urvr---J-5p9>6-G-59{6-G---------synr{-5npp96-5l9=6-----------J-54>4Gnpp9Snyr6-------------------------------|urvr-J-5npp9Snyr6--------synr{-5npp96-59>6-----------J-5u|P--npp96-------------------------------|urvr-J-5u|P--54>4Gnpp69ar6--------synr{-5npp96-59{6-----------J-5pu-5{8AE6GG54>4Gnpp69Snyr6-------------------------------|urvr-J-5pu-5{8AE6GGnpp9Snyr6----------------u|P-4>4-p-J-4>4G4>4Gp--------u|P-p-p---J-pGp--------r|s-GG-Pun--------r|s-J-4i=4znv{-GG-V\-56znv{-J-v{rnp-5{yv{r-;-zn}-r{p|qr-;-yv{r6

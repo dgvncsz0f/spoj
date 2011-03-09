@@ -1,14 +1,1 @@
-import Data.List (foldl')
-
-fibs :: Integer -> Integer
-fibs k = fst $ foldr (\_ (a,b) -> (b,a+b)) (0,1) [1..k]
-
--- notInTheBox :: Int -> Int -> Int
--- notInTheBox months capacity = fibbonacci months `mod` capacity
--- 
--- main :: IO ()
--- main = interact (unlines . map show . rabbits . lines)
---   where readNM line = let [n,m] = map (read) (words line)
---                       in (n+1,2^m)
---         rabbits (t:ts) = map (uncurry notInTheBox . readNM) $ take (read t) ts
--- 
+vz}|-Qnn;Yv-5s|yqy46svo-GG-V{rtr-:K-V{rtrsvo-x-J-s-1-s|yq-5il-5n9o6-:K-5o9n8o66-5=9>6-h>;;xj::-{|V{aurO|-GG-V{-:K-V{-:K-V{::-{|V{aurO|-z|{u-pn}npv-J-svoo|{nppv-z|{u-mz|qm-pn}npv::-::-znv{-GG-V\-56::-znv{-J-v{rnp-5{yv{r-;-zn}-u|-;-noov-;-yv{r6::---urr-rnq[Z-yv{r-J-yr-h{9zj-J-zn}-5rnq6-5|q-yv{r6::-----------------------v{-5{8>9?kz6::---------noov-5G6-J-zn}-5{p-{|V{aurO|-;-rnq[Z6-1-nxr-5rnq-6-::-

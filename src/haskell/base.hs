@@ -1,34 +1,1 @@
-
-import qualified Data.List as L
-import qualified Data.Char as C
-
-baseb_expansion :: Int -> Int -> [Int]
-baseb_expansion b = L.unfoldr (digit' (fromIntegral b))
-  where
-    digit' b1 d | d==0      = Nothing
-                | otherwise = Just (fromIntegral (mod d b1), div d b1)
-
-decimal_notation :: Int -> [Int] -> Int
-decimal_notation b = foldr ((+).term') 0 . zip [0..]
-  where
-    b'          = fromIntegral b
-
-    term' (e,d) = let d' = fromIntegral d
-                  in d' * b'^e
-
-read_number :: Int -> String -> Int
-read_number b = decimal_notation b . reverse . map (fromIntegral . C.digitToInt)
-
-show_number :: Int -> Int -> Maybe String
-show_number b n = let baseb = baseb_expansion b n
-                  in if (length baseb > 7)
-                     then Nothing
-                     else (Just . map (C.toUpper . C.intToDigit) . reverse) baseb
-
-main = interact (unlines . map (base' . words) . lines)
-  where
-    base' [n,b0,b1] = let input  = read_number (read b0) n
-                          output = show_number (read b1) input
-                      in case output
-                         of Nothing -> "ERROR"
-                            Just o  -> o
+vz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-Qnn;Pun-n-Ponrolr}n{v|{-GG-V{-:K-V{-:K-hV{jonrolr}n{v|{-o-J-Y;{s|yq-5qvtv4-5s|zV{rtny-o66--urr----qvtv4-o>-q--qJJ=------J-[|uv{t-----------------|urvr-J-W-5s|zV{rtny-5z|q-q-o>69-qv-q-o>6qrpvznyl{|nv|{-GG-V{-:K-hV{j-:K-V{qrpvznyl{|nv|{-o-J-s|yq-5586;rz46-=-;-v}-h=;;j--urr----o4----------J-s|zV{rtny-o----rz4-5r9q6-J-yr-q4-J-s|zV{rtny-q------------------v{-q4-7-o4krrnql{zor-GG-V{-:K-`v{t-:K-V{rnql{zor-o-J-qrpvznyl{|nv|{-o-;-rrr-;-zn}-5s|zV{rtny-;-P;qvtva|V{6u|l{zor-GG-V{-:K-V{-:K-Znor-`v{tu|l{zor-o-{-J-yr-onro-J-onrolr}n{v|{-o-{------------------v{-vs-5yr{tu-onro-K-D6---------------------ur{-[|uv{t---------------------ryr-5W-;-zn}-5P;|b}}r-;-P;v{a|Qvtv6-;-rrr6-onroznv{-J-v{rnp-5{yv{r-;-zn}-5onr4-;-|q6-;-yv{r6--urr----onr4-h{9o=9o>j-J-yr-v{}--J-rnql{zor-5rnq-o=6-{--------------------------|}-J-u|l{zor-5rnq-o>6-v{}----------------------v{-pnr-|}-------------------------|s-[|uv{t-:K-/R__\_/----------------------------W-|--:K-|

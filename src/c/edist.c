@@ -1,57 +1,1 @@
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
-
-#define minimum(a,b) (a<b ? a : b)
-#define minimum3(a,b,c) (minimum (a,minimum (b,c)))
-
-static
-int *matrix = NULL;
-
-int ld (const char *s, const char *t)
-{
-  size_t m = strlen(s) + 1;
-  size_t n = strlen(t) + 1;
-  size_t i, j, k;
-
-  for (i=0; i<m; i+=1)
-    matrix[i*n] = i;
-  for (i=0; i<n; i+=1)
-    matrix[i] = i;
-
-  for (j=1; j<n; j+=1)
-  {
-    for (i=1; i<m; i+=1)
-    {
-      k = i*n + j;
-      if (s[i-1] == t[j-1]) {
-        matrix[k] = matrix[(i-1)*n + (j-1)];
-      }
-      else
-      {
-        matrix[k] = minimum3( matrix[(i-1)*n+j] + 1
-                            , matrix[i*n+(j-1)] + 1
-                            , matrix[(i-1)*n+(j-1)] + 1
-                            );
-      }
-    }
-  }
-  
-  return(matrix[(m-1)*n+(n-1)]);
-}
-
-int main()
-{
-  char *s0 = calloc(2000, sizeof(char));
-  char *s1 = calloc(2000, sizeof(char));
-  unsigned int t, k;
-
-  matrix = calloc(2001*2001, sizeof(int));
-  scanf("%d", &t);
-  for (k=0; k<t; k+=1)
-  {
-    scanf("%s %s", s0, s1);
-    printf("%d\n", ld(s0, s1));
-  }
-  return(0);
-}
+0v{pyqr-Iv{t;uK0v{pyqr-Iqyvo;uK0v{pyqr-Iqv|;uK0qrsv{r-zv{vzz5n9o6-5nIo-L-n-G-o60qrsv{r-zv{vzz@5n9o9p6-5zv{vzz-5n9zv{vzz-5o9p666nvpv{-7znv-J-[bYYHv{-yq-5p|{-pun-79-p|{-pun-76--vrl-z-J-yr{56-8->H--vrl-{-J-yr{56-8->H--vrl-v9-w9-xH--s|-5vJ=H-vIzH-v8J>6----znvhv7{j-J-vH--s|-5vJ=H-vI{H-v8J>6----znvhvj-J-vH--s|-5wJ>H-wI{H-w8J>6------s|-5vJ>H-vIzH-v8J>6----------x-J-v7{-8-wH------vs-5hv:>j-JJ-hw:>j6---------znvhxj-J-znvh5v:>67{-8-5w:>6jH------------ryr--------------znvhxj-J-zv{vzz@5-znvh5v:>67{8wj-8->----------------------------9-znvhv7{85w:>6j-8->----------------------------9-znvh5v:>67{85w:>6j-8->----------------------------6H----------------r{5znvh5z:>67{85{:>6j6Hv{-znv{56--pun-7=-J-pnyy|p5?===9-vr|s5pun66H--pun-7>-J-pnyy|p5?===9-vr|s5pun66H--{vt{rq-v{-9-xH--znv-J-pnyy|p5?==>7?==>9-vr|s5v{66H--pn{s5/2q/9-36H--s|-5xJ=H-xIH-x8J>6------pn{s5/2-2/9-=9->6H----}v{s5/2qi{/9-yq5=9->66H----r{5=6H

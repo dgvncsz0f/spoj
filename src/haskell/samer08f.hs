@@ -1,17 +1,1 @@
-module Main where
-
-import Data.List
-
-sqrs_in_grid :: Int -> Int
-sqrs_in_grid n = foldl' (+) 0 (map (^2) [1..n])
-
-{- io stuff -}
-main = do
-  string <- getLine
-  let grid = read string :: Int in
-    if (grid /= 0)
-    then do
-      return(sqrs_in_grid grid) >>= print
-      main
-    else do
-      return()
+z|qyr-Znv{-urrvz}|-Qnn;Yv~lv{ltvq-GG-V{-:K-V{~lv{ltvq-{-J-s|yqy4-586-=-5zn}-5k?6-h>;;{j6:-v|-ss-:znv{-J-q|--v{t-I:-trYv{r--yr-tvq-J-rnq-v{t-GG-V{-v{----vs-5tvq-<J-=6----ur{-q|------r{5~lv{ltvq-tvq6-KKJ-}v{------znv{----ryr-q|------r{56

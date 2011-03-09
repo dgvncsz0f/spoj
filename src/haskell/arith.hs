@@ -1,53 +1,1 @@
-import qualified Char as C
-import qualified Data.List as L
-
-data ArithmeticT =   Add Integer Integer
-                   | Sub Integer Integer
-                   | Mul Integer (Integer,[Integer])
-
-alignWith :: a -> [[a]] -> [[a]]
-alignWith c ls = let n = maximum . map length $ ls
-                 in map (pad' n) ls
-  where
-    pad' n v | n<=length v = v
-             | otherwise   = replicate (n - (length v)) c ++ v
-
-print_sum :: Char -> Integer -> Integer -> [String]
-print_sum op l r = let l1    = show l
-                       l2    = op:show r
-                       f     = case op 
-                               of '+' -> (+)
-                                  '-' -> (-)
-                       l4    = show (f l r)
-                       l3    = replicate (maximum . map length $ [l4,l2]) '-'
-                   in alignWith ' ' $ [l1,l2,l3,l4]
-
-print_mul :: Integer -> (Integer,[Integer]) -> [String]
-print_mul l (r,r1) = let l1  = show l
-                         l2  = '*':show r
-                         ln  = map mul' . zip [0..] $ r1
-                         ln2 = show $ l * r
-                         l3  = replicate (maximum . map length $ [head ln,l2]) '-'
-                         ln1 = replicate (maximum . map length $ [last ln,ln2]) '-'
-                     in if (length r1>1 && l/=0) then
-                          alignWith ' ' $ [l1,l2,l3] ++ ln ++ [ln1,ln2]
-                        else
-                          alignWith ' ' $ [l1,l2,l3,ln2]
-  where
-    mul' (n,d) = shows (d * l) (replicate n ' ')
-
-prettyprint :: ArithmeticT -> [String]
-prettyprint (Add l r) = print_sum '+' l r
-prettyprint (Sub l r) = print_sum '-' l r
-prettyprint (Mul l r) = print_mul l r
-
-arith :: String -> [String]
-arith expr = let (l,r0)  = break (flip elem "+-*") expr
-                 (op,r)  = splitAt 1 r0
-             in case (head op)
-                of '*' -> prettyprint $ Mul (read l) (read r, reverse . map (fromIntegral . C.digitToInt) $ r)
-                   '+' -> prettyprint $ Add (read l) (read r)
-                   '-' -> prettyprint $ Sub (read l) (read r)
-
-main = getLine >>= \n ->
-  interact (unlines . map (unlines . arith) . take (read n) . lines)
+vz}|-~nyvsvrq-Pun-n-Pvz}|-~nyvsvrq-Qnn;Yv-n-Yqnn-Nvuzrvpa-J---Nqq-V{rtr-V{rtr--------------------`o-V{rtr-V{rtr--------------------Zy-V{rtr-5V{rtr9hV{rtrj6nyvt{dvu-GG-n-:K-hhnjj-:K-hhnjjnyvt{dvu-p-y-J-yr-{-J-znvzz-;-zn}-yr{tu-1-y-----------------v{-zn}-5}nq4-{6-y--urr----}nq4-{---{IJyr{tu--J---------------|urvr---J-r}yvpnr-5{-:-5yr{tu-66-p-88-}v{lz-GG-Pun-:K-V{rtr-:K-V{rtr-:K-h`v{tj}v{lz-|}-y--J-yr-y>----J-u|-y-----------------------y?----J-|}Gu|------------------------s-----J-pnr-|}--------------------------------|s-484-:K-586----------------------------------4:4-:K-5:6-----------------------yA----J-u|-5s-y-6-----------------------y@----J-r}yvpnr-5znvzz-;-zn}-yr{tu-1-hyA9y?j6-4:4-------------------v{-nyvt{dvu-4-4-1-hy>9y?9y@9yAj}v{lzy-GG-V{rtr-:K-5V{rtr9hV{rtrj6-:K-h`v{tj}v{lzy-y-59>6-J-yr-y>--J-u|-y-------------------------y?--J-474Gu|--------------------------y{--J-zn}-zy4-;-v}-h=;;j-1->-------------------------y{?-J-u|-1-y-7--------------------------y@--J-r}yvpnr-5znvzz-;-zn}-yr{tu-1-hurnq-y{9y?j6-4:4-------------------------y{>-J-r}yvpnr-5znvzz-;-zn}-yr{tu-1-hyn-y{9y{?j6-4:4---------------------v{-vs-5yr{tu->K>-33-y<J=6-ur{--------------------------nyvt{dvu-4-4-1-hy>9y?9y@j-88-y{-88-hy{>9y{?j------------------------ryr--------------------------nyvt{dvu-4-4-1-hy>9y?9y@9y{?j--urr----zy4-5{9q6-J-u|-5q-7-y6-5r}yvpnr-{-4-46}r}v{-GG-Nvuzrvpa-:K-h`v{tj}r}v{-5Nqq-y-6-J-}v{lz-484-y-}r}v{-5`o-y-6-J-}v{lz-4:4-y-}r}v{-5Zy-y-6-J-}v{lzy-y-nvu-GG-`v{t-:K-h`v{tjnvu-r}-J-yr-5y9=6--J-ornx-5syv}-ryrz-/8:7/6-r}-----------------5|}96--J-}yvN->-=-------------v{-pnr-5urnq-|}6----------------|s-474-:K-}r}v{-1-Zy-5rnq-y6-5rnq-9-rrr-;-zn}-5s|zV{rtny-;-P;qvtva|V{6-1-6-------------------484-:K-}r}v{-1-Nqq-5rnq-y6-5rnq-6-------------------4:4-:K-}r}v{-1-`o-5rnq-y6-5rnq-6znv{-J-trYv{r-KKJ-i{-:K--v{rnp-5{yv{r-;-zn}-5{yv{r-;-nvu6-;-nxr-5rnq-{6-;-yv{r6

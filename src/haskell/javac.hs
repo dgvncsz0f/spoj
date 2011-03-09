@@ -1,24 +1,1 @@
-import qualified Char as C
-
-txt2c :: String -> Maybe String
-txt2c []     = Just []
-txt2c (t:ts) | t=='_'      = Nothing
-             | C.isUpper t = txt2c ts >>= \v -> Just $ '_' : C.toLower t : v
-             | otherwise   = txt2c ts >>= \v -> Just $ t : v
-
-txt2j :: Bool -> String -> Maybe String
-txt2j True  [] = Nothing
-txt2j False [] = Just []
-txt2j u (t:ts) | u && C.isLower t = txt2j False ts >>= \v -> Just $ C.toUpper t : v
-               | t=='_'           = if u then Nothing else txt2j True ts
-               | C.isUpper t      = Nothing
-               | otherwise        = txt2j False ts >>= \v -> Just $ t : v
-
-transform :: String -> Maybe String
-transform s = let (l,r) = break (\c -> c=='_' || C.isUpper c) s
-              in if (null l) then Nothing else case (take 1 r)
-                                               of []    -> Just l
-                                                  ['_'] -> txt2j True (drop 1 r) >>= \r1 -> Just $ l ++ r1
-                                                  _     -> txt2c r >>= \r1 -> Just $ l ++ r1
-
-main = interact (unlines . map (\v -> case v of {Nothing -> "Error!"; (Just v) -> v;}). map transform . lines)
+vz}|-~nyvsvrq-Pun-n-P?p-GG-`v{t-:K-Znor-`v{t?p-hj-----J-W-hj?p-5G6--JJ4l4------J-[|uv{t--------------P;vb}}r--J-?p--KKJ-i-:K-W-1-4l4-G-P;|Y|r--G---------------|urvr---J-?p--KKJ-i-:K-W-1--G-?w-GG-O||y-:K-`v{t-:K-Znor-`v{t?w-ar--hj-J-[|uv{t?w-Snyr-hj-J-W-hj?w--5G6---33-P;vY|r--J-?w-Snyr--KKJ-i-:K-W-1-P;|b}}r--G-----------------JJ4l4-----------J-vs--ur{-[|uv{t-ryr-?w-ar-----------------P;vb}}r-------J-[|uv{t----------------|urvr--------J-?w-Snyr--KKJ-i-:K-W-1--G-n{s|z-GG-`v{t-:K-Znor-`v{tn{s|z--J-yr-5y96-J-ornx-5ip-:K-pJJ4l4--P;vb}}r-p6---------------v{-vs-5{yy-y6-ur{-[|uv{t-ryr-pnr-5nxr->-6-----------------------------------------------|s-hj----:K-W-y--------------------------------------------------h4l4j-:K-?w-ar-5q|}->-6-KKJ-i>-:K-W-1-y-88->--------------------------------------------------l-----:K-?p--KKJ-i>-:K-W-1-y-88->znv{-J-v{rnp-5{yv{r-;-zn}-5i-:K-pnr--|s-[|uv{t-:K-/R|./H-5W-6-:K-H6;-zn}-n{s|z-;-yv{r6

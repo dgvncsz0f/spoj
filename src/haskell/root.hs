@@ -1,104 +1,1 @@
-import Data.List (foldl',maximum)
-
-newtype Q = Q { unQ :: (Integer,Integer) }
-
-data Qe = Qe Integer (Integer,[Integer])
-  deriving (Eq)
-
-numerator :: Q -> Integer
-numerator = fst . unQ
-
-denominator :: Q -> Integer
-denominator = snd . unQ
-
-norm :: Q -> Q
-norm (Q (n,d)) = Q (n `div` m,d `div` m)
-  where m = gcd n d
-
-integral :: Q -> Integer
-integral (Q (n,d)) = n `div` d
-
-expansion :: Q -> (Integer,[Integer])
-expansion q0 = (prePeriodSize,expansion' 0 q0' alpha)
-  where q0'@(Q (_,d0)) = norm q0
-        alpha          = q0' - (fromIntegral (integral q0'))
-        prePeriodSize  = maximum (primePowers [2,5] d0)
-        expansion' k m q | stop      = []
-                         | otherwise = c : expansion' (k+1) m' q'
-          where stop = numerator q==0 || (k>prePeriodSize && q==m)
-                c  = integral (10 * q)
-                q' = 10*q - fromIntegral c
-                m' | k==prePeriodSize = q
-                   | otherwise        = m
- 
-decimal :: Q -> Maybe Qe
-decimal q | denominator q == 0 = Nothing
-          | otherwise          = Just $ Qe (integral q) (expansion q)
-
-primePowers :: [Integer] -> Integer -> [Integer]
-primePowers es0 = primePowers' [] (map (const 0) es0) es0
-  where primePowers' acc [] [] _                     = acc 
-        primePowers' acc (e:es) (p:ps) n | r == 0    = primePowers' acc (e+1:es) (p:ps) q
-                                         | otherwise = primePowers' (e:acc) es ps n
-          where (q,r) = n `divMod` p
-
-instance Num Q where
-  (+) = plus
-  (-) = minus
-  (*) = mult
-  abs (Q (n,d)) = Q (abs n,d)
-  fromInteger n = Q (fromInteger n,1)
-  signum (Q (n,_)) = Q (signum n,1)
-
-instance Eq Q where
-  (Q (a,b)) == (Q (c,d)) = (a,b) == (c,d)
-
-instance Show Q where
-  showsPrec _ (Q (n,d)) = shows n . showChar ' '
-                                  . showChar '%'
-                                  . showChar ' '
-                                  . shows d
-
-instance Show Qe where
-  showsPrec _ (Qe n (sz,p0)) = shows n . showExpansion
-    where (pp,p) = split sz id p0
-          showPrePeriod = showChar '.' . foldl' (.) id (map shows pp)
-          showPeriod    = showChar '(' . foldl' (.) id (map shows p)
-                                       . showChar ')'
-          showExpansion | null pp && null p = showChar '.' . showChar '0'
-                        | null p            = showPrePeriod
-                        | otherwise         = showPrePeriod . showPeriod
-          
-split :: Integer -> ([Integer]->[Integer]) -> [Integer] -> ([Integer],[Integer])
-split 0 left (x:xs) = (left [],x:xs)
-split _ left []     = (left [],[])
-split k left (x:xs) = split (k-1) (left.(x:)) xs
-
-mult :: Q -> Q -> Q
-mult (Q (n0,d0)) (Q (n1,d1)) = Q (n0*n1,d0*d1)
-
-plus :: Q -> Q -> Q
-plus q (Q (0,_)) = q
-plus (Q (0,_)) q = q
-plus (Q (n0,d0)) (Q (n1,1))  = Q (n0+d0*n1,d0)
-plus (Q (n0,1)) (Q (n1,d1))  = Q (n0*d1+n1,d1)
-plus (Q (n0,d0)) (Q (n1,d1)) = Q (d0'*n0 + d1'*n1,d)
-  where d   = lcm d0 d1
-        d0' = d `div` d0
-        d1' = d `div` d1
-
-minus :: Q -> Q -> Q
-minus q (Q (n,d)) = q + (Q (-n,d))
-
-main :: IO ()
-main = interact (unlines . root . lines)
-  where root (t0:ts) = let t = read t0
-                       in map (showJust.decimal.buildQ) . take t $ ts
-        buildQ s = let [n,d] = map read . words $ s
-                   in if (signum d == -1)
-                      then Q (-n,abs d)
-                      else Q (n,d)
-
-        showJust Nothing  = "Invalid Input!!!"
-        showJust (Just v) = show v
-
+vz}|-Qnn;Yv-5s|yqy49znvzz6{r}r-^-J-^--{^-GG-5V{rtr9V{rtr6-qnn-^r-J-^r-V{rtr-5V{rtr9hV{rtrj6--qrvv{t-5R~6{zrn|-GG-^-:K-V{rtr{zrn|-J-s-;-{^qr{|zv{n|-GG-^-:K-V{rtrqr{|zv{n|-J-{q-;-{^{|z-GG-^-:K-^{|z-5^-5{9q66-J-^-5{-mqvm-z9q-mqvm-z6--urr-z-J-tpq-{-qv{rtny-GG-^-:K-V{rtrv{rtny-5^-5{9q66-J-{-mqvm-qr}n{v|{-GG-^-:K-5V{rtr9hV{rtrj6r}n{v|{-~=-J-5}r]rv|q`vr9r}n{v|{4-=-~=4-ny}un6--urr-~=4M5^-5l9q=66-J-{|z-~=--------ny}un----------J-~=4-:-5s|zV{rtny-5v{rtny-~=466--------}r]rv|q`vr--J-znvzz-5}vzr]|r-h?9Bj-q=6--------r}n{v|{4-x-z-~--|}------J-hj--------------------------|urvr-J-p-G-r}n{v|{4-5x8>6-z4-~4----------urr-|}-J-{zrn|-~JJ=--5xK}r]rv|q`vr-33-~JJz6----------------p--J-v{rtny-5>=-7-~6----------------~4-J->=7~-:-s|zV{rtny-p----------------z4--xJJ}r]rv|q`vr-J-~--------------------|urvr--------J-z-qrpvzny-GG-^-:K-Znor-^rqrpvzny-~--qr{|zv{n|-~-JJ-=-J-[|uv{t-----------|urvr----------J-W-1-^r-5v{rtny-~6-5r}n{v|{-~6}vzr]|r-GG-hV{rtrj-:K-V{rtr-:K-hV{rtrj}vzr]|r-r=-J-}vzr]|r4-hj-5zn}-5p|{-=6-r=6-r=--urr-}vzr]|r4-npp-hj-hj-l---------------------J-npp---------}vzr]|r4-npp-5rGr6-5}G}6-{---JJ-=----J-}vzr]|r4-npp-5r8>Gr6-5}G}6-~------------------------------------------|urvr-J-}vzr]|r4-5rGnpp6-r-}-{----------urr-5~96-J-{-mqvZ|qm-}v{n{pr-[z-^-urr--586-J-}y--5:6-J-zv{--576-J-zy--no-5^-5{9q66-J-^-5no-{9q6--s|zV{rtr-{-J-^-5s|zV{rtr-{9>6--vt{z-5^-5{9l66-J-^-5vt{z-{9>6v{n{pr-R~-^-urr--5^-5n9o66-JJ-5^-5p9q66-J-5n9o6-JJ-5p9q6v{n{pr-`u|-^-urr--u|]rp-l-5^-5{9q66-J-u|-{-;-u|Pun-4-4----------------------------------;-u|Pun-424----------------------------------;-u|Pun-4-4----------------------------------;-u|-qv{n{pr-`u|-^r-urr--u|]rp-l-5^r-{-59}=66-J-u|-{-;-u|R}n{v|{----urr-5}}9}6-J-}yv--vq-}=----------u|]r]rv|q-J-u|Pun-4;4-;-s|yqy4-5;6-vq-5zn}-u|-}}6----------u|]rv|q----J-u|Pun-454-;-s|yqy4-5;6-vq-5zn}-u|-}6---------------------------------------;-u|Pun-464----------u|R}n{v|{--{yy-}}-33-{yy-}-J-u|Pun-4;4-;-u|Pun-4=4-------------------------{yy-}------------J-u|]r]rv|q-------------------------|urvr---------J-u|]r]rv|q-;-u|]rv|q----------}yv-GG-V{rtr-:K-5hV{rtrj:KhV{rtrj6-:K-hV{rtrj-:K-5hV{rtrj9hV{rtrj6}yv-=-yrs-5G6-J-5yrs-hj9G6}yv-l-yrs-hj-----J-5yrs-hj9hj6}yv-x-yrs-5G6-J-}yv-5x:>6-5yrs;5G66-zy-GG-^-:K-^-:K-^zy-5^-5{=9q=66-5^-5{>9q>66-J-^-5{=7{>9q=7q>6}y-GG-^-:K-^-:K-^}y-~-5^-5=9l66-J-~}y-5^-5=9l66-~-J-~}y-5^-5{=9q=66-5^-5{>9>66--J-^-5{=8q=7{>9q=6}y-5^-5{=9>66-5^-5{>9q>66--J-^-5{=7q>8{>9q>6}y-5^-5{=9q=66-5^-5{>9q>66-J-^-5q=47{=-8-q>47{>9q6--urr-q---J-ypz-q=-q>--------q=4-J-q-mqvm-q=--------q>4-J-q-mqvm-q>zv{-GG-^-:K-^-:K-^zv{-~-5^-5{9q66-J-~-8-5^-5:{9q66znv{-GG-V\-56znv{-J-v{rnp-5{yv{r-;-||-;-yv{r6--urr-||-5=G6-J-yr--J-rnq-=-----------------------v{-zn}-5u|W;qrpvzny;ovyq^6-;-nxr--1---------ovyq^--J-yr-h{9qj-J-zn}-rnq-;-|q-1--------------------v{-vs-5vt{z-q-JJ-:>6----------------------ur{-^-5:{9no-q6----------------------ryr-^-5{9q6--------u|W-[|uv{t--J-/V{nyvq-V{}.../--------u|W-5W-6-J-u|-

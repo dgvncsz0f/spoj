@@ -1,39 +1,1 @@
-import qualified Data.ByteString.Lazy.Char8 as B
-import Data.Array
-import Control.Monad
-
-nroman = listArray (0,8) [listArray (0,9) [("I",0),("X",0),("C",0),("M",0),("X",1),("C",1),("M",1),("x",0),("c",0),("m",0)],
-  listArray (0,9) [("II",0),("XX",0),("CC",0),("MM",0),("XX",1),("CC",1),("MM",1),("xx",0),("cc",0),("mm",0)],
-  listArray (0,9) [("III",0),("XXX",0),("CCC",0),("MMM",0),("XXX",1),("CCC",1),("MMM",1),("xxx",0),("ccc",0),("mmm",0)],
-  listArray (0,9) [("IV",0),("XL",0),("CD",0),("IV",1),("XL",1),("CD",1),("iv",0),("xl",0),("cd",0),("iv",1)],
-  listArray (0,8) [("V",0),("L",0),("D",0),("V",1),("L",1),("D",1),("v",0),("l",0),("d",0)],
-  listArray (0,8) [("VI",0),("LX",0),("DC",0),("VI",1),("LX",1),("DC",1),("vi",0),("lx",0),("dc",0)],
-  listArray (0,8) [("VII",0),("LXX",0),("DCC",0),("VII",1),("LXX",1),("DCC",1),("vii",0),("lxx",0),("dcc",0)],
-  listArray (0,8) [("VIII",0),("LXXX",0),("DCCC",0),("VIII",1),("LXXX",1),("DCCC",1),("viii",0),("lxxx",0),("dccc",0)],
-  listArray (0,8) [("IX",0),("XC",0),("CM",0),("IX",1),("XC",1),("CM",1),("ix",0),("xc",0),("cm",0)]]
-
-renglish = zip [0..] . reverse . map readint' . B.words
-  where
-    ns' = [(B.pack "OH",0),(B.pack "ZERO",0),(B.pack "ONE",1),(B.pack "TWO",2),(B.pack "THREE",3),(B.pack "FOUR",4),(B.pack "FIVE",5),(B.pack "SIX",6),(B.pack "SEVEN",7),(B.pack "EIGHT",8),(B.pack "NINE",9)]
-    readint' s = case (lookup s ns')
-                 of (Just v) -> v
-
-sroman [] = []
-sroman ((e,b):as) |b==0      = sroman as
-                  |otherwise = f':sroman as
-  where
-    f' = let (l,r) = nroman ! (b-1) ! e
-         in (l,r==1)
-
-main = do
-  input <- B.getContents
-  let linez  = B.lines input
-      n      = foldr (\(e,b) c -> c+b*10^e) 0 (renglish (head linez))
-      tcases = tail linez
-  forM (take n tcases) $ \tcase -> do
-    let roman = reverse (sroman (renglish tcase))
-        rnum  = map fst roman
-        over  = map (\(n,o) -> if o then map (\_ -> '_') n else map (\_ -> ' ') n) roman
-    putStrLn $ concat over
-    putStrLn $ concat rnum
-  return ()
+vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-Qnn;Nnvz}|-P|{|y;Z|{nq{|zn{-J-yvNn-5=9E6-hyvNn-5=9F6-h5/V/9=695/e/9=695/P/9=695/Z/9=695/e/9>695/P/9>695/Z/9>695//9=695/p/9=695/z/9=6j9--yvNn-5=9F6-h5/VV/9=695/ee/9=695/PP/9=695/ZZ/9=695/ee/9>695/PP/9>695/ZZ/9>695//9=695/pp/9=695/zz/9=6j9--yvNn-5=9F6-h5/VVV/9=695/eee/9=695/PPP/9=695/ZZZ/9=695/eee/9>695/PPP/9>695/ZZZ/9>695//9=695/ppp/9=695/zzz/9=6j9--yvNn-5=9F6-h5/Vc/9=695/eY/9=695/PQ/9=695/Vc/9>695/eY/9>695/PQ/9>695/v/9=695/y/9=695/pq/9=695/v/9>6j9--yvNn-5=9E6-h5/c/9=695/Y/9=695/Q/9=695/c/9>695/Y/9>695/Q/9>695//9=695/y/9=695/q/9=6j9--yvNn-5=9E6-h5/cV/9=695/Ye/9=695/QP/9=695/cV/9>695/Ye/9>695/QP/9>695/v/9=695/y/9=695/qp/9=6j9--yvNn-5=9E6-h5/cVV/9=695/Yee/9=695/QPP/9=695/cVV/9>695/Yee/9>695/QPP/9>695/vv/9=695/y/9=695/qpp/9=6j9--yvNn-5=9E6-h5/cVVV/9=695/Yeee/9=695/QPPP/9=695/cVVV/9>695/Yeee/9>695/QPPP/9>695/vvv/9=695/y/9=695/qppp/9=6j9--yvNn-5=9E6-h5/Ve/9=695/eP/9=695/PZ/9=695/Ve/9>695/eP/9>695/PZ/9>695/v/9=695/p/9=695/pz/9=6jjr{tyvu-J-v}-h=;;j-;-rrr-;-zn}-rnqv{4-;-O;|q--urr----{4-J-h5O;}npx-/\U/9=695O;}npx-/gR_\/9=695O;}npx-/\[R/9>695O;}npx-/ad\/9?695O;}npx-/aU_RR/9@695O;}npx-/S\b_/9A695O;}npx-/SVcR/9B695O;}npx-/`Ve/9C695O;}npx-/`RcR[/9D695O;}npx-/RVTUa/9E695O;}npx-/[V[R/9F6j----rnqv{4--J-pnr-5y||x}--{46-----------------|s-5W-6-:K-|zn{-hj-J-hj|zn{-55r9o6Gn6-oJJ=------J-|zn{-n------------------|urvr-J-s4G|zn{-n--urr----s4-J-yr-5y96-J-{|zn{-.-5o:>6-.-r---------v{-5y9JJ>6znv{-J-q|--v{}-I:-O;trP|{r{--yr-yv{r--J-O;yv{r-v{}------{------J-s|yq-5i5r9o6-p-:K-p8o7>=kr6-=-5r{tyvu-5urnq-yv{r66------pnr-J-nvy-yv{r--s|Z-5nxr-{-pnr6-1-ipnr-:K-q|----yr-|zn{-J-rrr-5|zn{-5r{tyvu-pnr66--------{z--J-zn}-s-|zn{--------|r--J-zn}-5i5{9|6-:K-vs-|-ur{-zn}-5il-:K-4l46-{-ryr-zn}-5il-:K-4-46-{6-|zn{----}`Y{-1-p|{pn-|r----}`Y{-1-p|{pn-{z--r{-56

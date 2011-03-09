@@ -1,13 +1,1 @@
-module Main where
-
-import System.IO
-
-population :: Int -> Int -> Int
-population 0 0 = 1
-population 0 1 = 2
-population 1 0 = 1
-population n m = n + m
-
-main = do { [n, m] <- fmap (map read . words) (hGetLine stdin)
-          ; print (population n m)
-          }
+z|qyr-Znv{-urrvz}|-`rz;V\}|}ynv|{-GG-V{-:K-V{-:K-V{}|}ynv|{-=-=-J->}|}ynv|{-=->-J-?}|}ynv|{->-=-J->}|}ynv|{-{-z-J-{-8-zznv{-J-q|--h{9-zj-I:-szn}-5zn}-rnq-;-|q6-5uTrYv{r-qv{6----------H-}v{-5}|}ynv|{-{-z6----------

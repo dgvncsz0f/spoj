@@ -1,32 +1,1 @@
-
-import Control.Monad
-
-_nth :: (Integral a) => a -> a
-_nth n = let n' = fromIntegral n
-         in truncate (0.5*n' * (n'+1))
-
-_diagonal :: (Integral a) => a -> a
-_diagonal n = exec' n'
-  where 
-    n' = (truncate . sqrt . fromIntegral . (2*)) n
-
-    exec' k = let y = _nth k
-              in if (y>=n)
-                 then k
-                 else exec' (k+1)
-
-cantor :: (Integral a) => a -> (a,a)
-cantor n = let d  = _diagonal n
-               z  = fromIntegral $ _nth d - n
-               c0 = map (\i -> (i,d+1-i)) [1..d]
-               c1 = map (\i -> (d+1-i,i)) [1..d]
-           in if (odd d) 
-              then (head . drop z) c0
-              else (head . drop z) c1
-
-main :: IO ()
-main = liftM read getLine >>= \n ->
-       interact (unlines . map (cantor' . read) . take n . lines)
-  where
-    cantor' n = let (n1,d) = cantor n
-                in (showString "TERM " . shows n . showString " IS " . shows n1 . showString "/" . shows d) ""
+vz}|-P|{|y;Z|{nql{u-GG-5V{rtny-n6-JK-n-:K-nl{u-{-J-yr-{4-J-s|zV{rtny-{---------v{-{pnr-5=;B7{4-7-5{48>66lqvnt|{ny-GG-5V{rtny-n6-JK-n-:K-nlqvnt|{ny-{-J-rrp4-{4--urr-----{4-J-5{pnr-;-~-;-s|zV{rtny-;-5?766-{----rrp4-x-J-yr--J-l{u-x--------------v{-vs-5KJ{6-----------------ur{-x-----------------ryr-rrp4-5x8>6pn{|-GG-5V{rtny-n6-JK-n-:K-5n9n6pn{|-{-J-yr-q--J-lqvnt|{ny-{-----------------J-s|zV{rtny-1-l{u-q-:-{---------------p=-J-zn}-5iv-:K-5v9q8>:v66-h>;;qj---------------p>-J-zn}-5iv-:K-5q8>:v9v66-h>;;qj-----------v{-vs-5|qq-q6---------------ur{-5urnq-;-q|}-6-p=--------------ryr-5urnq-;-q|}-6-p>znv{-GG-V\-56znv{-J-yvsZ-rnq-trYv{r-KKJ-i{-:K-------v{rnp-5{yv{r-;-zn}-5pn{|4-;-rnq6-;-nxr-{-;-yv{r6--urr----pn{|4-{-J-yr-5{>9q6-J-pn{|-{----------------v{-5u|`v{t-/aR_Z-/-;-u|-{-;-u|`v{t-/-V`-/-;-u|-{>-;-u|`v{t-/</-;-u|-q6-//

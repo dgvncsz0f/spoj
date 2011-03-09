@@ -1,54 +1,1 @@
-module Main where
-
-import qualified Data.List       as L
-import qualified Data.ByteString as B
-import qualified Char            as C
-
--- * The sum algorithm to a base10 expansion
-(<+>) :: [Int] -> Int -> [Int]
-(<+>) [] n    = [n]
-(<+>) (x:xs) n 
-  | n+x>9     = 0 : xs <+> 1
-  | otherwise = x+n : xs
-
--- * Split a base10 expansion in a tuple containing (left,right) components.
-_split :: [Int] -> ([Int],[Int])
-_split xs 
-  | even s'   = (\(l,r) -> (l,r))           $ L.splitAt (div s' 2) xs
-  | otherwise = (\(l,r) -> (l++[head r],r)) $ L.splitAt (div s' 2) xs
-    where
-      s' = length xs
-
--- * Returns true if this is the last palin of this size
-_last_palindrome []                 = False
-_last_palindrome [x]    | x==9      = True
-_last_palindrome (x:xs) | x==9      = _last_palindrome xs
-                        | otherwise = False
-
--- * Returns the next palindrome
-next :: [Int] -> [Int]
-next xs  | lp'       = [1] ++ init z' ++ [1]
-         | rl'>r'    = l' ++ (reduce' rl')
-         | otherwise = (reverse rl1') ++ (reduce' rl1')
-  where
-    (l',rl',r',rl1') = (\(l,r) -> (l,reverse l,r,rl' <+> 1)) $ _split xs
-    reduce' | even (length xs)   = id
-            | otherwise          = tail
-    lp' = _last_palindrome l'
-    z'  = map (*0) xs
-
-
-{- io -}
-
-m_next = do
-  line <- B.getLine
-  putStrLn $ map C.intToDigit (next_palindrome line)
-    where base10_expansion line = map (\x -> fromIntegral(x-48)) (B.unpack line)
-          next_palindrome  line = next (base10_expansion line)
-
-m_repeat n f | n>1       = f >> m_repeat (n-1) f
-             | otherwise = f
-
-main = do
-  n <- getLine
-  m_repeat (read n :: Int) m_next
+z|qyr-Znv{-urrvz}|-~nyvsvrq-Qnn;Yv-------n-Yvz}|-~nyvsvrq-Qnn;Or`v{t-n-Ovz}|-~nyvsvrq-Pun------------n-P::-7-aur-z-nyt|vuz-|-n-onr>=-r}n{v|{5I8K6-GG-hV{j-:K-V{-:K-hV{j5I8K6-hj-{----J-h{j5I8K6-5G6-{----{8KF-----J-=-G--I8K->---|urvr-J-8{-G-::-7-`}yv-n-onr>=-r}n{v|{-v{-n-}yr-p|{nv{v{t-5yrs9vtu6-p|z}|{r{;l}yv-GG-hV{j-:K-5hV{j9hV{j6l}yv-----rr{-4---J-5i5y96-:K-5y966-----------1-Y;}yvN-5qv-4-?6----|urvr-J-5i5y96-:K-5y88hurnq-j966-1-Y;}yvN-5qv-4-?6-----urr------4-J-yr{tu-::-7-_r{-r-vs-uv-v-ur-yn-}nyv{-|s-uv-vrlynl}nyv{q|zr-hj-----------------J-Snyrlynl}nyv{q|zr-hj-----JJF------J-arlynl}nyv{q|zr-5G6--JJF------J-lynl}nyv{q|zr--------------------------|urvr-J-Snyr::-7-_r{-ur-{r-}nyv{q|zr{r-GG-hV{j-:K-hV{j{r----y}4-------J-h>j-88-v{v-4-88-h>j----------y4K4----J-y4-88-5rqpr4-y46----------|urvr-J-5rrr-y>46-88-5rqpr4-y>46--urr----5y49y4949y>46-J-5i5y96-:K-5y9rrr-y99y4-I8K->66-1-l}yv-----rqpr4--rr{-5yr{tu-6---J-vq-------------|urvr----------J-nvy----y}4-J-lynl}nyv{q|zr-y4----4--J-zn}-57=6-:-v|-:zl{r-J-q|--yv{r-I:-O;trYv{r--}`Y{-1-zn}-P;v{a|Qvtv-5{rl}nyv{q|zr-yv{r6----urr-onr>=lr}n{v|{-yv{r-J-zn}-5i-:K-s|zV{rtny5:AE66-5O;{}npx-yv{r6----------{rl}nyv{q|zr--yv{r-J-{r-5onr>=lr}n{v|{-yv{r6zlr}rn-{-s--{K>-------J-s-KK-zlr}rn-5{:>6-s--------------|urvr-J-sznv{-J-q|--{-I:-trYv{r--zlr}rn-5rnq-{-GG-V{6-zl{r

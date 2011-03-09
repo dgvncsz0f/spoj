@@ -1,34 +1,1 @@
--- https://www.spoj.pl/problems/ARITH2/
-
-import qualified Data.List as L
-import qualified Data.ByteString.Lazy.Char8 as B
-import qualified Control.Monad as M
-
-data InfixT a =   Empty
-                | LeftOp a
-                | Curried (a -> a)
-
-arith_expr :: [B.ByteString] -> InfixT Integer
-arith_expr = L.foldl infixfold' Empty
-  where
-    infixfold' Empty v       = LeftOp (read' v)
-    infixfold' (LeftOp a) v  = Curried (operator' v $ a)
-    infixfold' (Curried f) v = LeftOp (f (read' v))
-    read' v = case (B.readInteger v)
-              of (Just (v1,_)) -> v1
-                 Nothing       -> 0 -- will not happen
-    operator' v | B.head v=='+' = (+)
-                | B.head v=='-' = (-)
-                | B.head v=='*' = (*)
-                | B.head v=='/' = div
-                | B.head v=='=' = const
-
-main = do
-  input <- B.getContents
-  M.forM (tail $ map (B.words) (B.lines input)) $ \expression -> do
-    case (arith_expr expression) of 
-      Empty       -> return ()
-      -- the expression ends with a = sign
-      -- this is implemented using const function (that is why the undefined value)
-      (Curried f) -> putStrLn $ show (f undefined)
-  return ()
+::-u}G<<;}|w;}y<}|oyrz<N_VaU?<vz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-P|{|y;Z|{nq-n-Zqnn-V{sva-n-J---Rz}-----------------Yrs\}-n-----------------Pvrq-5n-:K-n6nvulr}-GG-hO;Or`v{tj-:K-V{sva-V{rtrnvulr}-J-Y;s|yqy-v{svs|yq4-Rz}--urr----v{svs|yq4-Rz}--------J-Yrs\}-5rnq4-6----v{svs|yq4-5Yrs\}-n6---J-Pvrq-5|}rn|4--1-n6----v{svs|yq4-5Pvrq-s6--J-Yrs\}-5s-5rnq4-66----rnq4--J-pnr-5O;rnqV{rtr-6--------------|s-5W-5>9l66-:K->-----------------[|uv{t-------:K-=-::-vyy-{|-un}}r{----|}rn|4---O;urnq-JJ484-J-586-----------------O;urnq-JJ4:4-J-5:6-----------------O;urnq-JJ474-J-576-----------------O;urnq-JJ4<4-J-qv-----------------O;urnq-JJ4J4-J-p|{znv{-J-q|--v{}-I:-O;trP|{r{--Z;s|Z-5nvy-1-zn}-5O;|q6-5O;yv{r-v{}66-1-ir}rv|{-:K-q|----pnr-5nvulr}-r}rv|{6-|s-------Rz}-------:K-r{-56------::-ur-r}rv|{-r{q-vu-n-J-vt{------::-uv-v-vz}yrzr{rq-v{t-p|{-s{pv|{-5un-v-u-ur-{qrsv{rq-nyr6------5Pvrq-s6-:K-}`Y{-1-u|-5s-{qrsv{rq6--r{-56

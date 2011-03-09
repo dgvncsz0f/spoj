@@ -1,16 +1,1 @@
-
-import qualified Data.ByteString.Lazy.Char8 as B
-import qualified Data.Maybe as M
-import qualified Data.List as L
-
-main = do
-  (l:ls) <- fmap B.lines B.getContents
-  let [t,n] = map int (B.words l)
-  (print . L.foldl' (intest n) 0 . map int . take t) ls
-
-int :: B.ByteString -> Int
-int = fst . M.fromJust . B.readInt
-
-intest :: Int -> Int -> Int -> Int
-intest n accum a | mod a n == 0 = accum+1
-                 | otherwise    = accum
+vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-Qnn;Znor-n-Zvz}|-~nyvsvrq-Qnn;Yv-n-Yznv{-J-q|--5yGy6-I:-szn}-O;yv{r-O;trP|{r{--yr-h9{j-J-zn}-v{-5O;|q-y6--5}v{-;-Y;s|yqy4-5v{r-{6-=-;-zn}-v{-;-nxr-6-yv{-GG-O;Or`v{t-:K-V{v{-J-s-;-Z;s|zW-;-O;rnqV{v{r-GG-V{-:K-V{-:K-V{-:K-V{v{r-{-nppz-n--z|q-n-{-JJ-=-J-nppz8>------------------|urvr----J-nppz

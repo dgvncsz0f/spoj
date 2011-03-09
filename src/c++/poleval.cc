@@ -1,39 +1,1 @@
-#include <cstdio>
-#include <cstring>
-
-inline
-long long poleval(const int *cn, int n, int x)
-{
-  long long acc = 0;
-  for (int k=0; k<n; k++)
-    acc = x * (acc + cn[k]);
-  return(acc+cn[n]);
-}
-
-int main()
-{
-  int cn[1000];
-  int n, k, x, i, t=0;
-  while (true)
-  {
-    t += 1;
-    
-    std::scanf("%d", &n);
-    if (n==-1)
-      break;
-
-    for (i=0; i<n; i++)
-      std::scanf("%d", cn+i);
-    std::scanf("%d", cn+n);
-
-    std::scanf("%d", &k);
-    std::printf("Case %d:\n", t);
-    for (i=0; i<k; i++)
-    {
-      std::scanf("%d", &x);
-      std::printf("%lld\n", poleval(cn,n,x));
-    }
-  }
-  return(0);
-}
-
+0v{pyqr-Ipqv|K0v{pyqr-Ipv{tKv{yv{ry|{t-y|{t-}|yrny5p|{-v{-7p{9-v{-{9-v{-6--y|{t-y|{t-npp-J-=H--s|-5v{-xJ=H-xI{H-x886----npp-J--7-5npp-8-p{hxj6H--r{5npp8p{h{j6Hv{-znv{56--v{-p{h>===jH--v{-{9-x9-9-v9-J=H--uvyr-5r6-------8J->H--------qGGpn{s5/2q/9-3{6H----vs-5{JJ:>6------ornxH----s|-5vJ=H-vI{H-v886------qGGpn{s5/2q/9-p{8v6H----qGGpn{s5/2q/9-p{8{6H----qGGpn{s5/2q/9-3x6H----qGG}v{s5/Pnr-2qGi{/9-6H----s|-5vJ=H-vIxH-v886----------qGGpn{s5/2q/9-36H------qGG}v{s5/2yyqi{/9-}|yrny5p{9{966H--------r{5=6H

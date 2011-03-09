@@ -1,16 +1,1 @@
-module Main where
-
-import qualified Data.Map as M
-
-type Index = M.Map Char [(String,Int)]
-
-
-build = map (\w -> (key w,value w)
-  where key     = last
-        value w = (w,0)
--- mkindex :: [String] -> Index
--- mkindex ws = build keys (M.fromList . flip zip (repeat 0) $ keys)
---   where keys = map newkey ws
--- 
---         build (k:ks) map = let vertice = 
-
+z|qyr-Znv{-urrvz}|-~nyvsvrq-Qnn;Zn}-n-Z}r-V{qr-J-Z;Zn}-Pun-h5`v{t9V{6jovyq-J-zn}-5i-:K-5xr-9nyr-6--urr-xr-----J-yn--------nyr--J-59=6::-zxv{qr-GG-h`v{tj-:K-V{qr::-zxv{qr--J-ovyq-xr-5Z;s|zYv-;-syv}-v}-5r}rn-=6-1-xr6::---urr-xr-J-zn}-{rxr-::-::---------ovyq-5xGx6-zn}-J-yr-rvpr-J-

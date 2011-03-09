@@ -1,27 +1,1 @@
-import qualified Data.ByteString.Lazy.Char8 as B
-
-infix2rpn = parse []
-  where
-    ops                  = ['+','-','*','/','^']
-    gt [] _              = False
-    gt (e:es) o | e=='+' = False
-                | e=='-' = False
-                | e=='(' = False
-                | e=='*' = o/='^'
-                | e=='/' = o/='^'
-                | e=='^' = True
-    parse sk s | B.null s   = B.pack sk
-               | t=='('     = parse (t:sk) rs
-               | t==')'     = let (l,rsk) = break (=='(') sk
-                              in B.append (B.pack l) (parse (tail rsk) rs)
-               | elem t ops = if (gt sk t) then
-                                head sk `B.cons` parse (tail sk) s
-                              else
-                                parse (t:sk) rs
-               | otherwise  = t `B.cons` parse (sk) rs
-      where
-        (t1,rs) = B.splitAt 1 s
-        t       = B.head t1
-
-main = getLine >>= \n -> 
-  B.interact (B.unlines . map infix2rpn . take (read n) . B.lines)
+vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ov{sv?}{-J-}nr-hj--urr----|}------------------J-h48494:4947494<494k4j----t-hj-l--------------J-Snyr----t-5rGr6-|--rJJ484-J-Snyr-----------------rJJ4:4-J-Snyr-----------------rJJ454-J-Snyr-----------------rJJ474-J-|<J4k4-----------------rJJ4<4-J-|<J4k4-----------------rJJ4k4-J-ar----}nr-x---O;{yy----J-O;}npx-x----------------JJ454-----J-}nr-5Gx6-----------------JJ464-----J-yr-5y9x6-J-ornx-5JJ4546-x------------------------------v{-O;n}}r{q-5O;}npx-y6-5}nr-5nvy-x6-6----------------ryrz--|}-J-vs-5t-x-6-ur{--------------------------------urnq-x-mO;p|{m-}nr-5nvy-x6-------------------------------ryr--------------------------------}nr-5Gx6-----------------|urvr--J--mO;p|{m-}nr-5x6-------urr--------5>96-J-O;}yvN->----------------J-O;urnq->znv{-J-trYv{r-KKJ-i{-:K---O;v{rnp-5O;{yv{r-;-zn}-v{sv?}{-;-nxr-5rnq-{6-;-O;yv{r6

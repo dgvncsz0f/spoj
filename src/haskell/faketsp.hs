@@ -1,28 +1,1 @@
--- module Main (main) where 
-
-import Control.Monad (foldM_)
-import Text.Printf (printf)
-
-type Position = (Double,Double)
-
-distance :: (Position,[Double]->[Double]) -> Position -> (Position,[Double]->[Double])
-distance ((a,b),acc) (c,d) = let this = sqrt $ (c-a)**2 + (d-b)**2
-                             in ((c,d),acc.(this:))
-
-distanceM :: [Position] -> IO ()
-distanceM (x:xs) = foldM_ printResult 0 (snd distances [])
-  where distances = foldl distance (x,id) xs
-        printResult acc s = do printf "The salesman has traveled a total of %.3f kilometers.\n" (acc+s)
-                               return (acc+s)
-
-main :: IO ()
-main = do ts <- fmap (lines) getContents
-          distanceM (map readPair ts)
-  where fixzero []           = []
-        fixzero ('(':'.':xs) = '(':'0':'.' : fixzero xs
-        fixzero ('-':'.':xs) = '-':'0':'.' : fixzero xs
-        fixzero (' ':'.':xs) = ' ':'0':'.' : fixzero xs
-        fixzero (',':'.':xs) = ',':'0':'.' : fixzero xs
-        fixzero (x:xs)       = x : fixzero xs
-
-        readPair = read . fixzero . init . dropWhile (/='(')
+::-z|qyr-Znv{-5znv{6-urr-vz}|-P|{|y;Z|{nq-5s|yqZl6vz}|-ar;]v{s-5}v{s6}r-]|vv|{-J-5Q|oyr9Q|oyr6qvn{pr-GG-5]|vv|{9hQ|oyrj:KhQ|oyrj6-:K-]|vv|{-:K-5]|vv|{9hQ|oyrj:KhQ|oyrj6qvn{pr-55n9o69npp6-5p9q6-J-yr-uv-J-~-1-5p:n677?-8-5q:o677?-----------------------------v{-55p9q69npp;5uvG66qvn{prZ-GG-h]|vv|{j-:K-V\-56qvn{prZ-5G6-J-s|yqZl-}v{_ry-=-5{q-qvn{pr-hj6--urr-qvn{pr-J-s|yqy-qvn{pr-59vq6---------}v{_ry-npp--J-q|-}v{s-/aur-nyrzn{-un-nryrq-n-|ny-|s-2;@s-xvy|zrr;i{/-5npp86-------------------------------r{-5npp86znv{-GG-V\-56znv{-J-q|--I:-szn}-5yv{r6-trP|{r{----------qvn{prZ-5zn}-rnq]nv-6--urr-svr|-hj-----------J-hj--------svr|-5454G4;4G6-J-454G4=4G4;4-G-svr|---------svr|-54:4G4;4G6-J-4:4G4=4G4;4-G-svr|---------svr|-54-4G4;4G6-J-4-4G4=4G4;4-G-svr|---------svr|-5494G4;4G6-J-494G4=4G4;4-G-svr|---------svr|-5G6-------J--G-svr|---------rnq]nv-J-rnq-;-svr|-;-v{v-;-q|}duvyr-5<J4546

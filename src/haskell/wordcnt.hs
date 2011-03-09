@@ -1,8 +1,1 @@
-import Data.List
-import Control.Monad
-
-wordcnt = show . maximum . (0:) . map length . group . map length . words
-
-main = 
-  liftM read getLine >>= \n ->
-  interact (unlines . map wordcnt . take n . lines)
+vz}|-Qnn;Yvvz}|-P|{|y;Z|{nq|qp{-J-u|-;-znvzz-;-5=G6-;-zn}-yr{tu-;-t|}-;-zn}-yr{tu-;-|qznv{-J---yvsZ-rnq-trYv{r-KKJ-i{-:K--v{rnp-5{yv{r-;-zn}-|qp{-;-nxr-{-;-yv{r6
