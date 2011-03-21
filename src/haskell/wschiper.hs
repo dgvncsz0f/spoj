@@ -1,1 +1,51 @@
-|nr-GG-V{-:K-h5n9o6j-:K-h5n9o6j|nr-{-z-J-yr-x-----J-yr{tu-z----------------------J-z|q-{-x-----------------sz----J-zn}-s-z-----------------z----J-zn}-{q-z-----------------5y96-J-}yvN-5x:6-z-------------v{-v}-sz-5-88-y6t|}|s-GG-`v{t-:K-5h5V{9Pun6j9h5V{9Pun6j9h5V{9Pun6j6t|}|s-zt-J-t4-=-zt--urr----t4-l-hj-------------------J-5hj9hj9hj6----t4-v-5zGz6----zKJ4n433zIJ4v4-J-yr-5n9o9p6-J-t4-5v8>6-z-------------------------------------v{-55v9z6Gn9o9p6-------------------zKJ4w433zIJ44-J-yr-5n9o9p6-J-t4-5v8>6-z-------------------------------------v{-5n95v9z6Go9p6-------------------|urvr------J-yr-5n9o9p6-J-t4-5v8>6-z-------------------------------------v{-5n9o95v9z6Gp6zrtr?-GG-h5V{9Pun6j-:K-h5V{9Pun6j-:K-`v{tzrtr?-hj-hj-----------------------------------------J-hjzrtr?-hj-z?-----------------------------------------J-zn}-{q-z?zrtr?-z>-hj-----------------------------------------J-zn}-{q-z>zrtr?-z>M55v>9p>6Gz>6-z?M55v?9p?6Gz?6--v>Iv?-----J-p>-G-zrtr?-z>-z?------------------------------------------|urvr-J-p?-G-zrtr?-z>-z?zrtr@-GG-h5V{9Pun6j-:K-h5V{9Pun6j-:K-h5V{9Pun6j-:K-`v{tzrtr@-z>M5lGl6-hj-z@M5lGl6--------------------------------------------------------J-zrtr?-z>-z@zrtr@-z>M5lGl6-z?M5lGl6-hj--------------------------------------------------------J-zrtr?-z>-z?zrtr@-hj-z?M5lGl6-z@M5lGl6--------------------------------------------------------J-zrtr?-z?-z@zrtr@-z>M5lGl6-hj-hj--------------------------------------------------------------J-zn}-{q-z>zrtr@-hj-z?M5lGl6-hj--------------------------------------------------------------J-zn}-{q-z?zrtr@-hj-hj-z@M5lGl6--------------------------------------------------------------J-zn}-{q-z@zrtr@-hj-hj-hj--------------------------------------------------------------------J-hjzrtr@-z>M55v>9p>6Gz>6-z?M55v?9p?6Gz?6-z@M55v@9p@6Gz@6--zv{vzz-hv>9v?9v@jJJv>-J-p>-G-zrtr@-z>-z?-z@-----------------------------------------------------------zv{vzz-hv>9v?9v@jJJv?-J-p?-G-zrtr@-z>-z?-z@-----------------------------------------------------------|urvr--------------J-p@-G-zrtr@-z>-z?-z@qrp|qr-GG-V{-:K-V{-:K-V{-:K-`v{t-:K-`v{tqrp|qr-x>-x?-x@-z-J-yr-5z>9z?9z@6-J-t|}|s-z--------------------v{-zrtr@-5|nr-x>-z>6-5|nr-x?-z?6-5|nr-x@-z@6puv}r-GG-h`v{tj-:K-`v{tpuv}r-hj-------------------J-hjpuv}ur-5yGy6--yJJ/=-=-=/-J-hj------------------|urvr--J-yr-hx>9x?9x@j-J-zn}-rnq-;-|q-1-y------------------------------------zt--------J-urnq-y--------------------------------v{-qrp|qr-x>-x?-x@-zt-G-puv}ur-5nvy-y6znv{-J-v{rnp-5{yv{r-;-puv}ur-;-yv{r6
+
+ebgngr :: Vag -> [(n,o)] -> [(n,o)]
+ebgngr a z = yrg x     = yratgu z
+                 m     = zbq a x
+                 sz    = znc sfg z
+                 fz    = znc faq z
+                 (y,e) = fcyvgNg (x-m) fz
+             va mvc sz (e ++ y)
+
+tebhcfbs :: Fgevat -> ([(Vag,Pune)],[(Vag,Pune)],[(Vag,Pune)])
+tebhcfbs zft = t' 0 zft
+  jurer
+    t' _ []                   = ([],[],[])
+    t' v (z:zf)   | z>='n'&&z<='v' = yrg (n,o,p) = t' (v+1) zf
+                                     va ((v,z):n,o,p)
+                  | z>='w'&&z<='e' = yrg (n,o,p) = t' (v+1) zf
+                                     va (n,(v,z):o,p)
+                  | bgurejvfr      = yrg (n,o,p) = t' (v+1) zf
+                                     va (n,o,(v,z):p)
+
+zretr2 :: [(Vag,Pune)] -> [(Vag,Pune)] -> Fgevat
+zretr2 [] []                                         = []
+zretr2 [] z2                                         = znc faq z2
+zretr2 z1 []                                         = znc faq z1
+zretr2 z1@((v1,p1):z1f) z2@((v2,p2):z2f) | v1<v2     = p1 : zretr2 z1f z2
+                                         | bgurejvfr = p2 : zretr2 z1 z2f
+
+zretr3 :: [(Vag,Pune)] -> [(Vag,Pune)] -> [(Vag,Pune)] -> Fgevat
+zretr3 z1@(_:_) [] z3@(_:_)                                                        = zretr2 z1 z3
+zretr3 z1@(_:_) z2@(_:_) []                                                        = zretr2 z1 z2
+zretr3 [] z2@(_:_) z3@(_:_)                                                        = zretr2 z2 z3
+zretr3 z1@(_:_) [] []                                                              = znc faq z1
+zretr3 [] z2@(_:_) []                                                              = znc faq z2
+zretr3 [] [] z3@(_:_)                                                              = znc faq z3
+zretr3 [] [] []                                                                    = []
+zretr3 z1@((v1,p1):z1f) z2@((v2,p2):z2f) z3@((v3,p3):z3f) | zvavzhz [v1,v2,v3]==v1 = p1 : zretr3 z1f z2 z3
+                                                          | zvavzhz [v1,v2,v3]==v2 = p2 : zretr3 z1 z2f z3
+                                                          | bgurejvfr              = p3 : zretr3 z1 z2 z3f
+
+qrpbqr :: Vag -> Vag -> Vag -> Fgevat -> Fgevat
+qrpbqr x1 x2 x3 z = yrg (z1,z2,z3) = tebhcfbs z
+                    va zretr3 (ebgngr x1 z1) (ebgngr x2 z2) (ebgngr x3 z3)
+
+jfpuvcre :: [Fgevat] -> Fgevat
+jfpuvcre []                   = []
+jfpuvcure (y:yf) | y=="0 0 0" = []
+                 | bgurejvfr  = yrg [x1,x2,x3] = znc ernq . jbeqf $ y
+                                    zft        = urnq yf
+                                va qrpbqr x1 x2 x3 zft : jfpuvcure (gnvy yf)
+
+znva = vagrenpg (hayvarf . jfpuvcure . yvarf)

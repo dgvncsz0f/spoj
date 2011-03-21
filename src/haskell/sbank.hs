@@ -1,1 +1,26 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-P|{|y;Z|{nq-n-Zvz}|-Qnn;Znor-5s|zW6vz}|-Qnn;Zn}-5|NpYv9s|zYvdvu6rnqlv{-GG-O;Or`v{t-:K-V{rnqlv{-J-s-;-s|zW-;-O;rnqV{on{x-GG-hO;Or`v{tj-:K-h5O;Or`v{t9V{6jon{x-J-|NpYv-;-s|zYvdvu-586-;-syv}-v}-5r}rn->6znv{-GG-V\-56znv{-J-q|--5Gv{}6-I:-szn}-O;yv{r-O;trP|{r{--|}4-5on{x4-5rnqlv{-6-v{}6--urr----|}4-5|G|6-J-Z;zn}Z-|}4-|-KK-}Pun-4i{4-KK-|}4-|----|}4-hj-------J-r{-56----|}4-5x96-J-O;}`-x-KK-}Pun-4-4-KK-}v{-----on{x4-=-l------J-hj----on{x4--5vGv6-J-yr-{------------J-rnqlv{-v--------------------------5v{}9r6-J-Y;}yvN-{-v----------------------v{-on{x-v{}-G-5on{x4-5:>6-;-nvy6-r
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg dhnyvsvrq Qngn.Yvfg nf Y
+vzcbeg dhnyvsvrq Pbageby.Zbanq nf Z
+vzcbeg Qngn.Znlor (sebzWhfg)
+vzcbeg Qngn.Znc (gbNfpYvfg,sebzYvfgJvgu)
+
+ernq_vag :: O.OlgrFgevat -> Vag
+ernq_vag = sfg . sebzWhfg . O.ernqVag
+
+fonax :: [O.OlgrFgevat] -> [(O.OlgrFgevat,Vag)]
+fonax = gbNfpYvfg . sebzYvfgJvgu (+) . syvc mvc (ercrng 1)
+
+znva :: VB ()
+znva = qb
+  (g:vachg) <- sznc O.yvarf O.trgPbagragf
+  bhgchgf' (fonax' (ernq_vag g) vachg)
+  jurer
+    bhgchgf' (bf:bff) = Z.zncZ bhgchg' bf >> chgPune '\a' >> bhgchgf' bff
+    bhgchgf' []       = erghea ()
+
+    bhgchg' (x,i) = O.chgFge x >> chgPune ' ' >> cevag i
+
+    fonax' 0 _      = []
+    fonax' g (v:vf) = yrg a            = ernq_vag v
+                          (vachg,erfg) = Y.fcyvgNg a vf
+                      va fonax vachg : (fonax' (g-1) . gnvy) erfg

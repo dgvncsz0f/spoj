@@ -1,1 +1,26 @@
-::-u}G<<;}|w;}y<}|oyrz<NO`f`<vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Yvz}|-~nyvsvrq-P|{|y;Z|{nq-n-Z|yr-GG-Znor-V{-:K-Znor-V{-:K-Znor-V{-:K-hV{j|yr-[|uv{t-5W-o6-5W-6--J-h:o9-o9-j|yr-5W-n6-[|uv{t-5W-6--J-hn9-:n9-j|yr-5W-n6-5W-o6-[|uv{t--J-hn9-o9-n8oj|yr-5W-n6-5W-o6-5W-6-J-hn9-o9-jrnqrz-GG-Y;Or`v{t-:K-Znor-V{rnqrz--J-pnr-Y;sv{q-5JJ4z46-------------|s-5W-l6-:K-[|uv{t---------------[|uv{t--:K-pnr-5Y;rnqV{-6---------------------------|s-5W-59l66-:K-W-------------------------------[|uv{t------:K-[|uv{t-::-u|yq-{|-un}}r{znv{-J-q|--v{}-I:-Y;trP|{r{--yr-yv{r-J-zn}-5Y;|q6-5Y;yv{r-v{}6--Z;s|Z-5svyr-55JJB6-;-yr{tu6-yv{r6-1-i|xr{-:K-q|------yr-5n9o96-J-5|xr{-..-=9-|xr{-..-?9-|xr{-..-A6----------|yrq-----J-|yr-5rnqrz-n6-5rnqrz-o6-5rnqrz-6------}`Y{-1-s|yq-5886-hj-5v}dvu-5886-h//9-/-8-/9-/-J-/j-5zn}-u|-|yrq66--r{-56
+-- uggcf://jjj.fcbw.cy/ceboyrzf/NOFLF/
+
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf Y
+vzcbeg dhnyvsvrq Pbageby.Zbanq nf Z
+
+fbyir :: Znlor Vag -> Znlor Vag -> Znlor Vag -> [Vag]
+fbyir Abguvat (Whfg o) (Whfg e)  = [e-o, o, e]
+fbyir (Whfg n) Abguvat (Whfg e)  = [n, e-n, e]
+fbyir (Whfg n) (Whfg o) Abguvat  = [n, o, n+o]
+fbyir (Whfg n) (Whfg o) (Whfg e) = [n, o, e]
+
+ernqgrez :: Y.OlgrFgevat -> Znlor Vag
+ernqgrez f = pnfr Y.svaq (=='z') f
+            bs (Whfg _) -> Abguvat
+               Abguvat  -> pnfr (Y.ernqVag f)
+                           bs (Whfg (i,_)) -> Whfg i
+                              Abguvat      -> Abguvat -- fubhyq abg unccra
+
+znva = qb
+  vachg <- Y.trgPbagragf
+  yrg yvarm = znc (Y.jbeqf) (Y.yvarf vachg)
+  Z.sbeZ (svygre ((==5) . yratgu) yvarm) $ \gbxraf -> qb
+      yrg (nf,of,ef) = (gbxraf !! 0, gbxraf !! 2, gbxraf !! 4)
+          fbyirq     = fbyir (ernqgrez nf) (ernqgrez of) (ernqgrez ef)
+      chgFgeYa $ sbyqe (++) [] (mvcJvgu (++) ["", " + ", " = "] (znc fubj fbyirq))
+  erghea ()

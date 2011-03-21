@@ -1,1 +1,84 @@
-z|qyr-Znv{-5znv{6-urr}r-g-J-V{rtr}r-PSnp-J-hgjqnn-Q|pzr{-J---ar-`v{t-Q|pzr{-----------------Yv{r-V{-Q|pzr{-----------------`}npr-V{-Q|pzr{-----------------[vyv{n{pr-`u|-Q|pzr{-urr--u|]rp-l-[vy---------J-u|`v{t-//--u|]rp-l-5`}npr-x-q6-J-u|`v{t-5r}yvpnr-x-4;46-;-u|-q--u|]rp-l-5Yv{r-x-q6--J-u|`v{t-/i{/-;-u|`v{t-5r}yvpnr-x-4;46-;-u|-q--u|]rp-l-5ar--q6--J-u|`v{t--;-u|-qr{qr-GG-PSnp-:K-Q|pzr{r{qr-hj--J-[vyr{qr-hj-J-yr-v{rtny-J-u|-5:>6-/;8;:/-----------------}nqqv{t--J-yr{tu-v{rtny-:->-------------v{------}npr-}nqqv{t-5r-/>/6-----------------888-yv{r-5r-v{rtny6-----------------888-uvs-}nqqv{t-5yv{r-5r-/>/66r{qr-5G6-J-yr-v{rtny-J-u|--/;8;/--------------------}nqqv{t--J-yr{tu-v{rtny--------------------qrz------J-r{qr---------------------qrz-----J-p|yz{-qrz----------------v{------}npr-}nqqv{t-5pr-/>/-qrz6--------------------888-yv{r-55r-v{rtny6-888-5pun-qrz-4:466--------------------888-uvs-}nqqv{t-5yv{r-qrz6pun-GG-V{-:K-Pun-:K-Q|pzr{pun-x-p-J-r-5r}yvpnr-x-p6pr-GG-`v{t-:K-V{-:K-Q|pzr{pr--{-J-}npr-z-5r-6-888-}npr-5{:z:{6-[vy--urr-{-J-yr{tu---------z--J-zn-5qv-5{-:-{6-?6-=r-GG-`u|-n-JK-n-:K-Q|pzr{r-J-syv}-ar-[vy-;-u|r-GG-`v{t-:K-Q|pzr{r-J-syv}-ar-[vyyv{r-GG-Q|pzr{-:K-Q|pzr{yv{r-J-Yv{r-=}npr-GG-V{-:K-Q|pzr{-:K-Q|pzr{}npr-z-5`}npr-{-q6-J-`}npr-5z8{6-q}npr-z-q-----------J-`}npr-z-quvs-GG-V{-:K-Q|pzr{-:K-Q|pzr{uvs-l-[vy---------J-[vyuvs-z-5ar--q6--J-ar--5uvs-z-q6uvs-z-5Yv{r-{-q6--J-Yv{r-5z8{6-5uvs-z-q6uvs-z-5`}npr-{-q6-J-`}npr-{-5uvs-z-q6p|yz{-GG-Q|pzr{-:K-V{p|yz{-5ar--q6--J-yr{tu--8-5p|yz{-q6p|yz{-5`}npr-z-q6-J-z-8-5p|yz{-q6p|yz{-l-----------J-=58886-GG-Q|pzr{-:K-Q|pzr{-:K-Q|pzr{5ar--q6-888---J-ar--5q-888-65Yv{r-{-q6-888---J-Yv{r-{-5q-888-65`}npr-{-q6-888--J-`}npr-{-5q-888-6[vy-888----------J-v{sv-F-888psnpv|{-GG-g-:K-g-:K-PSnppsnpv|{-n-o-J-rtpq-vq-n-o-hj--urr-rtpq-nppz-l-=-J-nppz--------rtpq-nppz---J-yr-5~96-J-qvZ|q---------------------------v{-rtpq-5nppz-;-5~G66--znv{-GG-V\-56znv{-J-v{rnp-5{yv{r-;-zn}-5u|-;-psnp6-;-v}-h>;;j-;-nxrduvyr-5<J/=-=/6-;-yv{r6--urr-psnp-5v96-J-yr-hn9oj-J-|q----------------------------hp9qj-J-zn}-rnq-hn9oj-----------------------v{-----r-/Pnr-/-888-r-v-888-r-/G/---------------------------888-yv{r-5r-n-888-r-/-<-/-888-r-o6--------------------------888-yv{r-5r{qr-5psnpv|{-p-q66
+zbqhyr Znva (znva) jurer
+
+glcr M = Vagrtre
+glcr PSenp = [M]
+
+qngn Qbphzrag =   Grkg Fgevat Qbphzrag
+                | Yvar Vag Qbphzrag
+                | Fcnpr Vag Qbphzrag
+                | Avy
+
+vafgnapr Fubj Qbphzrag jurer
+  fubjfCerp _ Avy         = fubjFgevat ""
+  fubjfCerp _ (Fcnpr x q) = fubjFgevat (ercyvpngr x '.') . fubjf q
+  fubjfCerp _ (Yvar x q)  = fubjFgevat "\a" . fubjFgevat (ercyvpngr x '.') . fubjf q
+  fubjfCerp _ (Grkg f q)  = fubjFgevat f . fubjf q
+
+eraqre :: PSenp -> Qbphzrag
+eraqre []  = Avy
+eraqre [k] = yrg vagrteny = fubjf (k-1) ".+.-"
+                 cnqqvat  = yratgu vagrteny - 1
+             va      fcnpr cnqqvat (grkg "1")
+                 +++ yvar (grkg vagrteny)
+                 +++ fuvsg cnqqvat (yvar (grkg "1"))
+eraqre (k:kf) = yrg vagrteny = fubjf k ".+."
+                    cnqqvat  = yratgu vagrteny
+                    qrz      = eraqre kf
+                    qrzf     = pbyhzaf qrz
+                va      fcnpr cnqqvat (pgrkg "1" qrzf)
+                    +++ yvar ((grkg vagrteny) +++ (punef qrzf '-'))
+                    +++ fuvsg cnqqvat (yvar qrz)
+
+punef :: Vag -> Pune -> Qbphzrag
+punef x p = grkg (ercyvpngr x p)
+
+pgrkg :: Fgevat -> Vag -> Qbphzrag
+pgrkg f a = fcnpr z (grkg f) +++ fcnpr (a-z-fa) Avy
+  jurer fa = yratgu f
+        z  = znk (qvi (a - fa) 2) 0
+
+fgrkg :: Fubj n => n -> Qbphzrag
+fgrkg = syvc Grkg Avy . fubj
+
+grkg :: Fgevat -> Qbphzrag
+grkg = syvc Grkg Avy
+
+yvar :: Qbphzrag -> Qbphzrag
+yvar = Yvar 0
+
+fcnpr :: Vag -> Qbphzrag -> Qbphzrag
+fcnpr z (Fcnpr a q) = Fcnpr (z+a) q
+fcnpr z q           = Fcnpr z q
+
+fuvsg :: Vag -> Qbphzrag -> Qbphzrag
+fuvsg _ Avy         = Avy
+fuvsg z (Grkg f q)  = Grkg f (fuvsg z q)
+fuvsg z (Yvar a q)  = Yvar (z+a) (fuvsg z q)
+fuvsg z (Fcnpr a q) = Fcnpr a (fuvsg z q)
+
+pbyhzaf :: Qbphzrag -> Vag
+pbyhzaf (Grkg f q)  = yratgu f + (pbyhzaf q)
+pbyhzaf (Fcnpr z q) = z + (pbyhzaf q)
+pbyhzaf _           = 0
+
+(+++) :: Qbphzrag -> Qbphzrag -> Qbphzrag
+(Grkg f q) +++ k  = Grkg f (q +++ k)
+(Yvar a q) +++ k  = Yvar a (q +++ k)
+(Fcnpr a q) +++ k = Fcnpr a (q +++ k)
+Avy +++ k         = k
+vasvke 9 +++
+
+psenpgvba :: M -> M -> PSenp
+psenpgvba n o = rtpq vq n o []
+  jurer rtpq npphz _ 0 = npphz
+        rtpq npphz k l = yrg (d,e) = qviZbq k l
+                         va rtpq (npphz . (d:)) l e
+
+znva :: VB ()
+znva = vagrenpg (hayvarf . znc (fubj . psenp) . mvc [1..] . gnxrJuvyr (/="0 0") . yvarf)
+  jurer psenp (vk,f) = yrg [n,o] = jbeqf f
+                           [p,q] = znc ernq [n,o]
+                       va     grkg "Pnfr " +++ fgrkg vk +++ grkg ":" 
+                          +++ yvar (grkg n +++ grkg " / " +++ grkg o)
+                          +++ yvar (eraqre (psenpgvba p q))
+

@@ -1,1 +1,39 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Oznnqvtv-GG-h5O;Or`v{t9V{6jznnqvtv-J-h-5O;}npx-/`/9=695O;}npx-/;/9>695O;}npx-/;;/9?695O;}npx-/;;;/9@69---------------5O;}npx-/;;;;/9A695O;}npx-/:/9B695O;}npx-/;-:/9C695O;}npx-/;;-:/9D69---------------5O;}npx-/;;;-:/9E695O;}npx-/;;;;-:/9F695O;}npx-/:-:/9>=69---------------5O;}npx-/;-:-:/9>>695O;}npx-/;;-:-:/9>?695O;}npx-/;;;-:-:/9>@69---------------5O;}npx-/;;;;-:-:/9>A695O;}npx-/:-:-:/9>B695O;}npx-/;-:-:-:/9>C69---------------5O;}npx-/;;-:-:-:/9>D695O;}npx-/;;;-:-:-:/9>E695O;}npx-/;;;;-:-:-:/9>F6-------------jznn-GG-hO;Or`v{tj-:K-h5V{9V{6jznn->-J-}nr-=-5yr{tu->-:->6->--urr----}nr-l-l-hj-----J-hj----}nr-v-{-5qGq6-J-pnr-5y||x}-q-znnqvtv6-----------------------|s-5W-6-:K-59{:v6-G-}nr-5v8>6-{-q--------------------------[|uv{t--:K-r|-/}nr-r|/znn?qrp-GG-h5V{9V{6j-:K-V{rtrznn?qrp-J-s|yq-s|yq-=--urr----s|yq-5q9r6-n--rK>-------J-5s|zV{rtny-q675?=kr-:-A=7?=k5r:?66-8-n------------------|urvr-J-5s|zV{rtny-q67?=kr-8-nznn-GG-hO;Or`v{tj-:K-hO;Or`v{tjznn-hj-----J-hjznn-5vGv6--O;{yy-v--J-znn-v-------------|urvr-J-yr-{-------J-rnqv-v------------------------------5y9v6-J-}yvN-{-v--------------------------v{-vs-5{K=6-ur{-------------------------------5O;}npx-;-u|-;-znn?qrp-;-znn-1-y6-G-znn-v-----------------------------ryr-------------------------------hj--urr----rnqv-{-J-pnr-5O;rnqV{-{6--------------|s-5W-59l66-:K-znv{-J-O;v{rnp-5O;{yv{r-;-znn-;-O;yv{r6
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+
+znlnqvtvgf :: [(O.OlgrFgevat,Vag)]
+znlnqvtvgf = [ (O.cnpx "F",0),(O.cnpx ".",1),(O.cnpx "..",2),(O.cnpx "...",3),
+               (O.cnpx "....",4),(O.cnpx "-",5),(O.cnpx ". -",6),(O.cnpx ".. -",7),
+               (O.cnpx "... -",8),(O.cnpx ".... -",9),(O.cnpx "- -",10),
+               (O.cnpx ". - -",11),(O.cnpx ".. - -",12),(O.cnpx "... - -",13),
+               (O.cnpx ".... - -",14),(O.cnpx "- - -",15),(O.cnpx ". - - -",16),
+               (O.cnpx ".. - - -",17),(O.cnpx "... - - -",18),(O.cnpx ".... - - -",19)
+             ]
+
+eznln :: [O.OlgrFgevat] -> [(Vag,Vag)]
+eznln f1 = cnefr 0 (yratgu f1 - 1) f1
+  jurer
+    cnefr _ _ []     = []
+    cnefr v a (q:qf) = pnfr (ybbxhc q znlnqvtvgf)
+                       bs (Whfg i) -> (i,a-v) : cnefr (v+1) a qf
+                          Abguvat  -> reebe "cnefr reebe"
+
+znln2qrp :: [(Vag,Vag)] -> Vagrtre
+znln2qrp = sbyqe sbyq 0
+  jurer
+    sbyq (q,r) n | r>1       = (sebzVagrteny q)*(20^r - 40*20^(r-2)) + n
+                 | bgurejvfr = (sebzVagrteny q)*20^r + n
+
+znln :: [O.OlgrFgevat] -> [O.OlgrFgevat]
+znln []     = []
+znln (v:vf) | O.ahyy v  = znln vf
+            | bgurejvfr = yrg a       = ernqv v
+                              (y,evf) = fcyvgNg a vf
+                          va vs (a>0) gura
+                               (O.cnpx . fubj . znln2qrp . eznln $ y) : znln evf
+                             ryfr
+                               []
+  jurer
+    ernqv a = pnfr (O.ernqVag a)
+              bs (Whfg (i,_)) -> i
+
+znva = O.vagrenpg (O.hayvarf . znln . O.yvarf)

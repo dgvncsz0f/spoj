@@ -1,1 +1,16 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-Qnn;Znor-n-Zvz}|-~nyvsvrq-Qnn;Yv-n-Yznv{-J-q|--5yGy6-I:-szn}-O;yv{r-O;trP|{r{--yr-h9{j-J-zn}-v{-5O;|q-y6--5}v{-;-Y;s|yqy4-5v{r-{6-=-;-zn}-v{-;-nxr-6-yv{-GG-O;Or`v{t-:K-V{v{-J-s-;-Z;s|zW-;-O;rnqV{v{r-GG-V{-:K-V{-:K-V{-:K-V{v{r-{-nppz-n--z|q-n-{-JJ-=-J-nppz8>------------------|urvr----J-nppz
+
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg dhnyvsvrq Qngn.Znlor nf Z
+vzcbeg dhnyvsvrq Qngn.Yvfg nf Y
+
+znva = qb
+  (y:yf) <- sznc O.yvarf O.trgPbagragf
+  yrg [g,a] = znc vag (O.jbeqf y)
+  (cevag . Y.sbyqy' (vagrfg a) 0 . znc vag . gnxr g) yf
+
+vag :: O.OlgrFgevat -> Vag
+vag = sfg . Z.sebzWhfg . O.ernqVag
+
+vagrfg :: Vag -> Vag -> Vag -> Vag
+vagrfg a npphz n | zbq n a == 0 = npphz+1
+                 | bgurejvfr    = npphz

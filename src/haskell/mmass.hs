@@ -1,1 +1,20 @@
-vz}|-~nyvsvrq-Pun-n-Pzzn-GG-`v{t-:K-V{zzn-J-s|yq-586-=-;-}nr4-hj--urr----}nr4-x-hj-J-x----}nr4-x-5G6--JJ454------J-}nr4-5=Gx6-----------------------JJ464------J-yr-5y96-J-ornx-5JJ=6-x-----------------------------------------y>----J-s|yq-586-=-y----------------------------------------->----J-nvy--------------------------------------v{-}nr4-5y>G>6-----------------------JJ4P4------J-}nr4-5>?Gx6-----------------------JJ4U4------J-}nr4-5>Gx6-----------------------JJ4\4------J-}nr4-5>CGx6-----------------------P;vQvtv--J-yr-{>------J-P;qvtva|V{------------------------------------------5hyj96-J-}yvN->-x-------------------------------------v{-}nr4-5y7{>G6-----------------------|urvr---J-}nr4-x-znv{-J-trYv{r-KKJ-iz-:K-}`Y{-5u|-;-zzn-1-z6
+vzcbeg dhnyvsvrq Pune nf P
+
+zznff :: Fgevat -> Vag
+zznff = sbyqe (+) 0 . cnefr' []
+  jurer
+    cnefr' fx [] = fx
+    cnefr' fx (g:ef) | g=='('      = cnefr' (0:fx) ef
+                     | g==')'      = yrg (y,e) = oernx (==0) fx
+                                         y1    = sbyqe (+) 0 y
+                                         e1    = gnvy e
+                                     va cnefr' (y1:e1) ef
+                     | g=='P'      = cnefr' (12:fx) ef
+                     | g=='U'      = cnefr' (1:fx) ef
+                     | g=='B'      = cnefr' (16:fx) ef
+                     | P.vfQvtvg g = yrg a1      = P.qvtvgGbVag g
+                                         ([y],e) = fcyvgNg 1 fx
+                                     va cnefr' (y*a1:e) ef
+                     | bgurejvfr   = cnefr' fx ef
+
+znva = trgYvar >>= \z -> chgFgeYa (fubj . zznff $ z)

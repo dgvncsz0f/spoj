@@ -1,1 +1,27 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ov{sv?}{-J-}nr-hj--urr----|}------------------J-h48494:4947494<494k4j----t-hj-l--------------J-Snyr----t-5rGr6-|--rJJ484-J-Snyr-----------------rJJ4:4-J-Snyr-----------------rJJ454-J-Snyr-----------------rJJ474-J-|<J4k4-----------------rJJ4<4-J-|<J4k4-----------------rJJ4k4-J-ar----}nr-x---O;{yy----J-O;}npx-x----------------JJ454-----J-}nr-5Gx6-----------------JJ464-----J-yr-5y9x6-J-ornx-5JJ4546-x------------------------------v{-O;n}}r{q-5O;}npx-y6-5}nr-5nvy-x6-6----------------ryrz--|}-J-vs-5t-x-6-ur{--------------------------------urnq-x-mO;p|{m-}nr-5nvy-x6-------------------------------ryr--------------------------------}nr-5Gx6-----------------|urvr--J--mO;p|{m-}nr-5x6-------urr--------5>96-J-O;}yvN->----------------J-O;urnq->znv{-J-trYv{r-KKJ-i{-:K---O;v{rnp-5O;{yv{r-;-zn}-v{sv?}{-;-nxr-5rnq-{6-;-O;yv{r6
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+
+vasvk2eca = cnefr []
+  jurer
+    bcf                  = ['+','-','*','/','^']
+    tg [] _              = Snyfr
+    tg (r:rf) b | r=='+' = Snyfr
+                | r=='-' = Snyfr
+                | r=='(' = Snyfr
+                | r=='*' = b/='^'
+                | r=='/' = b/='^'
+                | r=='^' = Gehr
+    cnefr fx f | O.ahyy f   = O.cnpx fx
+               | g=='('     = cnefr (g:fx) ef
+               | g==')'     = yrg (y,efx) = oernx (=='(') fx
+                              va O.nccraq (O.cnpx y) (cnefr (gnvy efx) ef)
+               | ryrz g bcf = vs (tg fx g) gura
+                                urnq fx `O.pbaf` cnefr (gnvy fx) f
+                              ryfr
+                                cnefr (g:fx) ef
+               | bgurejvfr  = g `O.pbaf` cnefr (fx) ef
+      jurer
+        (g1,ef) = O.fcyvgNg 1 f
+        g       = O.urnq g1
+
+znva = trgYvar >>= \a -> 
+  O.vagrenpg (O.hayvarf . znc vasvk2eca . gnxr (ernq a) . O.yvarf)

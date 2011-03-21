@@ -1,1 +1,8 @@
-vz}|-Qnn;Yvvz}|-P|{|y;Z|{nq|qp{-J-u|-;-znvzz-;-5=G6-;-zn}-yr{tu-;-t|}-;-zn}-yr{tu-;-|qznv{-J---yvsZ-rnq-trYv{r-KKJ-i{-:K--v{rnp-5{yv{r-;-zn}-|qp{-;-nxr-{-;-yv{r6
+vzcbeg Qngn.Yvfg
+vzcbeg Pbageby.Zbanq
+
+jbeqpag = fubj . znkvzhz . (0:) . znc yratgu . tebhc . znc yratgu . jbeqf
+
+znva = 
+  yvsgZ ernq trgYvar >>= \a ->
+  vagrenpg (hayvarf . znc jbeqpag . gnxr a . yvarf)

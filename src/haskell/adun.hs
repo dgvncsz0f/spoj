@@ -1,1 +1,4 @@
-znv{-J-q|--n-I:-trYv{r--o-I:-trYv{r--}v{-55rnq-nGGV{rtr6-8-5rnq-oGGV{rtr66
+znva = qb
+  n <- trgYvar
+  o <- trgYvar
+  cevag ((ernq n::Vagrtre) + (ernq o::Vagrtre))

@@ -1,1 +1,39 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-Qnn;Nnvz}|-P|{|y;Z|{nq{|zn{-J-yvNn-5=9E6-hyvNn-5=9F6-h5/V/9=695/e/9=695/P/9=695/Z/9=695/e/9>695/P/9>695/Z/9>695//9=695/p/9=695/z/9=6j9--yvNn-5=9F6-h5/VV/9=695/ee/9=695/PP/9=695/ZZ/9=695/ee/9>695/PP/9>695/ZZ/9>695//9=695/pp/9=695/zz/9=6j9--yvNn-5=9F6-h5/VVV/9=695/eee/9=695/PPP/9=695/ZZZ/9=695/eee/9>695/PPP/9>695/ZZZ/9>695//9=695/ppp/9=695/zzz/9=6j9--yvNn-5=9F6-h5/Vc/9=695/eY/9=695/PQ/9=695/Vc/9>695/eY/9>695/PQ/9>695/v/9=695/y/9=695/pq/9=695/v/9>6j9--yvNn-5=9E6-h5/c/9=695/Y/9=695/Q/9=695/c/9>695/Y/9>695/Q/9>695//9=695/y/9=695/q/9=6j9--yvNn-5=9E6-h5/cV/9=695/Ye/9=695/QP/9=695/cV/9>695/Ye/9>695/QP/9>695/v/9=695/y/9=695/qp/9=6j9--yvNn-5=9E6-h5/cVV/9=695/Yee/9=695/QPP/9=695/cVV/9>695/Yee/9>695/QPP/9>695/vv/9=695/y/9=695/qpp/9=6j9--yvNn-5=9E6-h5/cVVV/9=695/Yeee/9=695/QPPP/9=695/cVVV/9>695/Yeee/9>695/QPPP/9>695/vvv/9=695/y/9=695/qppp/9=6j9--yvNn-5=9E6-h5/Ve/9=695/eP/9=695/PZ/9=695/Ve/9>695/eP/9>695/PZ/9>695/v/9=695/p/9=695/pz/9=6jjr{tyvu-J-v}-h=;;j-;-rrr-;-zn}-rnqv{4-;-O;|q--urr----{4-J-h5O;}npx-/\U/9=695O;}npx-/gR_\/9=695O;}npx-/\[R/9>695O;}npx-/ad\/9?695O;}npx-/aU_RR/9@695O;}npx-/S\b_/9A695O;}npx-/SVcR/9B695O;}npx-/`Ve/9C695O;}npx-/`RcR[/9D695O;}npx-/RVTUa/9E695O;}npx-/[V[R/9F6j----rnqv{4--J-pnr-5y||x}--{46-----------------|s-5W-6-:K-|zn{-hj-J-hj|zn{-55r9o6Gn6-oJJ=------J-|zn{-n------------------|urvr-J-s4G|zn{-n--urr----s4-J-yr-5y96-J-{|zn{-.-5o:>6-.-r---------v{-5y9JJ>6znv{-J-q|--v{}-I:-O;trP|{r{--yr-yv{r--J-O;yv{r-v{}------{------J-s|yq-5i5r9o6-p-:K-p8o7>=kr6-=-5r{tyvu-5urnq-yv{r66------pnr-J-nvy-yv{r--s|Z-5nxr-{-pnr6-1-ipnr-:K-q|----yr-|zn{-J-rrr-5|zn{-5r{tyvu-pnr66--------{z--J-zn}-s-|zn{--------|r--J-zn}-5i5{9|6-:K-vs-|-ur{-zn}-5il-:K-4l46-{-ryr-zn}-5il-:K-4-46-{6-|zn{----}`Y{-1-p|{pn-|r----}`Y{-1-p|{pn-{z--r{-56
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg Qngn.Neenl
+vzcbeg Pbageby.Zbanq
+
+aebzna = yvfgNeenl (0,8) [yvfgNeenl (0,9) [("V",0),("K",0),("P",0),("Z",0),("K",1),("P",1),("Z",1),("k",0),("p",0),("z",0)],
+  yvfgNeenl (0,9) [("VV",0),("KK",0),("PP",0),("ZZ",0),("KK",1),("PP",1),("ZZ",1),("kk",0),("pp",0),("zz",0)],
+  yvfgNeenl (0,9) [("VVV",0),("KKK",0),("PPP",0),("ZZZ",0),("KKK",1),("PPP",1),("ZZZ",1),("kkk",0),("ppp",0),("zzz",0)],
+  yvfgNeenl (0,9) [("VI",0),("KY",0),("PQ",0),("VI",1),("KY",1),("PQ",1),("vi",0),("ky",0),("pq",0),("vi",1)],
+  yvfgNeenl (0,8) [("I",0),("Y",0),("Q",0),("I",1),("Y",1),("Q",1),("i",0),("y",0),("q",0)],
+  yvfgNeenl (0,8) [("IV",0),("YK",0),("QP",0),("IV",1),("YK",1),("QP",1),("iv",0),("yk",0),("qp",0)],
+  yvfgNeenl (0,8) [("IVV",0),("YKK",0),("QPP",0),("IVV",1),("YKK",1),("QPP",1),("ivv",0),("ykk",0),("qpp",0)],
+  yvfgNeenl (0,8) [("IVVV",0),("YKKK",0),("QPPP",0),("IVVV",1),("YKKK",1),("QPPP",1),("ivvv",0),("ykkk",0),("qppp",0)],
+  yvfgNeenl (0,8) [("VK",0),("KP",0),("PZ",0),("VK",1),("KP",1),("PZ",1),("vk",0),("kp",0),("pz",0)]]
+
+eratyvfu = mvc [0..] . erirefr . znc ernqvag' . O.jbeqf
+  jurer
+    af' = [(O.cnpx "BU",0),(O.cnpx "MREB",0),(O.cnpx "BAR",1),(O.cnpx "GJB",2),(O.cnpx "GUERR",3),(O.cnpx "SBHE",4),(O.cnpx "SVIR",5),(O.cnpx "FVK",6),(O.cnpx "FRIRA",7),(O.cnpx "RVTUG",8),(O.cnpx "AVAR",9)]
+    ernqvag' f = pnfr (ybbxhc f af')
+                 bs (Whfg i) -> i
+
+febzna [] = []
+febzna ((r,o):nf) |o==0      = febzna nf
+                  |bgurejvfr = s':febzna nf
+  jurer
+    s' = yrg (y,e) = aebzna ! (o-1) ! r
+         va (y,e==1)
+
+znva = qb
+  vachg <- O.trgPbagragf
+  yrg yvarm  = O.yvarf vachg
+      a      = sbyqe (\(r,o) p -> p+o*10^r) 0 (eratyvfu (urnq yvarm))
+      gpnfrf = gnvy yvarm
+  sbeZ (gnxr a gpnfrf) $ \gpnfr -> qb
+    yrg ebzna = erirefr (febzna (eratyvfu gpnfr))
+        eahz  = znc sfg ebzna
+        bire  = znc (\(a,b) -> vs b gura znc (\_ -> '_') a ryfr znc (\_ -> ' ') a) ebzna
+    chgFgeYa $ pbapng bire
+    chgFgeYa $ pbapng eahz
+  erghea ()

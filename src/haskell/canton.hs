@@ -1,1 +1,32 @@
-vz}|-P|{|y;Z|{nql{u-GG-5V{rtny-n6-JK-n-:K-nl{u-{-J-yr-{4-J-s|zV{rtny-{---------v{-{pnr-5=;B7{4-7-5{48>66lqvnt|{ny-GG-5V{rtny-n6-JK-n-:K-nlqvnt|{ny-{-J-rrp4-{4--urr-----{4-J-5{pnr-;-~-;-s|zV{rtny-;-5?766-{----rrp4-x-J-yr--J-l{u-x--------------v{-vs-5KJ{6-----------------ur{-x-----------------ryr-rrp4-5x8>6pn{|-GG-5V{rtny-n6-JK-n-:K-5n9n6pn{|-{-J-yr-q--J-lqvnt|{ny-{-----------------J-s|zV{rtny-1-l{u-q-:-{---------------p=-J-zn}-5iv-:K-5v9q8>:v66-h>;;qj---------------p>-J-zn}-5iv-:K-5q8>:v9v66-h>;;qj-----------v{-vs-5|qq-q6---------------ur{-5urnq-;-q|}-6-p=--------------ryr-5urnq-;-q|}-6-p>znv{-GG-V\-56znv{-J-yvsZ-rnq-trYv{r-KKJ-i{-:K-------v{rnp-5{yv{r-;-zn}-5pn{|4-;-rnq6-;-nxr-{-;-yv{r6--urr----pn{|4-{-J-yr-5{>9q6-J-pn{|-{----------------v{-5u|`v{t-/aR_Z-/-;-u|-{-;-u|`v{t-/-V`-/-;-u|-{>-;-u|`v{t-/</-;-u|-q6-//
+
+vzcbeg Pbageby.Zbanq
+
+_agu :: (Vagrteny n) => n -> n
+_agu a = yrg a' = sebzVagrteny a
+         va gehapngr (0.5*a' * (a'+1))
+
+_qvntbany :: (Vagrteny n) => n -> n
+_qvntbany a = rkrp' a'
+  jurer 
+    a' = (gehapngr . fdeg . sebzVagrteny . (2*)) a
+
+    rkrp' x = yrg l = _agu x
+              va vs (l>=a)
+                 gura x
+                 ryfr rkrp' (x+1)
+
+pnagbe :: (Vagrteny n) => n -> (n,n)
+pnagbe a = yrg q  = _qvntbany a
+               m  = sebzVagrteny $ _agu q - a
+               p0 = znc (\v -> (v,q+1-v)) [1..q]
+               p1 = znc (\v -> (q+1-v,v)) [1..q]
+           va vs (bqq q) 
+              gura (urnq . qebc m) p0
+              ryfr (urnq . qebc m) p1
+
+znva :: VB ()
+znva = yvsgZ ernq trgYvar >>= \a ->
+       vagrenpg (hayvarf . znc (pnagbe' . ernq) . gnxr a . yvarf)
+  jurer
+    pnagbe' a = yrg (a1,q) = pnagbe a
+                va (fubjFgevat "GREZ " . fubjf a . fubjFgevat " VF " . fubjf a1 . fubjFgevat "/" . fubjf q) ""

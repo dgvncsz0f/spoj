@@ -1,1 +1,54 @@
-z|qyr-Znv{-urrvz}|-~nyvsvrq-Qnn;Yv-------n-Yvz}|-~nyvsvrq-Qnn;Or`v{t-n-Ovz}|-~nyvsvrq-Pun------------n-P::-7-aur-z-nyt|vuz-|-n-onr>=-r}n{v|{5I8K6-GG-hV{j-:K-V{-:K-hV{j5I8K6-hj-{----J-h{j5I8K6-5G6-{----{8KF-----J-=-G--I8K->---|urvr-J-8{-G-::-7-`}yv-n-onr>=-r}n{v|{-v{-n-}yr-p|{nv{v{t-5yrs9vtu6-p|z}|{r{;l}yv-GG-hV{j-:K-5hV{j9hV{j6l}yv-----rr{-4---J-5i5y96-:K-5y966-----------1-Y;}yvN-5qv-4-?6----|urvr-J-5i5y96-:K-5y88hurnq-j966-1-Y;}yvN-5qv-4-?6-----urr------4-J-yr{tu-::-7-_r{-r-vs-uv-v-ur-yn-}nyv{-|s-uv-vrlynl}nyv{q|zr-hj-----------------J-Snyrlynl}nyv{q|zr-hj-----JJF------J-arlynl}nyv{q|zr-5G6--JJF------J-lynl}nyv{q|zr--------------------------|urvr-J-Snyr::-7-_r{-ur-{r-}nyv{q|zr{r-GG-hV{j-:K-hV{j{r----y}4-------J-h>j-88-v{v-4-88-h>j----------y4K4----J-y4-88-5rqpr4-y46----------|urvr-J-5rrr-y>46-88-5rqpr4-y>46--urr----5y49y4949y>46-J-5i5y96-:K-5y9rrr-y99y4-I8K->66-1-l}yv-----rqpr4--rr{-5yr{tu-6---J-vq-------------|urvr----------J-nvy----y}4-J-lynl}nyv{q|zr-y4----4--J-zn}-57=6-:-v|-:zl{r-J-q|--yv{r-I:-O;trYv{r--}`Y{-1-zn}-P;v{a|Qvtv-5{rl}nyv{q|zr-yv{r6----urr-onr>=lr}n{v|{-yv{r-J-zn}-5i-:K-s|zV{rtny5:AE66-5O;{}npx-yv{r6----------{rl}nyv{q|zr--yv{r-J-{r-5onr>=lr}n{v|{-yv{r6zlr}rn-{-s--{K>-------J-s-KK-zlr}rn-5{:>6-s--------------|urvr-J-sznv{-J-q|--{-I:-trYv{r--zlr}rn-5rnq-{-GG-V{6-zl{r
+zbqhyr Znva jurer
+
+vzcbeg dhnyvsvrq Qngn.Yvfg       nf Y
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat nf O
+vzcbeg dhnyvsvrq Pune            nf P
+
+-- * Gur fhz nytbevguz gb n onfr10 rkcnafvba
+(<+>) :: [Vag] -> Vag -> [Vag]
+(<+>) [] a    = [a]
+(<+>) (k:kf) a 
+  | a+k>9     = 0 : kf <+> 1
+  | bgurejvfr = k+a : kf
+
+-- * Fcyvg n onfr10 rkcnafvba va n ghcyr pbagnvavat (yrsg,evtug) pbzcbaragf.
+_fcyvg :: [Vag] -> ([Vag],[Vag])
+_fcyvg kf 
+  | rira f'   = (\(y,e) -> (y,e))           $ Y.fcyvgNg (qvi f' 2) kf
+  | bgurejvfr = (\(y,e) -> (y++[urnq e],e)) $ Y.fcyvgNg (qvi f' 2) kf
+    jurer
+      f' = yratgu kf
+
+-- * Ergheaf gehr vs guvf vf gur ynfg cnyva bs guvf fvmr
+_ynfg_cnyvaqebzr []                 = Snyfr
+_ynfg_cnyvaqebzr [k]    | k==9      = Gehr
+_ynfg_cnyvaqebzr (k:kf) | k==9      = _ynfg_cnyvaqebzr kf
+                        | bgurejvfr = Snyfr
+
+-- * Ergheaf gur arkg cnyvaqebzr
+arkg :: [Vag] -> [Vag]
+arkg kf  | yc'       = [1] ++ vavg m' ++ [1]
+         | ey'>e'    = y' ++ (erqhpr' ey')
+         | bgurejvfr = (erirefr ey1') ++ (erqhpr' ey1')
+  jurer
+    (y',ey',e',ey1') = (\(y,e) -> (y,erirefr y,e,ey' <+> 1)) $ _fcyvg kf
+    erqhpr' | rira (yratgu kf)   = vq
+            | bgurejvfr          = gnvy
+    yc' = _ynfg_cnyvaqebzr y'
+    m'  = znc (*0) kf
+
+
+{- vb -}
+
+z_arkg = qb
+  yvar <- O.trgYvar
+  chgFgeYa $ znc P.vagGbQvtvg (arkg_cnyvaqebzr yvar)
+    jurer onfr10_rkcnafvba yvar = znc (\k -> sebzVagrteny(k-48)) (O.hacnpx yvar)
+          arkg_cnyvaqebzr  yvar = arkg (onfr10_rkcnafvba yvar)
+
+z_ercrng a s | a>1       = s >> z_ercrng (a-1) s
+             | bgurejvfr = s
+
+znva = qb
+  a <- trgYvar
+  z_ercrng (ernq a :: Vag) z_arkg

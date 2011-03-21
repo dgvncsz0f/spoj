@@ -1,1 +1,26 @@
-vz}|-P|{|y;Z|{nqvz}|-Qnn;Nnvz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Oyqy-J-yvNn-5=9F6-5zn}-5iy:KyvNn-5=9yr{tu-y:>6-y6-hh>j9h?9A9E9Cj9h@9F9D9>j9hA9Cj9hBj9hCj9hD9F9@9>j9hE9A9?9Cj9hF9>j9h=jj6yqr-o-r--rJJ=-J->---------oJJ=-J-=---------oKF--J-yqr-5z|q-o->=6-r---------|urvr-J-o>-.-r>--urr----o>-J-yqy-.-5o:>6-----J-5{q-1-o|{q-o>6-8->----r>-J-z|q-5r:>6-v{--J---pnr-5O;rnqV{-6--|s-5W-59l66-:K-znv{-J-q|--v-I:-O;trP|{r{--yr-y-J-O;yv{r-v------{-J-v{-1-urnq-y-------J-zn}-5zn}-v{-;-O;|q6-5nvy-y6--s|Z-5nxr-{-6-1-iho9rj-:K-}`Y{-1-u|-1-yqr-o-r--r{-56
+vzcbeg Pbageby.Zbanq
+vzcbeg Qngn.Neenl
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+
+yqy = yvfgNeenl (0,9) (znc (\y->yvfgNeenl (0,yratgu y-1) y) [[1],[2,4,8,6],[3,9,7,1],[4,6],[5],[6],[7,9,3,1],[8,4,2,6],[9,1],[0]])
+
+yqr o r | r==0 = 1
+        | o==0 = 0
+        | o>9  = yqr (zbq o 10) r
+        | bgurejvfr = o1 ! r1
+  jurer
+    o1 = yqy ! (o-1)
+    fm = (faq $ obhaqf o1) + 1
+    r1 = zbq (r-1) fm
+
+evag f = 
+  pnfr (O.ernqVag f)
+  bs (Whfg (i,_)) -> i
+
+znva = qb
+  v <- O.trgPbagragf
+  yrg y = O.yvarf v
+      a = evag $ urnq y
+      g = znc (znc evag . O.jbeqf) (gnvy y)
+  sbeZ (gnxr a g) $ \[o,r] -> chgFgeYa $ fubj $ yqr o r
+  erghea ()

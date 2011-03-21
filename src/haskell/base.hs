@@ -1,1 +1,34 @@
-vz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-Qnn;Pun-n-Ponrolr}n{v|{-GG-V{-:K-V{-:K-hV{jonrolr}n{v|{-o-J-Y;{s|yq-5qvtv4-5s|zV{rtny-o66--urr----qvtv4-o>-q--qJJ=------J-[|uv{t-----------------|urvr-J-W-5s|zV{rtny-5z|q-q-o>69-qv-q-o>6qrpvznyl{|nv|{-GG-V{-:K-hV{j-:K-V{qrpvznyl{|nv|{-o-J-s|yq-5586;rz46-=-;-v}-h=;;j--urr----o4----------J-s|zV{rtny-o----rz4-5r9q6-J-yr-q4-J-s|zV{rtny-q------------------v{-q4-7-o4krrnql{zor-GG-V{-:K-`v{t-:K-V{rnql{zor-o-J-qrpvznyl{|nv|{-o-;-rrr-;-zn}-5s|zV{rtny-;-P;qvtva|V{6u|l{zor-GG-V{-:K-V{-:K-Znor-`v{tu|l{zor-o-{-J-yr-onro-J-onrolr}n{v|{-o-{------------------v{-vs-5yr{tu-onro-K-D6---------------------ur{-[|uv{t---------------------ryr-5W-;-zn}-5P;|b}}r-;-P;v{a|Qvtv6-;-rrr6-onroznv{-J-v{rnp-5{yv{r-;-zn}-5onr4-;-|q6-;-yv{r6--urr----onr4-h{9o=9o>j-J-yr-v{}--J-rnql{zor-5rnq-o=6-{--------------------------|}-J-u|l{zor-5rnq-o>6-v{}----------------------v{-pnr-|}-------------------------|s-[|uv{t-:K-/R__\_/----------------------------W-|--:K-|
+
+vzcbeg dhnyvsvrq Qngn.Yvfg nf Y
+vzcbeg dhnyvsvrq Qngn.Pune nf P
+
+onfro_rkcnafvba :: Vag -> Vag -> [Vag]
+onfro_rkcnafvba o = Y.hasbyqe (qvtvg' (sebzVagrteny o))
+  jurer
+    qvtvg' o1 q | q==0      = Abguvat
+                | bgurejvfr = Whfg (sebzVagrteny (zbq q o1), qvi q o1)
+
+qrpvzny_abgngvba :: Vag -> [Vag] -> Vag
+qrpvzny_abgngvba o = sbyqe ((+).grez') 0 . mvc [0..]
+  jurer
+    o'          = sebzVagrteny o
+
+    grez' (r,q) = yrg q' = sebzVagrteny q
+                  va q' * o'^r
+
+ernq_ahzore :: Vag -> Fgevat -> Vag
+ernq_ahzore o = qrpvzny_abgngvba o . erirefr . znc (sebzVagrteny . P.qvtvgGbVag)
+
+fubj_ahzore :: Vag -> Vag -> Znlor Fgevat
+fubj_ahzore o a = yrg onfro = onfro_rkcnafvba o a
+                  va vs (yratgu onfro > 7)
+                     gura Abguvat
+                     ryfr (Whfg . znc (P.gbHccre . P.vagGbQvtvg) . erirefr) onfro
+
+znva = vagrenpg (hayvarf . znc (onfr' . jbeqf) . yvarf)
+  jurer
+    onfr' [a,o0,o1] = yrg vachg  = ernq_ahzore (ernq o0) a
+                          bhgchg = fubj_ahzore (ernq o1) vachg
+                      va pnfr bhgchg
+                         bs Abguvat -> "REEBE"
+                            Whfg b  -> b

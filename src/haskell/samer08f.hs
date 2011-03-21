@@ -1,1 +1,17 @@
-z|qyr-Znv{-urrvz}|-Qnn;Yv~lv{ltvq-GG-V{-:K-V{~lv{ltvq-{-J-s|yqy4-586-=-5zn}-5k?6-h>;;{j6:-v|-ss-:znv{-J-q|--v{t-I:-trYv{r--yr-tvq-J-rnq-v{t-GG-V{-v{----vs-5tvq-<J-=6----ur{-q|------r{5~lv{ltvq-tvq6-KKJ-}v{------znv{----ryr-q|------r{56
+zbqhyr Znva jurer
+
+vzcbeg Qngn.Yvfg
+
+fdef_va_tevq :: Vag -> Vag
+fdef_va_tevq a = sbyqy' (+) 0 (znc (^2) [1..a])
+
+{- vb fghss -}
+znva = qb
+  fgevat <- trgYvar
+  yrg tevq = ernq fgevat :: Vag va
+    vs (tevq /= 0)
+    gura qb
+      erghea(fdef_va_tevq tevq) >>= cevag
+      znva
+    ryfr qb
+      erghea()

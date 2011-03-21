@@ -1,1 +1,151 @@
-P|{r{:a}rG-zyv}n<rynrqH-nJI|};zuzy;>?@FAE=@?BEFE;osCpno=B@D>n@pBpM>=;>=;>;@CKH-o|{qnJ::::::::::AfBuTvwgPyRDW=UPYergP|{r{:Y|pnv|{G-u}G<<;}|w;}y<svyr<p<nr<>BFDA>?<ZVZR:crv|{G->;=::::::::::::AfBuTvwgPyRDW=UPYergP|{r{:Qv}|vv|{G-v{yv{rH-svyr{nzrJ>BFDA>?:p;uzP|{r{:a}rG-r<uzyH-{nzrJ>BFDA>?:p;uzP|{r{:VqG-I|};zuzy;>?@FAE=@?BEFE;osCpno=B@D>n@pBpM>=;>=;>;@CKP|{r{:Y|pnv|{G-u}G<<;}|w;}y<svyr<p<nr<>BFDA>?<P|{r{:an{sr:R{p|qv{tG-Eov0v{pyqr-Iqv{;uK0v{pyqr-Iv{tK0v{pyqr-IyvK0v{pyqr-IrK0v{pyqr-Izn}K0v{pyqr-Iv|rnzKpyn-or}rv|{--}oyvpG--r{z-onpxrl------_VTUa-J-=9----YRSa--J->--H--or}rv|{5p|{-v{El-3{6G----l{5{7?69----l5=69----lo|t5=6--------|vq-}u5p|{-onpxrl-36------lo|t-8J-5-JJ-YRSa-L->-G-:>6H----l-----8J->H------|vq-}|}5p|{-onpxrl-36------lo|t-:J-5-JJ-YRSa-L->-G-:>6H----l-----:J->H----o||y-p|z}yrr56-p|{------r{5l-JJ-l{6H----o||y-o|t56-p|{------r{5lo|t-I-=--5p|z}yrr56-33-lo|t-.J-=66H----v{El-nr56-p|{------r{5lo|t6H----v{El-vr56-p|{------r{5l6H----v{El-v{qr56-p|{------r{5l-:->6H----}vnrG--v{El-l{H--v{El-lH--v{El-lo|tHHpyn-~o--}oyvpG--vny-~o56----|vq-svlyzo|y5v{El-v6------ly;v{r5v6H----vny-v{@?l-nyvqlr}5or}rv|{-7o6------vs-5o:Ko|t566------r{5=6H----vs-5o:Kp|z}yrr566------r{5>6H----ryr----------v{@?l--J-=H------------o:K}u5or}rv|{GGYRSa6H-------8J-nyvqlr}5o6H------o:K}|}5or}rv|{GGYRSa6H------------vs-5ly;sv{q5o:Kvr566-JJ-ly;r{q566--------------o:K}u5or}rv|{GG_VTUa6H---------8J-nyvqlr}5o6H--------o:K}|}5or}rv|{GG_VTUa6H------------r{56H--------}vnrG--qGGrIv{ElK-lyHHpyn-~ol}|-G-}oyvp-~o--}oyvpG--vny-v{@?l-nyvqlr}5or}rv|{-7o6------p|{-v{>Cl-x-J-55o:Knr563=SS6-II-E6--5o:Kv{qr563=SS6H----qGGzn}Iv{>Cl9v{@?lKGGvrn|-vH----vs-55vJlpnpur;sv{q5x66-.J-lpnpur;r{q566------r{5v:Krp|{q6H----v{@?l--J-~oGGnyvqlr}5o6H----lpnpurhxj-J-H----r{56H----}vnrG--qGGzn}Iv{>Cl9v{@?lK-lpnpurHHv{-znv{56--{vt{rq-v{-rlpnrH--qGGpv{-KK-rlpnrH--s|-5{vt{rq-v{-vJ=H-vIrlpnrH-v886------{vt{rq-v{-{9-xH----qGGpv{-KK-{H----qGGpv{-KK-xH----~ol}|-|owH----|ow;svlyzo|y5=6H----s|-5{vt{rq-v{-vJ=H-vIxH-v886----------{vt{rq-v{-H------qGGpv{-KK-H------|ow;svlyzo|y5:>6H--------or}rv|{-r}5{6H----qGGp|-II-|ow;nyvqlr}53r}6-II-qGGr{qyH----r{5=6H::::::::::::AfBuTvwgPyRDW=UPYerg::
+#vapyhqr <fgqvag.u>
+#vapyhqr <fgevat>
+#vapyhqr <yvfg>
+#vapyhqr <frg>
+#vapyhqr <znc>
+#vapyhqr <vbfgernz>
+pynff orkcerffvba
+{
+  choyvp:
+  rahz oenpxrg_g
+  {
+    EVTUG = 0,
+    YRSG  = 1
+  };
+
+  orkcerffvba(pbafg hvag8_g &a):
+    _a(a*2),
+    _f(0),
+    _obthf(0)
+  {
+  }
+  
+  ibvq chfu(pbafg oenpxrg_g &g)
+  {
+    _obthf += (g == YRSG ? 1 : -1);
+    _f     += 1;
+  }
+  
+  ibvq cbc(pbafg oenpxrg_g &g)
+  {
+    _obthf -= (g == YRSG ? 1 : -1);
+    _f     -= 1;
+  }
+
+  obby pbzcyrgr() pbafg
+  {
+    erghea(_f == _a);
+  }
+
+  obby obthf() pbafg
+  {
+    erghea(_obthf < 0 || (pbzcyrgr() && _obthf != 0));
+  }
+
+  hvag8_g fgngr() pbafg
+  {
+    erghea(_obthf);
+  }
+
+  hvag8_g fvmr() pbafg
+  {
+    erghea(_f);
+  }
+
+  hvag8_g vaqrk() pbafg
+  {
+    erghea(_f - 1);
+  }
+
+  cevingr:
+  hvag8_g _a;
+  hvag8_g _f;
+  vag8_g _obthf;
+};
+
+pynff fdeoe
+{
+  choyvp:
+  iveghny ~fdeoe()
+  {}
+
+  ibvq svk_yflzoby(hvag8_g v)
+  {
+    _yf.vafreg(v);
+  }
+
+  iveghny hvag32_g inyvq_rkcef(orkcerffvba *o)
+  {
+    vs (o->obthf())
+      erghea(0);
+
+    vs (o->pbzcyrgr())
+      erghea(1);
+    ryfr
+    {
+      hvag32_g e = 0;
+      
+      o->chfu(orkcerffvba::YRSG);
+      e += inyvq_rkcef(o);
+      o->cbc(orkcerffvba::YRSG);
+      
+      vs (_yf.svaq(o->fvmr()) == _yf.raq())
+      {
+        o->chfu(orkcerffvba::EVTUG);
+        e += inyvq_rkcef(o);
+        o->cbc(orkcerffvba::EVTUG);
+      }
+
+      erghea(e);
+    }
+  }
+
+  cevingr:
+  fgq::frg<hvag8_g> _yf;
+};
+
+pynff fdeoe_cebkl : choyvp fdeoe
+{
+  choyvp:
+  iveghny hvag32_g inyvq_rkcef(orkcerffvba *o)
+  {
+    pbafg hvag16_g x = ((o->fgngr()&0kSS) << 8) | (o->vaqrk()&0kSS);
+    fgq::znc<hvag16_g,hvag32_g>::vgrengbe vg;
+    vs ((vg=_pnpur.svaq(x)) != _pnpur.raq())
+      erghea(vg->frpbaq);
+
+    hvag32_g e = fdeoe::inyvq_rkcef(o);
+    _pnpur[x] = e;
+    erghea(e);
+  }
+
+  cevingr:
+  fgq::znc<hvag16_g,hvag32_g> _pnpur;
+};
+
+vag znva()
+{
+  hafvtarq vag grfg_pnfrf;
+
+  fgq::pva >> grfg_pnfrf;
+  sbe (hafvtarq vag v=0; v<grfg_pnfrf; v++)
+  {
+    hafvtarq vag a, x;
+    fgq::pva >> a;
+    fgq::pva >> x;
+
+    fdeoe_cebkl bow;
+    bow.svk_yflzoby(0);
+    sbe (hafvtarq vag v=0; v<x; v++)
+    {
+      hafvtarq vag f;
+      fgq::pva >> f;
+      bow.svk_yflzoby(f-1);
+    }
+
+    orkcerffvba rkc(a);
+    fgq::pbhg << bow.inyvq_rkcef(&rkc) << fgq::raqy;
+  }
+
+  erghea(0);
+}

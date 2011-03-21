@@ -1,1 +1,20 @@
-vz}|-~nyvsvrq-Qnn;Zn}-n-Zqnn-\}rnv|{qnn-a|xr{a-J-S||yrr-GG-`v{t-:K-h5a|xr{a9`v{t6jyrr-J-r|-/{}}|rq-|}rnv|{/}nr-GG-h5a|xr{a9`v{t6j-:K-h\}rnv|{aj}nr-J-r|-/{}}|rq-|}rnv|{/:v|:rrpr-J-/{}}|rq-|}rnv|{/{pv}-J-rrpr-;-}nrznv{-J-v{rnp-5{yv{r-;-{pv}6
+
+vzcbeg dhnyvsvrq Qngn.Znc nf Z
+
+qngn Bcrengvba
+
+qngn GbxraG = Sbb
+
+yrkre :: Fgevat -> [(GbxraG,Fgevat)]
+yrkre = reebe "hafhccbegrq bcrengvba"
+
+cnefre :: [(GbxraG,Fgevat)] -> [BcrengvbaG]
+cnefre = reebe "hafhccbegrq bcrengvba"
+
+{-vb-}
+
+rkrphgr = "hafhccbegrq bcrengvba"
+
+ehafpevcg = rkrphgr . cnefr
+
+znva = vagrenpg (hayvarf . ehafpevcg)

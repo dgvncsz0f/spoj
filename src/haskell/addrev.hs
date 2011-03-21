@@ -1,1 +1,23 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-P|{|y;Z|{nq-n-Zrrrl{z-GG-O;Or`v{t-:K-O;Or`v{trrrl{z-{-J-O;q|}duvyr-5JJ4=46-5O;rrr-{6rrrlv{-GG-V{-:K-O;Or`v{trrrlv{-J-rrrl{z-;-O;}npx-;-u|znv{-J-q|--v{}-I:-O;trP|{r{--yr-yv{r--J-O;yv{r-v{}------{------J-rnqv{-5urnq-yv{r6------pnr-J-zn}-O;|q-5nvy-yv{r6--Z;s|Z-5nxr-{-pnr6-1-ipnr-:K-q|----O;}`Y{-1-rrrlv{-5s|yq-586-=-5zn}-5rnqv{-;-rrrl{z6-pnr66--r{-56--urr-----rnqv{--J-pnr-5O;rnqV{-6-|s------------------5W-5>9l66-:K->------------------[|uv{t-------:K-=
+
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg dhnyvsvrq Pbageby.Zbanq nf Z
+
+erirefr_ahz :: O.OlgrFgevat -> O.OlgrFgevat
+erirefr_ahz a = O.qebcJuvyr (=='0') (O.erirefr a)
+
+erirefr_vag :: Vag -> O.OlgrFgevat
+erirefr_vag = erirefr_ahz . O.cnpx . fubj
+
+znva = qb
+  vachg <- O.trgPbagragf
+  yrg yvarf  = O.yvarf vachg
+      a      = ernqvag (urnq yvarf)
+      gpnfrf = znc O.jbeqf (gnvy yvarf)
+  Z.sbeZ (gnxr a gpnfrf) $ \gpnfr -> qb
+    O.chgFgeYa $ erirefr_vag (sbyqe (+) 0 (znc (ernqvag . erirefr_ahz) gpnfr))
+  erghea ()
+
+  jurer 
+    ernqvag f = pnfr (O.ernqVag f) bs
+                  (Whfg (i1,_)) -> i1
+                  Abguvat       -> 0

@@ -1,1 +1,17 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-P|{|y;Z|{nq-n-Zvz}|-~nyvsvrq-Qnn;Znor-n-Z>r~nv|{-GG-V{-:K-V{r~nv|{-l-J-=rnqlv{-GG-O;Or`v{t-:K-V{rnqlv{-J-s-;-Z>;s|zW-;-O;rnqV{znv{-GG-V\-56znv{-J-q|--v{}--I:-szn}-5nxrduvyr-5<J=6-;-zn}-rnqlv{-;-O;yv{r6-O;trP|{r{--zn}Z-}v{-5zn}-r~nv|{-v{}6--r{-56
+
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg dhnyvsvrq Pbageby.Zbanq nf Z
+vzcbeg dhnyvsvrq Qngn.Znlor nf Z1
+
+
+rdhngvbaf :: Vag -> Vag
+rdhngvbaf _ = 0
+
+ernq_vag :: O.OlgrFgevat -> Vag
+ernq_vag = sfg . Z1.sebzWhfg . O.ernqVag
+
+znva :: VB ()
+znva = qb
+  vachg  <- sznc (gnxrJuvyr (/=0) . znc ernq_vag . O.yvarf) O.trgPbagragf
+  zncZ cevag (znc rdhngvbaf vachg)
+  erghea ()

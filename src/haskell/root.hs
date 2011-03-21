@@ -1,1 +1,104 @@
-vz}|-Qnn;Yv-5s|yqy49znvzz6{r}r-^-J-^--{^-GG-5V{rtr9V{rtr6-qnn-^r-J-^r-V{rtr-5V{rtr9hV{rtrj6--qrvv{t-5R~6{zrn|-GG-^-:K-V{rtr{zrn|-J-s-;-{^qr{|zv{n|-GG-^-:K-V{rtrqr{|zv{n|-J-{q-;-{^{|z-GG-^-:K-^{|z-5^-5{9q66-J-^-5{-mqvm-z9q-mqvm-z6--urr-z-J-tpq-{-qv{rtny-GG-^-:K-V{rtrv{rtny-5^-5{9q66-J-{-mqvm-qr}n{v|{-GG-^-:K-5V{rtr9hV{rtrj6r}n{v|{-~=-J-5}r]rv|q`vr9r}n{v|{4-=-~=4-ny}un6--urr-~=4M5^-5l9q=66-J-{|z-~=--------ny}un----------J-~=4-:-5s|zV{rtny-5v{rtny-~=466--------}r]rv|q`vr--J-znvzz-5}vzr]|r-h?9Bj-q=6--------r}n{v|{4-x-z-~--|}------J-hj--------------------------|urvr-J-p-G-r}n{v|{4-5x8>6-z4-~4----------urr-|}-J-{zrn|-~JJ=--5xK}r]rv|q`vr-33-~JJz6----------------p--J-v{rtny-5>=-7-~6----------------~4-J->=7~-:-s|zV{rtny-p----------------z4--xJJ}r]rv|q`vr-J-~--------------------|urvr--------J-z-qrpvzny-GG-^-:K-Znor-^rqrpvzny-~--qr{|zv{n|-~-JJ-=-J-[|uv{t-----------|urvr----------J-W-1-^r-5v{rtny-~6-5r}n{v|{-~6}vzr]|r-GG-hV{rtrj-:K-V{rtr-:K-hV{rtrj}vzr]|r-r=-J-}vzr]|r4-hj-5zn}-5p|{-=6-r=6-r=--urr-}vzr]|r4-npp-hj-hj-l---------------------J-npp---------}vzr]|r4-npp-5rGr6-5}G}6-{---JJ-=----J-}vzr]|r4-npp-5r8>Gr6-5}G}6-~------------------------------------------|urvr-J-}vzr]|r4-5rGnpp6-r-}-{----------urr-5~96-J-{-mqvZ|qm-}v{n{pr-[z-^-urr--586-J-}y--5:6-J-zv{--576-J-zy--no-5^-5{9q66-J-^-5no-{9q6--s|zV{rtr-{-J-^-5s|zV{rtr-{9>6--vt{z-5^-5{9l66-J-^-5vt{z-{9>6v{n{pr-R~-^-urr--5^-5n9o66-JJ-5^-5p9q66-J-5n9o6-JJ-5p9q6v{n{pr-`u|-^-urr--u|]rp-l-5^-5{9q66-J-u|-{-;-u|Pun-4-4----------------------------------;-u|Pun-424----------------------------------;-u|Pun-4-4----------------------------------;-u|-qv{n{pr-`u|-^r-urr--u|]rp-l-5^r-{-59}=66-J-u|-{-;-u|R}n{v|{----urr-5}}9}6-J-}yv--vq-}=----------u|]r]rv|q-J-u|Pun-4;4-;-s|yqy4-5;6-vq-5zn}-u|-}}6----------u|]rv|q----J-u|Pun-454-;-s|yqy4-5;6-vq-5zn}-u|-}6---------------------------------------;-u|Pun-464----------u|R}n{v|{--{yy-}}-33-{yy-}-J-u|Pun-4;4-;-u|Pun-4=4-------------------------{yy-}------------J-u|]r]rv|q-------------------------|urvr---------J-u|]r]rv|q-;-u|]rv|q----------}yv-GG-V{rtr-:K-5hV{rtrj:KhV{rtrj6-:K-hV{rtrj-:K-5hV{rtrj9hV{rtrj6}yv-=-yrs-5G6-J-5yrs-hj9G6}yv-l-yrs-hj-----J-5yrs-hj9hj6}yv-x-yrs-5G6-J-}yv-5x:>6-5yrs;5G66-zy-GG-^-:K-^-:K-^zy-5^-5{=9q=66-5^-5{>9q>66-J-^-5{=7{>9q=7q>6}y-GG-^-:K-^-:K-^}y-~-5^-5=9l66-J-~}y-5^-5=9l66-~-J-~}y-5^-5{=9q=66-5^-5{>9>66--J-^-5{=8q=7{>9q=6}y-5^-5{=9>66-5^-5{>9q>66--J-^-5{=7q>8{>9q>6}y-5^-5{=9q=66-5^-5{>9q>66-J-^-5q=47{=-8-q>47{>9q6--urr-q---J-ypz-q=-q>--------q=4-J-q-mqvm-q=--------q>4-J-q-mqvm-q>zv{-GG-^-:K-^-:K-^zv{-~-5^-5{9q66-J-~-8-5^-5:{9q66znv{-GG-V\-56znv{-J-v{rnp-5{yv{r-;-||-;-yv{r6--urr-||-5=G6-J-yr--J-rnq-=-----------------------v{-zn}-5u|W;qrpvzny;ovyq^6-;-nxr--1---------ovyq^--J-yr-h{9qj-J-zn}-rnq-;-|q-1--------------------v{-vs-5vt{z-q-JJ-:>6----------------------ur{-^-5:{9no-q6----------------------ryr-^-5{9q6--------u|W-[|uv{t--J-/V{nyvq-V{}.../--------u|W-5W-6-J-u|-
+vzcbeg Qngn.Yvfg (sbyqy',znkvzhz)
+
+arjglcr D = D { haD :: (Vagrtre,Vagrtre) }
+
+qngn Dr = Dr Vagrtre (Vagrtre,[Vagrtre])
+  qrevivat (Rd)
+
+ahzrengbe :: D -> Vagrtre
+ahzrengbe = sfg . haD
+
+qrabzvangbe :: D -> Vagrtre
+qrabzvangbe = faq . haD
+
+abez :: D -> D
+abez (D (a,q)) = D (a `qvi` z,q `qvi` z)
+  jurer z = tpq a q
+
+vagrteny :: D -> Vagrtre
+vagrteny (D (a,q)) = a `qvi` q
+
+rkcnafvba :: D -> (Vagrtre,[Vagrtre])
+rkcnafvba d0 = (cerCrevbqFvmr,rkcnafvba' 0 d0' nycun)
+  jurer d0'@(D (_,q0)) = abez d0
+        nycun          = d0' - (sebzVagrteny (vagrteny d0'))
+        cerCrevbqFvmr  = znkvzhz (cevzrCbjref [2,5] q0)
+        rkcnafvba' x z d | fgbc      = []
+                         | bgurejvfr = p : rkcnafvba' (x+1) z' d'
+          jurer fgbc = ahzrengbe d==0 || (x>cerCrevbqFvmr && d==z)
+                p  = vagrteny (10 * d)
+                d' = 10*d - sebzVagrteny p
+                z' | x==cerCrevbqFvmr = d
+                   | bgurejvfr        = z
+ 
+qrpvzny :: D -> Znlor Dr
+qrpvzny d | qrabzvangbe d == 0 = Abguvat
+          | bgurejvfr          = Whfg $ Dr (vagrteny d) (rkcnafvba d)
+
+cevzrCbjref :: [Vagrtre] -> Vagrtre -> [Vagrtre]
+cevzrCbjref rf0 = cevzrCbjref' [] (znc (pbafg 0) rf0) rf0
+  jurer cevzrCbjref' npp [] [] _                     = npp 
+        cevzrCbjref' npp (r:rf) (c:cf) a | e == 0    = cevzrCbjref' npp (r+1:rf) (c:cf) d
+                                         | bgurejvfr = cevzrCbjref' (r:npp) rf cf a
+          jurer (d,e) = a `qviZbq` c
+
+vafgnapr Ahz D jurer
+  (+) = cyhf
+  (-) = zvahf
+  (*) = zhyg
+  nof (D (a,q)) = D (nof a,q)
+  sebzVagrtre a = D (sebzVagrtre a,1)
+  fvtahz (D (a,_)) = D (fvtahz a,1)
+
+vafgnapr Rd D jurer
+  (D (n,o)) == (D (p,q)) = (n,o) == (p,q)
+
+vafgnapr Fubj D jurer
+  fubjfCerp _ (D (a,q)) = fubjf a . fubjPune ' '
+                                  . fubjPune '%'
+                                  . fubjPune ' '
+                                  . fubjf q
+
+vafgnapr Fubj Dr jurer
+  fubjfCerp _ (Dr a (fm,c0)) = fubjf a . fubjRkcnafvba
+    jurer (cc,c) = fcyvg fm vq c0
+          fubjCerCrevbq = fubjPune '.' . sbyqy' (.) vq (znc fubjf cc)
+          fubjCrevbq    = fubjPune '(' . sbyqy' (.) vq (znc fubjf c)
+                                       . fubjPune ')'
+          fubjRkcnafvba | ahyy cc && ahyy c = fubjPune '.' . fubjPune '0'
+                        | ahyy c            = fubjCerCrevbq
+                        | bgurejvfr         = fubjCerCrevbq . fubjCrevbq
+          
+fcyvg :: Vagrtre -> ([Vagrtre]->[Vagrtre]) -> [Vagrtre] -> ([Vagrtre],[Vagrtre])
+fcyvg 0 yrsg (k:kf) = (yrsg [],k:kf)
+fcyvg _ yrsg []     = (yrsg [],[])
+fcyvg x yrsg (k:kf) = fcyvg (x-1) (yrsg.(k:)) kf
+
+zhyg :: D -> D -> D
+zhyg (D (a0,q0)) (D (a1,q1)) = D (a0*a1,q0*q1)
+
+cyhf :: D -> D -> D
+cyhf d (D (0,_)) = d
+cyhf (D (0,_)) d = d
+cyhf (D (a0,q0)) (D (a1,1))  = D (a0+q0*a1,q0)
+cyhf (D (a0,1)) (D (a1,q1))  = D (a0*q1+a1,q1)
+cyhf (D (a0,q0)) (D (a1,q1)) = D (q0'*a0 + q1'*a1,q)
+  jurer q   = ypz q0 q1
+        q0' = q `qvi` q0
+        q1' = q `qvi` q1
+
+zvahf :: D -> D -> D
+zvahf d (D (a,q)) = d + (D (-a,q))
+
+znva :: VB ()
+znva = vagrenpg (hayvarf . ebbg . yvarf)
+  jurer ebbg (g0:gf) = yrg g = ernq g0
+                       va znc (fubjWhfg.qrpvzny.ohvyqD) . gnxr g $ gf
+        ohvyqD f = yrg [a,q] = znc ernq . jbeqf $ f
+                   va vs (fvtahz q == -1)
+                      gura D (-a,nof q)
+                      ryfr D (a,q)
+
+        fubjWhfg Abguvat  = "Vainyvq Vachg!!!"
+        fubjWhfg (Whfg i) = fubj i
+

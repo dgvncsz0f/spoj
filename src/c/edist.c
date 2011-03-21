@@ -1,1 +1,57 @@
-0v{pyqr-Iv{t;uK0v{pyqr-Iqyvo;uK0v{pyqr-Iqv|;uK0qrsv{r-zv{vzz5n9o6-5nIo-L-n-G-o60qrsv{r-zv{vzz@5n9o9p6-5zv{vzz-5n9zv{vzz-5o9p666nvpv{-7znv-J-[bYYHv{-yq-5p|{-pun-79-p|{-pun-76--vrl-z-J-yr{56-8->H--vrl-{-J-yr{56-8->H--vrl-v9-w9-xH--s|-5vJ=H-vIzH-v8J>6----znvhv7{j-J-vH--s|-5vJ=H-vI{H-v8J>6----znvhvj-J-vH--s|-5wJ>H-wI{H-w8J>6------s|-5vJ>H-vIzH-v8J>6----------x-J-v7{-8-wH------vs-5hv:>j-JJ-hw:>j6---------znvhxj-J-znvh5v:>67{-8-5w:>6jH------------ryr--------------znvhxj-J-zv{vzz@5-znvh5v:>67{8wj-8->----------------------------9-znvhv7{85w:>6j-8->----------------------------9-znvh5v:>67{85w:>6j-8->----------------------------6H----------------r{5znvh5z:>67{85{:>6j6Hv{-znv{56--pun-7=-J-pnyy|p5?===9-vr|s5pun66H--pun-7>-J-pnyy|p5?===9-vr|s5pun66H--{vt{rq-v{-9-xH--znv-J-pnyy|p5?==>7?==>9-vr|s5v{66H--pn{s5/2q/9-36H--s|-5xJ=H-xIH-x8J>6------pn{s5/2-2/9-=9->6H----}v{s5/2qi{/9-yq5=9->66H----r{5=6H
+#vapyhqr <fgevat.u>
+#vapyhqr <fgqyvo.u>
+#vapyhqr <fgqvb.u>
+
+#qrsvar zvavzhz(n,o) (n<o ? n : o)
+#qrsvar zvavzhz3(n,o,p) (zvavzhz (n,zvavzhz (o,p)))
+
+fgngvp
+vag *zngevk = AHYY;
+
+vag yq (pbafg pune *f, pbafg pune *g)
+{
+  fvmr_g z = fgeyra(f) + 1;
+  fvmr_g a = fgeyra(g) + 1;
+  fvmr_g v, w, x;
+
+  sbe (v=0; v<z; v+=1)
+    zngevk[v*a] = v;
+  sbe (v=0; v<a; v+=1)
+    zngevk[v] = v;
+
+  sbe (w=1; w<a; w+=1)
+  {
+    sbe (v=1; v<z; v+=1)
+    {
+      x = v*a + w;
+      vs (f[v-1] == g[w-1]) {
+        zngevk[x] = zngevk[(v-1)*a + (w-1)];
+      }
+      ryfr
+      {
+        zngevk[x] = zvavzhz3( zngevk[(v-1)*a+w] + 1
+                            , zngevk[v*a+(w-1)] + 1
+                            , zngevk[(v-1)*a+(w-1)] + 1
+                            );
+      }
+    }
+  }
+  
+  erghea(zngevk[(z-1)*a+(a-1)]);
+}
+
+vag znva()
+{
+  pune *f0 = pnyybp(2000, fvmrbs(pune));
+  pune *f1 = pnyybp(2000, fvmrbs(pune));
+  hafvtarq vag g, x;
+
+  zngevk = pnyybp(2001*2001, fvmrbs(vag));
+  fpnas("%q", &g);
+  sbe (x=0; x<g; x+=1)
+  {
+    fpnas("%f %f", f0, f1);
+    cevags("%q\a", yq(f0, f1));
+  }
+  erghea(0);
+}

@@ -1,1 +1,54 @@
-0v{pyqr-Iqv|;uK0v{pyqr-Iqyvo;uKnvp|vq-lqv|5p|{-pun-79-v{-7v9-v{-7n9-v{-7p9-v{-7z9-v{-y6---vs-5y-K-7z6------7z-J-yH----7n-J-7pH----vs-5h7vjJJ4i=46----r{H--vs-5h7vjJJ4>46------7p-J-7p-8->H----7v-J-7v-8->H----lqv|59-v9-n9-p9-z9-y8>6H----lqv|59-v9-n9-p9-z9-y8>6H----ryr------7v-J-7v-8->H--v{-qv|5p|{-pun-76--v{-p-----J-=H--v{-znqr}u-J-=H--v{-yrry----J-=H--v{-v{qr----J-=H--v{-n{r---J-=H--lqv|59-3v{qr9-3n{r9-3p9-3znqr}u9-yrry6H--r{5n{r6Hv{-znv{5v{-ntp9-pun-7nthj6--pun-7-J-5pun76-znyy|p5vr|s5pun67?===>6H--v{-{9-vH--s|-5vJ=H-vI>=H-v886------pn{s5/2q/9-3{6H----pn{s5/2/9-6H----h{j-J-4i=4H----}v{s5/2qi{/9-qv|566H----srr56H--r{5=6H
+#vapyhqr <fgqvb.u>
+#vapyhqr <fgqyvo.u>
+
+fgngvp
+ibvq _qlmvb(pbafg pune *f, vag *v, vag *n, vag *p, vag *z, vag y)
+{ 
+  vs (y > *z)
+  {
+    *z = y;
+    *n = *p;
+  }
+
+  vs (f[*v]=='\0')
+    erghea;
+
+  vs (f[*v]=='1')
+  {
+    *p = *p + 1;
+    *v = *v + 1;
+    _qlmvb(f, v, n, p, z, y+1);
+    _qlmvb(f, v, n, p, z, y+1);
+  }
+  ryfr
+  {
+    *v = *v + 1;
+  }
+}
+
+vag qlmvb(pbafg pune *f)
+{
+  vag phgf     = 0;
+  vag znkqrcgu = 0;
+  vag yriry    = 0;
+  vag vaqrk    = 0;
+  vag nafjre   = 0;
+
+  _qlmvb(f, &vaqrk, &nafjre, &phgf, &znkqrcgu, yriry);
+  erghea(nafjre);
+}
+
+vag znva(vag netp, pune *neti[])
+{
+  pune *f = (pune*) znyybp(fvmrbs(pune)*20001);
+  vag a, v;
+  sbe (v=0; v<10; v++)
+  {
+    fpnas("%q", &a);
+    fpnas("%f", f);
+    f[a] = '\0';
+    cevags("%q\a", qlmvb(f));
+  }
+  serr(f);
+  erghea(0);
+}

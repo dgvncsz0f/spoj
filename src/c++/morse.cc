@@ -1,1 +1,282 @@
-P|{r{:a}rG-zyv}n<rynrqH-nJI|};zuzy;>?@FAE=@>=BD=;oonrnq==@>>F@BBsM>=;>=;>;@CKH-o|{qnJ::::::::::Xb_F_]vyTdYQETwg^gYP|{r{:Y|pnv|{G-u}G<<;}|w;}y<svyr<p<nr<>C=A?AA<ZVZR:crv|{G->;=::::::::::::Xb_F_]vyTdYQETwg^gYP|{r{:Qv}|vv|{G-v{yv{rH-svyr{nzrJ>C=A?AA:p;uzP|{r{:a}rG-r<uzyH-{nzrJ>C=A?AA:p;uzP|{r{:VqG-I|};zuzy;>?@FAE=@>=BD=;oonrnq==@>>F@BBsM>=;>=;>;@CKP|{r{:Y|pnv|{G-u}G<<;}|w;}y<svyr<p<nr<>C=A?AA<P|{r{:an{sr:R{p|qv{tG-Eov0v{pyqr-Iqv{;uK0v{pyqr-Iv{tK0v{pyqr-Izn}K0v{pyqr-IrK0v{pyqr-Iv|rnzK0qrsv{r-QVPaR[a_flYP-4;4pyn-qvpr{--}oyvpG--qvpr{56-G----ly5=69----l5=69----lyrnsp|{5=6----qvpr{56------vs-5ly6------qryrr-lyH----vs-5l6------qryrr-lH----qvpr{-7sv{q5pun-p6------r{5p-JJ-QVPaR[a_flYP-L-ly-G-l6H----qvpr{-7n}}r{q5pun-p6------qvpr{-7-J-=H----vs-5p-JJ-QVPaR[a_flYP6----------vs-5.ly6--------ly-J-{r-qvpr{H--------J-lyH--------ryr----------vs-5.l6--------l-J-{r-qvpr{H--------J-lH--------r{56H----qvpr{-7y56-p|{------r{5ly6H----qvpr{-756-p|{------r{5l6H----|vq-rlyrns56------lyrnsp|{-8J->H----v{>Cl-yrnsp|{56-p|{------r{5lyrnsp|{6H------}vnrG--qvpr{-7lyH--qvpr{-7lH--v{>Cl-lyrnsp|{HHpyn-qvpv|{n--}oyvpG--qvpv|{n56------qryrr-l||H----qvpv|{n56-G----l||5{r-qvpr{69----lp5l||6----|vq-n}}r{q5p|{-qGGv{t-7z6------v{>Cl--J-z:Kvr56H----s|-5v{>Cl-vJ=H-vIH-v886------lp-J-lp:Kn}}r{q5z:Kn5v66H----lp:Krlyrns56H----lp-J-l||H----qvpv|{n-7sv{q5pun-p6------lp-J-lp:Ksv{q5p6H----r{5uv6H----qvpr{-7{n}u|56-p|{------r{5lp6H----qvpr{-7||56-p|{------r{5l||6H----|vq-r|r56------lp-J-l||H----}vnrG--qvpr{-7l||H--qvpr{-7lpHHpyn-z|r--}oyvpG--nvp--qGGv{t-s|zlnpvv5p|{-qGGv{t-7z6------v{>Cl--J-z:Kvr56H----qGGv{t-H----s|-5v{>Cl-vJ=H-vIz:Kvr56H-v886-------8J-s|zlnpvv5z:Kn5v66H----r{56H----nvp--qGGv{t-s|zlnpvv5pun-p6------vpu-5p6----------pnr-4N4G--------r{5qGGv{t5/;:/66H------pnr-4O4G--------r{5qGGv{t5/:;;;/66H------pnr-4P4G--------r{5qGGv{t5/:;:;/66H------pnr-4Q4G--------r{5qGGv{t5/:;;/66H------pnr-4R4G--------r{5qGGv{t5/;/66H------pnr-4S4G--------r{5qGGv{t5/;;:;/66H------pnr-4T4G--------r{5qGGv{t5/::;/66H------pnr-4U4G--------r{5qGGv{t5/;;;;/66H------pnr-4V4G--------r{5qGGv{t5/;;/66H------pnr-4W4G--------r{5qGGv{t5/;:::/66H------pnr-4X4G--------r{5qGGv{t5/:;:/66H------pnr-4Y4G--------r{5qGGv{t5/;:;;/66H------pnr-4Z4G--------r{5qGGv{t5/::/66H------pnr-4[4G--------r{5qGGv{t5/:;/66H------pnr-4\4G--------r{5qGGv{t5/:::/66H------pnr-4]4G--------r{5qGGv{t5/;::;/66H------pnr-4^4G--------r{5qGGv{t5/::;:/66H------pnr-4_4G--------r{5qGGv{t5/;:;/66H------pnr-4`4G--------r{5qGGv{t5/;;;/66H------pnr-4a4G--------r{5qGGv{t5/:/66H------pnr-4b4G--------r{5qGGv{t5/;;:/66H------pnr-4c4G--------r{5qGGv{t5/;;;:/66H------pnr-4d4G--------r{5qGGv{t5/;::/66H------pnr-4e4G--------r{5qGGv{t5/:;;:/66H------pnr-4f4G--------r{5qGGv{t5/:;::/66H------pnr-4g4G--------r{5qGGv{t5/::;;/66H------qrsnyG--------r{5qGGv{t566H--------vny-z|r56----v{@?l-}unrl|s5p|{-qGGv{t-7z9-qvpv|{n-7qvp6------vs-5z:Kvr566------r{5l}unrl|s5z9-=9-qvp:Ksv{q5z:Kn5=6666H----r{5=6H----}|rprqG--vny-v{@?l-l}unrl|s5p|{-qGGv{t-7z9-v{>Cl-vq9-qvpv|{n-7qvp6------qvpr{-7nr-J-qvp:K{n}u|56H----vs-5.nr6------r{5=6H----v{>Cl-yp|{-J-nr:Kyrnsp|{56H----vs-5vq8>-KJ-z:Kvr566------r{5yp|{6H----pun-p-J-z:Kn5vq8>6H----v{@?l--J-l}unrl|s5z9-vq8>9-qvp:Ksv{q5p66H----vs-5yp|{6----------qvp:Kr|r56H-------8J-5yp|{-L-yp|{-G->6-7-l}unrl|s5z9-vq8>9-qvp:Ksv{q5p66H--------r{56H--Hpyn-z|rl}|-G-}oyvp-z|r--}oyvpG--vny-z|rl}|56----}|rprqG--vny-v{@?l-l}unrl|s5p|{-qGGv{t-7z9-v{>Cl-vq9-qvpv|{n-7qvp6------v{CAl-x-J-5rv{r}rlpnIv{@?lK5qvp:K{n}u|566-II->C6--vqH----qGGzn}Iv{CAl9v{@?lKGGvrn|-vH----vs-55vJlpnpur;sv{q5x66-JJ-lpnpur;r{q566----------v{@?l--J-z|rGGl}unrl|s5z9-vq9-qvp6H------lpnpurhxj--J-H------r{56H--------r{5lpnpurhxj6H----}vnrG--qGGzn}Iv{CAl9v{@?lK-lpnpurHHv{-znv{56--v{-qr9-qvrH--qGGpv{-KK-qrH--s|-5v{-vJ=H-vIqrH-v886------qGGv{t-zH----qGGpv{-KK-zH----qGGpv{-KK-qvrH----qvpv|{n-qvpH----s|-5v{-wJ=H-wIqvrH-w886----------qGGv{t-|qH------qGGpv{-KK-|qH-------|q-J-z|rGGs|zlnpvv53|q6H------qvp;n}}r{q53|q6H------------z|rl}|-zH----qGGp|-II-z;}unrl|s53z9-3qvp6-II-qGGr{qyH----r{5=6H::::::::::::Xb_F_]vyTdYQETwg^gY::
+#vapyhqr <fgqvag.u>
+#vapyhqr <fgevat>
+#vapyhqr <znc>
+#vapyhqr <frg>
+#vapyhqr <vbfgernz>
+
+#qrsvar QVPGRAGEL_YP '.'
+
+pynff qvpgragel
+{
+  choyvp:
+  qvpgragel() :
+    _y(0),
+    _e(0),
+    _yrnspbhag(0)
+  {}
+
+  ~qvpgragel()
+  {
+    vs (_y)
+      qryrgr _y;
+    vs (_e)
+      qryrgr _e;
+  }
+
+  qvpgragel *svaq(pune p)
+  {
+    erghea(p == QVPGRAGEL_YP ? _y : _e);
+  }
+
+  qvpgragel *nccraq(pune p)
+  {
+    qvpgragel *e = 0;
+    vs (p == QVPGRAGEL_YP)
+    {
+      vs (!_y)
+        _y = arj qvpgragel;
+      e  = _y;
+    }
+    ryfr
+    {
+      vs (!_e)
+        _e = arj qvpgragel;
+      e  = _e;
+    }
+    erghea(e);
+  }
+
+  qvpgragel *y() pbafg
+  {
+    erghea(_y);
+  }
+
+  qvpgragel *e() pbafg
+  {
+    erghea(_e);
+  }
+
+  ibvq frg_yrns()
+  {
+    _yrnspbhag += 1;
+  }
+
+  hvag16_g yrnspbhag() pbafg
+  {
+    erghea(_yrnspbhag);
+  }
+  
+  cevingr:
+  qvpgragel *_y;
+  qvpgragel *_e;
+  hvag16_g _yrnspbhag;
+};
+
+pynff qvpgvbanel
+{
+  choyvp:
+  ~qvpgvbanel()
+  {
+    qryrgr _ebbg;
+  }
+
+  qvpgvbanel() :
+    _ebbg(arj qvpgragel),
+    _phee(_ebbg)
+  {}
+
+  ibvq nccraq(pbafg fgq::fgevat *zfge)
+  {
+    hvag16_g fm = zfge->fvmr();
+    sbe (hvag16_g v=0; v<fm; v++)
+      _phee = _phee->nccraq(zfge->ng(v));
+    _phee->frg_yrns();
+    _phee = _ebbg;
+  }
+
+  qvpgvbanel *svaq(pune p)
+  {
+    _phee = _phee->svaq(p);
+    erghea(guvf);
+  }
+
+  qvpgragel *fancfubg() pbafg
+  {
+    erghea(_phee);
+  }
+
+  qvpgragel *ebbg() pbafg
+  {
+    erghea(_ebbg);
+  }
+
+  ibvq erfgber()
+  {
+    _phee = _ebbg;
+  }
+
+  cevingr:
+  qvpgragel *_ebbg;
+  qvpgragel *_phee;
+};
+
+pynff zbefr
+{
+  choyvp:
+  fgngvp
+  fgq::fgevat sebz_nfpvv(pbafg fgq::fgevat *z)
+  {
+    hvag16_g fm = z->fvmr();
+    fgq::fgevat e;
+    sbe (hvag16_g v=0; v<z->fvmr(); v++)
+      e += sebz_nfpvv(z->ng(v));
+    erghea(e);
+  }
+
+  fgngvp
+  fgq::fgevat sebz_nfpvv(pune p)
+  {
+    fjvgpu (p)
+    {
+      pnfr 'N':
+        erghea(fgq::fgevat(".-"));
+      pnfr 'O':
+        erghea(fgq::fgevat("-..."));
+      pnfr 'P':
+        erghea(fgq::fgevat("-.-."));
+      pnfr 'Q':
+        erghea(fgq::fgevat("-.."));
+      pnfr 'R':
+        erghea(fgq::fgevat("."));
+      pnfr 'S':
+        erghea(fgq::fgevat("..-."));
+      pnfr 'T':
+        erghea(fgq::fgevat("--."));
+      pnfr 'U':
+        erghea(fgq::fgevat("...."));
+      pnfr 'V':
+        erghea(fgq::fgevat(".."));
+      pnfr 'W':
+        erghea(fgq::fgevat(".---"));
+      pnfr 'X':
+        erghea(fgq::fgevat("-.-"));
+      pnfr 'Y':
+        erghea(fgq::fgevat(".-.."));
+      pnfr 'Z':
+        erghea(fgq::fgevat("--"));
+      pnfr 'A':
+        erghea(fgq::fgevat("-."));
+      pnfr 'B':
+        erghea(fgq::fgevat("---"));
+      pnfr 'C':
+        erghea(fgq::fgevat(".--."));
+      pnfr 'D':
+        erghea(fgq::fgevat("--.-"));
+      pnfr 'E':
+        erghea(fgq::fgevat(".-."));
+      pnfr 'F':
+        erghea(fgq::fgevat("..."));
+      pnfr 'G':
+        erghea(fgq::fgevat("-"));
+      pnfr 'H':
+        erghea(fgq::fgevat("..-"));
+      pnfr 'I':
+        erghea(fgq::fgevat("...-"));
+      pnfr 'J':
+        erghea(fgq::fgevat(".--"));
+      pnfr 'K':
+        erghea(fgq::fgevat("-..-"));
+      pnfr 'L':
+        erghea(fgq::fgevat("-.--"));
+      pnfr 'M':
+        erghea(fgq::fgevat("--.."));
+      qrsnhyg:
+        erghea(fgq::fgevat());
+    }
+  }
+
+  iveghny ~zbefr()
+  {}
+
+  hvag32_g cuenfrf_bs(pbafg fgq::fgevat *zfge, qvpgvbanel *qvpg)
+  {
+    vs (zfge->fvmr())
+      erghea(_cuenfrf_bs(zfge, 0, qvpg->svaq(zfge->ng(0))));
+    erghea(0);
+  }
+
+  cebgrpgrq:
+  iveghny hvag32_g _cuenfrf_bs(pbafg fgq::fgevat *zfge, hvag16_g vqk, qvpgvbanel *qvpg)
+  {
+    qvpgragel *fgngr = qvpg->fancfubg();
+    vs (!fgngr)
+      erghea(0);
+
+    hvag16_g ypbhag = fgngr->yrnspbhag();
+    vs (vqk+1 >= zfge->fvmr())
+      erghea(ypbhag);
+
+    pune p = zfge->ng(vqk+1);
+
+    hvag32_g e = _cuenfrf_bs(zfge, vqk+1, qvpg->svaq(p));
+    vs (ypbhag)
+    {
+      qvpg->erfgber();
+      e += (ypbhag ? ypbhag : 1) * _cuenfrf_bs(zfge, vqk+1, qvpg->svaq(p));
+    }
+
+    erghea(e);
+  }
+};
+
+pynff zbefr_cebkl : choyvp zbefr
+{
+  choyvp:
+  iveghny ~zbefr_cebkl()
+  {}
+
+  cebgrpgrq:
+  iveghny hvag32_g _cuenfrf_bs(pbafg fgq::fgevat *zfge, hvag16_g vqk, qvpgvbanel *qvpg)
+  {
+    hvag64_g x = (ervagrecerg_pnfg<hvag32_g>(qvpg->fancfubg()) << 16) | vqk;
+
+    fgq::znc<hvag64_g,hvag32_g>::vgrengbe vg;
+    vs ((vg=_pnpur.svaq(x)) == _pnpur.raq())
+    {
+      hvag32_g e = zbefr::_cuenfrf_bs(zfge, vqk, qvpg);
+      _pnpur[x]  = e;
+      erghea(e);
+    }
+    erghea(_pnpur[x]);
+  }
+
+  cevingr:
+  fgq::znc<hvag64_g,hvag32_g> _pnpur;
+};
+
+vag znva()
+{
+  vag qfrgf, qfvmr;
+  fgq::pva >> qfrgf;
+
+  sbe (vag v=0; v<qfrgf; v++)
+  {
+    fgq::fgevat zfge;
+    fgq::pva >> zfge;
+
+    fgq::pva >> qfvmr;
+    qvpgvbanel qvpg;
+    sbe (vag w=0; w<qfvmr; w++)
+    {
+      fgq::fgevat jbeq;
+      fgq::pva >> jbeq; 
+      jbeq = zbefr::sebz_nfpvv(&jbeq);
+      qvpg.nccraq(&jbeq);
+    }
+    
+    zbefr_cebkl z;
+    fgq::pbhg << z.cuenfrf_bs(&zfge, &qvpg) << fgq::raqy;
+  }
+
+  erghea(0);
+}

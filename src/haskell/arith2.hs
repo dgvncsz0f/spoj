@@ -1,1 +1,34 @@
-::-u}G<<;}|w;}y<}|oyrz<N_VaU?<vz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-P|{|y;Z|{nq-n-Zqnn-V{sva-n-J---Rz}-----------------Yrs\}-n-----------------Pvrq-5n-:K-n6nvulr}-GG-hO;Or`v{tj-:K-V{sva-V{rtrnvulr}-J-Y;s|yqy-v{svs|yq4-Rz}--urr----v{svs|yq4-Rz}--------J-Yrs\}-5rnq4-6----v{svs|yq4-5Yrs\}-n6---J-Pvrq-5|}rn|4--1-n6----v{svs|yq4-5Pvrq-s6--J-Yrs\}-5s-5rnq4-66----rnq4--J-pnr-5O;rnqV{rtr-6--------------|s-5W-5>9l66-:K->-----------------[|uv{t-------:K-=-::-vyy-{|-un}}r{----|}rn|4---O;urnq-JJ484-J-586-----------------O;urnq-JJ4:4-J-5:6-----------------O;urnq-JJ474-J-576-----------------O;urnq-JJ4<4-J-qv-----------------O;urnq-JJ4J4-J-p|{znv{-J-q|--v{}-I:-O;trP|{r{--Z;s|Z-5nvy-1-zn}-5O;|q6-5O;yv{r-v{}66-1-ir}rv|{-:K-q|----pnr-5nvulr}-r}rv|{6-|s-------Rz}-------:K-r{-56------::-ur-r}rv|{-r{q-vu-n-J-vt{------::-uv-v-vz}yrzr{rq-v{t-p|{-s{pv|{-5un-v-u-ur-{qrsv{rq-nyr6------5Pvrq-s6-:K-}`Y{-1-u|-5s-{qrsv{rq6--r{-56
+-- uggcf://jjj.fcbw.cy/ceboyrzf/NEVGU2/
+
+vzcbeg dhnyvsvrq Qngn.Yvfg nf Y
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg dhnyvsvrq Pbageby.Zbanq nf Z
+
+qngn VasvkG n =   Rzcgl
+                | YrsgBc n
+                | Pheevrq (n -> n)
+
+nevgu_rkce :: [O.OlgrFgevat] -> VasvkG Vagrtre
+nevgu_rkce = Y.sbyqy vasvksbyq' Rzcgl
+  jurer
+    vasvksbyq' Rzcgl i       = YrsgBc (ernq' i)
+    vasvksbyq' (YrsgBc n) i  = Pheevrq (bcrengbe' i $ n)
+    vasvksbyq' (Pheevrq s) i = YrsgBc (s (ernq' i))
+    ernq' i = pnfr (O.ernqVagrtre i)
+              bs (Whfg (i1,_)) -> i1
+                 Abguvat       -> 0 -- jvyy abg unccra
+    bcrengbe' i | O.urnq i=='+' = (+)
+                | O.urnq i=='-' = (-)
+                | O.urnq i=='*' = (*)
+                | O.urnq i=='/' = qvi
+                | O.urnq i=='=' = pbafg
+
+znva = qb
+  vachg <- O.trgPbagragf
+  Z.sbeZ (gnvy $ znc (O.jbeqf) (O.yvarf vachg)) $ \rkcerffvba -> qb
+    pnfr (nevgu_rkce rkcerffvba) bs 
+      Rzcgl       -> erghea ()
+      -- gur rkcerffvba raqf jvgu n = fvta
+      -- guvf vf vzcyrzragrq hfvat pbafg shapgvba (gung vf jul gur haqrsvarq inyhr)
+      (Pheevrq s) -> chgFgeYa $ fubj (s haqrsvarq)
+  erghea ()

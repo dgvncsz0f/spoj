@@ -1,1 +1,6 @@
-z|qyr-Znv{-5znv{6-urryp-GG-h`v{tj-:K-hh`v{tjjznv{-GG-V\-56znv{-J-{qrsv{rq
+zbqhyr Znva (znva) jurer
+
+ypf :: [Fgevat] -> [[Fgevat]]
+
+znva :: VB ()
+znva = haqrsvarq

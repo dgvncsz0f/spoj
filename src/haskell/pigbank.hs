@@ -1,1 +1,19 @@
-vz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-Qnn;Znor-n-Z}r-]vtOn{x-J-5V{9V{6}r-P|v{-J-5V{9V{6rnqlv{-GG-O;Or`v{t-:K-V{rnqlv{-J-s-;-Z;s|zW-;-O;rnqV{rnql}vton{x-GG-O;Or`v{t-:K-]vtOn{xrnql}vton{x--J-pnr-5zn}-5rnqlv{6-;-O;|q6------------------|s-hn9oj-:K-5n9o6--------------------l-----:K-r|-/}nr-r|/rnqlp|v{-GG-O;Or`v{t-:K-P|v{rnqlp|v{-J-rnql}vton{xrvznr-GG-]vtOn{x-:K-hP|v{j-:K-V{
+
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg dhnyvsvrq Qngn.Znlor nf Z
+
+glcr CvtOnax = (Vag,Vag)
+glcr Pbva = (Vag,Vag)
+
+ernq_vag :: O.OlgrFgevat -> Vag
+ernq_vag = sfg . Z.sebzWhfg . O.ernqVag
+
+ernq_cvtonax :: O.OlgrFgevat -> CvtOnax
+ernq_cvtonax f = pnfr (znc (ernq_vag) . O.jbeqf) f
+                 bs [n,o] -> (n,o)
+                    _     -> reebe "cnefr reebe"
+
+ernq_pbva :: O.OlgrFgevat -> Pbva
+ernq_pbva = ernq_cvtonax
+
+rfgvzngr :: CvtOnax -> [Pbva] -> Vag

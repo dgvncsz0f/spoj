@@ -1,1 +1,20 @@
-z|qyr-Znv{-urrvz}|-V\snp|vny-GG-V{rtr-:K-V{rtrsnp|vny-{-J-}|qph>;;{jr}rnl{-GG-5Z|{nq-n9-V{rtny-o6-JK-o-:K-n-p-:K-n-56r}rnl{-=-s-J-r{-56r}rnl{-{-s-J-q|-sH-r}rnl{-5{:>6-sHzlsnp|vny-GG-V\-V{rtrzlsnp|vny-J-q|---I:-trYv{r--r{-5snp|vny-5rnq-66znv{-J-q|--u`rOssrv{t-qv{-Yv{rOssrv{t---I:-trYv{r--r}rnl{-5rnq-6-5zlsnp|vny-KKJ-}v{6
+zbqhyr Znva jurer
+
+vzcbeg VB
+
+snpgbevny :: Vagrtre -> Vagrtre
+snpgbevny a = cebqhpg[1..a]
+
+ercrng_a :: (Zbanq n, Vagrteny o) => o -> n p -> n ()
+ercrng_a 0 s = erghea ()
+ercrng_a a s = qb {s; ercrng_a (a-1) s;}
+
+z_snpgbevny :: VB Vagrtre
+z_snpgbevny = qb
+  f <- trgYvar
+  erghea (snpgbevny (ernq f))
+
+znva = qb
+  uFrgOhssrevat fgqva YvarOhssrevat
+  g <- trgYvar
+  ercrng_a (ernq g) (z_snpgbevny >>= cevag)

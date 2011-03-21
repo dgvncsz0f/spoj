@@ -1,1 +1,24 @@
-vz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-Qnn;Zn}-n-Zvz}|-~nyvsvrq-Qnn;Znor-n-Zvz}|-~nyvsvrq-Qnn;Or`v{t;Yn;PunE-n-Ovz}|-~nyvsvrq-P|{|y;Z|{nq-n-Pu-GG-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtru-n-o-z--J-z|q-5n7-8-o6-zunu-GG-5V{rtr-:K-V{rtr6-:K-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtr-:K-V{rtrunu-u-p-q--{-J-yr-uyv-J-5Z;|NpYv-;-Z;s|zYvdvu-586-;-v}-h-u-x--x-I:-h;;8{j-j-;-r}rn6->------------------v{-5Y;s|yqy4-5io-5l96-:K-o86-=-;-svyr-5i5x9l6-:K-xKJp-33-xIJq66-uyvrnqv{-GG-O;Or`v{t-:K-V{rtrrnqv{-J-s-;-Z;s|zW-;-O;rnqV{rtrznv{-GG-V\-56znv{-J-q|-5G6-I:-szn}-O;yv{r-O;trP|{r{----------P;zn}Z-5}v{-;-unu46-----------r{-56--urr----unu4--J-yr-5nGoGG{GpGqGzGhj6-J-5zn}-rnqv{-;-O;|q6---------------v{-unu-5u-n-o-z6-p-q--{
+
+vzcbeg dhnyvsvrq Qngn.Yvfg nf Y
+vzcbeg dhnyvsvrq Qngn.Znc nf Z
+vzcbeg dhnyvsvrq Qngn.Znlor nf Z
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Ynml.Pune8 nf O
+vzcbeg dhnyvsvrq Pbageby.Zbanq nf P
+
+u :: Vagrtre -> Vagrtre -> Vagrtre -> Vagrtre -> Vagrtre
+u n o z l = zbq (n*l + o) z
+
+unfu :: (Vagrtre -> Vagrtre) -> Vagrtre -> Vagrtre -> Vagrtre -> Vagrtre -> Vagrtre
+unfu uk p q k a = yrg uyvfg = (Z.gbNfpYvfg . Z.sebzYvfgJvgu (+) . mvc [ uk x | x <- [k..k+a] ] . ercrng) 1
+                  va (Y.sbyqy' (\o (_,m) -> o+m) 0 . svygre (\(x,_) -> x>=p && x<=q)) uyvfg
+
+ernqvag :: O.OlgrFgevat -> Vagrtre
+ernqvag = sfg . Z.sebzWhfg . O.ernqVagrtre
+
+znva :: VB ()
+znva = qb (g:gf) <- sznc O.yvarf O.trgPbagragf
+          P.zncZ (cevag . unfu') gf
+          erghea ()
+  jurer
+    unfu' f = yrg (n:o:k:a:p:q:z:[]) = (znc ernqvag . O.jbeqf) f
+              va unfu (u n o z) p q k a

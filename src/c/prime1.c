@@ -1,1 +1,71 @@
-0v{pyqr-Iqv|;uK0v{pyqr-Iqyvo;uK0v{pyqr-Iv{t;uK0v{pyqr-Iznu;uK0qrsv{r-ZNel]_VZR-@>C=>0qrsv{r-]_VZR`----@A==0qrsv{r-_N[TR----->====>|vq-rlvrr5v{-7}vzr9-v{-{6--v{-x9-9-J>H--{vt{rq-pun-7vrr-J-5{vt{rq-pun76-znyy|p55{8>67vr|s5pun66H--zrzr5vrr9-=9-5{8>67vr|s5pun66H--}vzrh=j-J-?H--s|-5xJ@H-xIJ{H-x8J?6------vs-5vrrhxj-JJ->6------p|{v{rH----}vzrhj-J-xH-8J>H----s|-5Jx8xH-I{H-8Jx6------vrrhj-J->H----<7-srr5vrr6H-7<|vq-}v{l}vzr5p|{-v{-7}vzr9-y|{t-v{-{9-y|{t-v{-z6--nvp-{vt{rq-pun-vrrh_N[TRjH--y|{t-v{-x9-9-}J=9-Jz:{H--zrzr5vrr9-=9-8>6H--vrrh=j-J-{JJ>H--s|-5xJ=H-xI]_VZR`H-x8J>6------}-J-}vzrhxjH-----J-}-:-{2}H----s|-5:J}H-IJH-8J}6----------vs-5KJ=6--------vrrhj-J-8{-K-}H--------vs-5{IJ?6----}v{s5/?i{/6H--s|-5xJ5{2?JJ=-L->-G-=6H-xIJH-x8J?6------vs-5vrrhxj-JJ-=6------}v{s5/2yqi{/9-x8{6H----}v{s5/i{/6Hv{-znv{56--y|{t-v{-9-{9-z9-xH--v{-7}vzr-J-5v{76-znyy|p5]_VZR`-7-vr|s5v{66H--rlvrr5}vzr9-ZNel]_VZR6H--pn{s5/2yq/9-36H--s|-5xJ=H-xIH-x8J>6-----pn{s5/2yq-2yq/9-3{9-3z6H----}v{l}vzr5}vzr9-{9-z6H------<7-srr5}vzr6H-7<--r{5=6H
+#vapyhqr <fgqvb.u>
+#vapyhqr <fgqyvo.u>
+#vapyhqr <fgevat.u>
+#vapyhqr <zngu.u>
+
+#qrsvar ZNK_CEVZR 31601
+#qrsvar CEVZRF    3400
+#qrsvar ENATR     100001
+
+ibvq r_fvrir(vag *cevzrf, vag a)
+{
+  vag x, m, g=1;
+  hafvtarq pune *fvrir = (hafvtarq pune*) znyybp((a+1)*fvmrbs(pune));
+  zrzfrg(fvrir, 0, (a+1)*fvmrbs(pune));
+
+  cevzrf[0] = 2;
+  sbe (x=3; x<=a; x+=2)
+  {
+    vs (fvrir[x] == 1)
+      pbagvahr;
+    cevzrf[g] = x; g+=1;
+    sbe (m=x+x; m<a; m+=x)
+      fvrir[m] = 1;
+  }
+
+  /* serr(fvrir); */
+}
+
+ibvq cevag_cevzrf(pbafg vag *cevzrf, ybat vag a, ybat vag z)
+{
+  fgngvp hafvtarq pune fvrir[ENATR];
+  ybat vag x, m, c=0, g=z-a;
+  zrzfrg(fvrir, 0, g+1);
+
+  fvrir[0] = a==1;
+  sbe (x=0; x<CEVZRF; x+=1)
+  {
+    c = cevzrf[x];
+    m = c - a%c;
+    sbe (m-=c; m<=g; m+=c)
+    {
+      vs (m>=0)
+        fvrir[m] = m+a > c;
+    }
+  }
+
+  vs (a<=2)
+    cevags("2\a");
+  sbe (x=(a%2==0 ? 1 : 0); x<=g; x+=2)
+  {
+    vs (fvrir[x] == 0)
+      cevags("%yq\a", x+a);
+  }
+  cevags("\a");
+}
+
+vag znva()
+{
+  ybat vag g, a, z, x;
+  vag *cevzrf = (vag*) znyybp(CEVZRF * fvmrbs(vag));
+  r_fvrir(cevzrf, ZNK_CEVZR);
+
+  fpnas("%yq", &g);
+  sbe (x=0; x<g; x+=1) {
+    fpnas("%yq %yq", &a, &z);
+    cevag_cevzrf(cevzrf, a, z);
+  }
+  
+  /* serr(cevzrf); */
+  erghea(0);
+}

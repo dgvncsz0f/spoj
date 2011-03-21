@@ -1,1 +1,39 @@
-0v{pyqr-Ipqv|K0v{pyqr-Ipv{tKv{yv{ry|{t-y|{t-}|yrny5p|{-v{-7p{9-v{-{9-v{-6--y|{t-y|{t-npp-J-=H--s|-5v{-xJ=H-xI{H-x886----npp-J--7-5npp-8-p{hxj6H--r{5npp8p{h{j6Hv{-znv{56--v{-p{h>===jH--v{-{9-x9-9-v9-J=H--uvyr-5r6-------8J->H--------qGGpn{s5/2q/9-3{6H----vs-5{JJ:>6------ornxH----s|-5vJ=H-vI{H-v886------qGGpn{s5/2q/9-p{8v6H----qGGpn{s5/2q/9-p{8{6H----qGGpn{s5/2q/9-3x6H----qGG}v{s5/Pnr-2qGi{/9-6H----s|-5vJ=H-vIxH-v886----------qGGpn{s5/2q/9-36H------qGG}v{s5/2yyqi{/9-}|yrny5p{9{966H--------r{5=6H
+#vapyhqr <pfgqvb>
+#vapyhqr <pfgevat>
+
+vayvar
+ybat ybat cbyriny(pbafg vag *pa, vag a, vag k)
+{
+  ybat ybat npp = 0;
+  sbe (vag x=0; x<a; x++)
+    npp = k * (npp + pa[x]);
+  erghea(npp+pa[a]);
+}
+
+vag znva()
+{
+  vag pa[1000];
+  vag a, x, k, v, g=0;
+  juvyr (gehr)
+  {
+    g += 1;
+    
+    fgq::fpnas("%q", &a);
+    vs (a==-1)
+      oernx;
+
+    sbe (v=0; v<a; v++)
+      fgq::fpnas("%q", pa+v);
+    fgq::fpnas("%q", pa+a);
+
+    fgq::fpnas("%q", &x);
+    fgq::cevags("Pnfr %q:\a", g);
+    sbe (v=0; v<x; v++)
+    {
+      fgq::fpnas("%q", &k);
+      fgq::cevags("%yyq\a", cbyriny(pa,a,k));
+    }
+  }
+  erghea(0);
+}
+

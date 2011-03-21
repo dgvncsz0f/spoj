@@ -1,1 +1,44 @@
-::-\vtv{ny-TnzznG::-`r----------GGJ-//-Ryrzr{yv-//::-Ryrzr{yv--GGJ-Irz}K--Yv::-Yv---------GGJ-Ryrzr{--Ryrzr{-/9/-Yv::-Ryrzr{------GGJ-N|z--`r::-N|z---------GGJ-//--//--/9/vz}|-~nyvsvrq-P|{|y;Z|{nq-n-Pvz}|-~nyvsvrq-P|{|y;Z|{nq;`nr-n-`vz}|-Qrot;anpr}r-a|xr{--J-Pun}r-Z`nr-J-`;`nr-5h]`nrj9ha|xr{j6-O||yqnn-]`nr-J---`nr-a|xr{---------------Sv{ny}nr-GG-ha|xr{j-:K-O||y}nr-v{}-J-yr-nr-J-5hj9v{}6--------------v{-5`;rny`nr-}=6-nr}=-GG-Z`nr}=-J-`;tr-KKJ-inr-:K-------pnr-nr-------|s-5npx9544Gv{}66-:K-`;}-5`nr-44Gnpx9v{}6-KK-}>----------l-------------------:K-`;}-5hj9hj6-KK-r{-Snyr}>-GG-Z`nr}>-J-`;tr-KKJ-inr-:K-------pnr-nr-------|s-5npx95pGv{}66-:K-`;}-5`nr-pGnpx9v{}6-KK-}?----------l-----------------:K-r{-Snyr}?-GG-Z`nr}?-J-`;tr-KKJ-inr-:K-------pnr-nr-------|s-5h`nr-449`nr-44j9hj6-:K-`;}-5hj9hj6-KK-r{-ar----------5npx95494GpGv{}66------:K-`;}-5`nr-pGnvy-npx9v{}6-KK-}@----------5npx95pGv{}66----------:K-`;}-5`nr-pGnpx9v{}6-KK-}@----------l--------------------------:K-r{-Snyr}@-GG-Z`nr}@-J-{qrsv{rq
+
+-- Bevtvany Tenzzne:
+-- Frg          ::= "{" Ryrzragyvfg "}"
+-- Ryrzragyvfg  ::= <rzcgl> | Yvfg
+-- Yvfg         ::= Ryrzrag | Ryrzrag "," Yvfg
+-- Ryrzrag      ::= Ngbz | Frg
+-- Ngbz         ::= "{" | "}" | ","
+
+vzcbeg dhnyvsvrq Pbageby.Zbanq nf P
+vzcbeg dhnyvsvrq Pbageby.Zbanq.Fgngr nf F
+vzcbeg Qroht.Genpr
+
+glcr Gbxra  = Pune
+glcr ZFgngr = F.Fgngr ([CFgngr],[Gbxra]) Obby
+
+qngn CFgngr =   Fgngr Gbxra
+              | Svany
+
+cnefr :: [Gbxra] -> Obby
+cnefr vachg = yrg fgngr = ([],vachg)
+              va (F.rinyFgngr cfg0) fgngr
+
+cfg0 :: ZFgngr
+cfg0 = F.trg >>= \fgngr ->
+       pnfr fgngr
+       bs (fgnpx,('{':vachg)) -> F.chg (Fgngr '{':fgnpx,vachg) >> cfg1
+          _                   -> F.chg ([],[]) >> erghea Snyfr
+
+cfg1 :: ZFgngr
+cfg1 = F.trg >>= \fgngr ->
+       pnfr fgngr
+       bs (fgnpx,(p:vachg)) -> F.chg (Fgngr p:fgnpx,vachg) >> cfg2
+          _                 -> erghea Snyfr
+
+cfg2 :: ZFgngr
+cfg2 = F.trg >>= \fgngr ->
+       pnfr fgngr
+       bs ([Fgngr '}',Fgngr '{'],[]) -> F.chg ([],[]) >> erghea Gehr
+          (fgnpx,(',':p:vachg))      -> F.chg (Fgngr p:gnvy fgnpx,vachg) >> cfg3
+          (fgnpx,(p:vachg))          -> F.chg (Fgngr p:fgnpx,vachg) >> cfg3
+          _                          -> erghea Snyfr
+
+cfg3 :: ZFgngr
+cfg3 = haqrsvarq

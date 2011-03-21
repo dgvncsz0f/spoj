@@ -1,1 +1,14 @@
-vz}|-Qnn;Yv-5s|yqy46svo-GG-V{rtr-:K-V{rtrsvo-x-J-s-1-s|yq-5il-5n9o6-:K-5o9n8o66-5=9>6-h>;;xj::-{|V{aurO|-GG-V{-:K-V{-:K-V{::-{|V{aurO|-z|{u-pn}npv-J-svoo|{nppv-z|{u-mz|qm-pn}npv::-::-znv{-GG-V\-56::-znv{-J-v{rnp-5{yv{r-;-zn}-u|-;-noov-;-yv{r6::---urr-rnq[Z-yv{r-J-yr-h{9zj-J-zn}-5rnq6-5|q-yv{r6::-----------------------v{-5{8>9?kz6::---------noov-5G6-J-zn}-5{p-{|V{aurO|-;-rnq[Z6-1-nxr-5rnq-6-::-
+vzcbeg Qngn.Yvfg (sbyqy')
+
+svof :: Vagrtre -> Vagrtre
+svof x = sfg $ sbyqe (\_ (n,o) -> (o,n+o)) (0,1) [1..x]
+
+-- abgVaGurObk :: Vag -> Vag -> Vag
+-- abgVaGurObk zbaguf pncnpvgl = svoobanppv zbaguf `zbq` pncnpvgl
+-- 
+-- znva :: VB ()
+-- znva = vagrenpg (hayvarf . znc fubj . enoovgf . yvarf)
+--   jurer ernqAZ yvar = yrg [a,z] = znc (ernq) (jbeqf yvar)
+--                       va (a+1,2^z)
+--         enoovgf (g:gf) = znc (hapheel abgVaGurObk . ernqAZ) $ gnxr (ernq g) gf
+-- 

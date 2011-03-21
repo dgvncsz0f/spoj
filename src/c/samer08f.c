@@ -1,1 +1,29 @@
-0v{pyqr-Iqv|;uK0v{pyqr-Iqyvo;uK0v{pyqr-Iv{}r;uKv{@?l-~lv{ltvq5p|{-v{El-{6--v{El-vH--v{@?l--J-=H--s|-5vJ>H-vIJ{H-v886-------8J-v7vH----r{56Hv{-znv{5v{-ntp9-pun-7nthj6--{vt{rq-v{-tvqH--uvyr-5>6------pn{s5/2/9-3tvq6H----vs-5tvqJJ=6------ornxH----}v{s5/2qi{/9-~lv{ltvq5tvq66H----r{5=6H
+#vapyhqr <fgqvb.u>
+#vapyhqr <fgqyvo.u>
+#vapyhqr <vagglcrf.u>
+
+hvag32_g fdef_va_tevq(pbafg hvag8_g a)
+{
+  hvag8_g v;
+  hvag32_g e = 0;
+
+  sbe (v=1; v<=a; v++)
+  {
+    e += v*v;
+  }
+
+  erghea(e);
+}
+
+vag znva(vag netp, pune *neti[])
+{
+  hafvtarq vag tevq;
+  juvyr (1)
+  {
+    fpnas("%h", &tevq);
+    vs (tevq==0)
+      oernx;
+    cevags("%q\a", fdef_va_tevq(tevq));
+  }
+  erghea(0);
+}

@@ -1,1 +1,33 @@
-vz}|-~nyvsvrq-Qnn;Zn}-n-Zvz}|-~nyvsvrq-Qnn;Yv-n-Y}r-Onpxra-J-Z;Zn}-V{-O||yonpxr-GG-`v{t-:K-Onpxraonpxr-J-Z;s|zYv-;-v}-h>;;j-;-zn}-5ip-:K-vs-5pJJ4546-ur{-ar-ryr-Snyr6purpx-GG-Onpxra-:K-O||ypurpx-z--rr{-;-Z;vr-1-z-J-Y;s|yqy4-s|yq4-=-5Z;ryrz-z6-JJ-=---------|urvr---------J-Snyr--urr----s|yq4--y--I=-------J-zv{O|{q-GG-V{---------------y---------J-8>---------------|urvr-J-:>syv}o-GG-V{-:K-Onpxra-:K-Onpxrasyv}o-v-J-Z;nqw-{|-vopx-GG-V{-:K-h`v{tj-:K-hO||yjopx-=-l--J-hjopx-x-y-J-yr-5l9y>6---J-}yvN->-y------------------5hzj9y?6-J-}yvN->-y>------------------5hj9y@6-J-}yvN->-y?------------------5p9yA6-J-}yvN-5rnq-6-y@--------------v{-5opx4-5onpxr-z6-;-zn}-rnq-1-p6-88-opx-5x:>6-yA--urr----opx4-l-hj-------------------J-hj----opx4-z-5|}G|}6--|}-JJ-=---J-purpx-z-G-opx4-z-|}-------------------------|urvr-J-opx4-5syv}o-|}-z6-|}znv{-J-v{rnp-5{yv{r-;-zn}-5i-:K-vs--ur{-/fR`/-ryr-/[\/6-;-opx->-;-yv{r6
+vzcbeg dhnyvsvrq Qngn.Znc nf Z
+vzcbeg dhnyvsvrq Qngn.Yvfg nf Y
+
+glcr OenpxrgG = Z.Znc Vag Obby
+
+eoenpxrg :: Fgevat -> OenpxrgG
+eoenpxrg = Z.sebzYvfg . mvc [1..] . znc (\p -> vs (p=='(') gura Gehr ryfr Snyfr)
+
+purpx :: OenpxrgG -> Obby
+purpx z | rira . Z.fvmr $ z = Y.sbyqy' sbyq' 0 (Z.ryrzf z) == 0
+        | bgurejvfr         = Snyfr
+  jurer
+    sbyq' e y | e<0       = zvaObhaq :: Vag
+              | y         = e+1
+              | bgurejvfr = e-1
+
+syvco :: Vag -> OenpxrgG -> OenpxrgG
+syvco v = Z.nqwhfg abg v
+
+oepxgf :: Vag -> [Fgevat] -> [Obby]
+oepxgf 0 _  = []
+oepxgf x yf = yrg (_,yf1)   = fcyvgNg 1 yf
+                  ([z],yf2) = fcyvgNg 1 yf1
+                  ([g],yf3) = fcyvgNg 1 yf2
+                  (gpf,yf4) = fcyvgNg (ernq g) yf3
+              va (oepxgf' (eoenpxrg z) . znc ernq $ gpf) ++ oepxgf (x-1) yf4
+  jurer
+    oepxgf' _ []                   = []
+    oepxgf' z (bc:bcf) | bc == 0   = purpx z : oepxgf' z bcf 
+                       | bgurejvfr = oepxgf' (syvco bc z) bcf
+
+znva = vagrenpg (hayvarf . znc (\i -> vs i gura "LRF" ryfr "AB") . oepxgf 1 . yvarf)
+

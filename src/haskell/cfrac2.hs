@@ -1,1 +1,30 @@
-z|qyr-Znv{-5znv{6-urrvz}|-Qnn;Yv-5}yvN6}r-g-J-V{rtr}r-Snp-J-5g9g6u|l-GG-Snp-:K-`v{tu|l-5}9~6-J-u|-}-;-u|`v{t-/-/-;-u|-~-1-//n}-GG-Snp-:K-Snpn}-5n9o6-J-5o9n6}nr-GG-h`v{tj-:K-hgj}nr-J-}nrv-;-v}-h=;;j--urr-}nrv-hj----------------------J-hj--------}nrv-55v96G6--rr{-v---J-}nrv------------------------------|urvr-J-yr-{z-J-5nxrduvyr-5<J4;46-;-q|}duvyr-5JJ4;466------------------------------------------v{-rnq-5{z-6-G-}nrv-{snp-GG-hgj-:K-Snp{snp-J-n}-;-s|yq-{snp4-5>9>6--urr-{snp4--5}9~6-J-5~97~8}6znv{-GG-V\-56znv{-J-v{rnp-5{yv{r-;-zn}-5u|l-;-{snp6-;-}nr4-;-nxrduvyr-5<J-/=-=/6-;-yv{r6--urr-}nr4-hj-----J-hj--------}nr4-5G6-J-yr-hy9lj---J-5zn}-rnq-;-|q6-----------------------------5n9o6-J-}yvN-y-------------------------v{-}nr-n-G-}nr4-o
+zbqhyr Znva (znva) jurer
+
+vzcbeg Qngn.Yvfg (fcyvgNg)
+
+glcr M = Vagrtre
+glcr Senp = (M,M)
+
+fubj_ :: Senp -> Fgevat
+fubj_ (c,d) = fubjf c . fubjFgevat " " . fubjf d $ ""
+
+fjnc :: Senp -> Senp
+fjnc (n,o) = (o,n)
+
+cnefr :: [Fgevat] -> [M]
+cnefr = cnefrvk . mvc [0..]
+  jurer cnefrvk []                      = []
+        cnefrvk ((vk,k):kf) | rira vk   = cnefrvk kf
+                            | bgurejvfr = yrg ahz = (gnxrJuvyr (/='.') . qebcJuvyr (=='.'))
+                                          va ernq (ahz k) : cnefrvk kf
+
+hasenp :: [M] -> Senp
+hasenp = fjnc . sbyqe hasenp' (1,1)
+  jurer hasenp' k (c,d) = (d,k*d+c)
+
+znva :: VB ()
+znva = vagrenpg (hayvarf . znc (fubj_ . hasenp) . cnefr' . gnxrJuvyr (/= "0 0") . yvarf)
+  jurer cnefr' []     = []
+        cnefr' (k:kf) = yrg [y,_]   = (znc ernq . jbeqf) k
+                            (nf,of) = fcyvgNg y kf
+                        va cnefr nf : cnefr' of

@@ -1,1 +1,60 @@
-z|qyr-Znv{-urrvz}|-~nyvsvrq-Qnn;Yv-n-Yvz}|-~nyvsvrq-Qnn;Or`v{t;PunE-n-O::-Yv-|s-}vzr-}-|-~5?k@>6}vzr-GG-hV{j}vzr-J-h?9@9B9D9>>9>@9>D9>F9?@9?F9@>9@D9A>9A@9AD9B@9BF9C>9CD9D>9D@9DF9E@9EF9FD9>=>9>=@9>=D9>=F9>>@9>?D9>@>9>@D9>@F9>AF9>B>9>BD9>C@9>CD9>D@9>DF9>E>9>F>9>F@9>FD9>FF9?>>9??@9??D9??F9?@@9?@F9?A>9?B>9?BD9?C@9?CF9?D>9?DD9?E>9?E@9?F@9@=D9@>>9@>@9@>D9@@>9@@D9@AD9@AF9@B@9@BF9@CD9@D@9@DF9@E@9@EF9@FD9A=>9A=F9A>F9A?>9A@>9A@@9A@F9AA@9AAF9ABD9AC>9AC@9ACD9ADF9AED9AF>9AFF9B=@9B=F9B?>9B?@9BA>9BAD9BBD9BC@9BCF9BD>9BDD9BED9BF@9BFF9C=>9C=D9C>@9C>D9C>F9C@>9CA>9CA@9CAD9CB@9CBF9CC>9CD@9CDD9CE@9CF>9D=>j::-_r{-r-vs-{--}qvvqr-GG-V{-:K-V{-:K-O||yqvvqr-}-{-J-5z|q-{-}6-JJ-=::-Vs-{--}-ur{-v-r{-n-}yr-5x9{469-urr::--4x4--:K-=IJxI{-v-ur-{zor-|s-vzr-}-qvvqr-{::--4{44-:K-aur-rznv{qr-nsr-ur-qvvv|{-unr-|pprqqv4-GG-V{-:K-V{-:K-5V{9V{6qv4-{-}-J-lqv4-=-{--urr-----lqv4---------}-mqvvqrm--J-lqv4-58>6-5qv--}6-------|urvr-----J-596::-Snp|r-n-{zor-v{|-}vzr-snp|;}vzrlsnp|-GG-V{-:K-h5V{9V{6j}vzrlsnp|-{--{K=-J-l}vzrlsnp|-{-}vzr--urr-----l}vzrlsnp|-GG-V{-:K-hV{j-:K-h5V{9V{6j----l}vzrlsnp|-{-hj-J-h5>9{6j----l}vzrlsnp|-{-5}G}6--------{JJ>------J-hj-------}7}-K-{---J-h5>9{6j-------|urvr-J-yr-59{46-J-{-mqv4m-}-v{----------------------vs-5K=6----------------------ur{------------------------59}6-G-l}vzrlsnp|-{4-}----------------------ryr------------------------l}vzrlsnp|-{-}vtzn-GG-V{-:K-V{vtzn-{-J-5Y;s|yqy4-rz4->-}snp|46-:-{--urr----rz4-z-5n9}6-J-z-7-5qv-5}k5n8>6-:->6-5}:>66----}snp|4-----J-}vzrlsnp|-{:-v|-:zlr}rn-{-s--{K>-------J-s-KK-zlr}rn-5{:>6-s--------------|urvr-J-sznv{-J-q|---I:-O;trYv{r--zlr}rn-5rnqv{4-6-qvz4----urr------rnqv{4-{-J-pnr-5O;rnqV{-{6-|s---------------------W-5n9o6-:K-n---------------------[|uv{t----:K-=------qvz4-J-q|--------{-I:-O;trYv{r--------}`Y{-1-u|-1-vtzn-5rnqv{4-{6
+zbqhyr Znva jurer
+
+vzcbeg dhnyvsvrq Qngn.Yvfg nf Y
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Pune8 nf O
+
+-- Yvfg bs cevzrf hc gb ~fdeg(2^31)
+cevzrf :: [Vag]
+cevzrf = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,443,449,457,461,463,467,479,487,491,499,503,509,521,523,541,547,557,563,569,571,577,587,593,599,601,607,613,617,619,631,641,643,647,653,659,661,673,677,683,691,701]
+
+-- Ergheaf gehr vs a | c
+qvivqrf :: Vag -> Vag -> Obby
+qvivqrf c a = (zbq a c) == 0
+
+-- Vs a | c gura vg ergheaf n ghcyr (x,a'), jurer
+--  'x'  -> 0<=x<a vf gur ahzore bs gvzrf c qvivqrf a
+--  'a'' -> Gur erznvaqre nsgre gur qvivfvbaf unir bppheerq
+qvi' :: Vag -> Vag -> (Vag,Vag)
+qvi' a c = _qvi' 0 a
+  jurer 
+    _qvi' f g
+      | c `qvivqrf` g = _qvi' (f+1) (qvi g c)
+      | bgurejvfr     = (f,g)
+
+-- Snpgberf n ahzore vagb cevzr snpgbef.
+cevzr_snpgbef :: Vag -> [(Vag,Vag)]
+cevzr_snpgbef a | a>0 = _cevzr_snpgbef a cevzrf
+  jurer 
+    _cevzr_snpgbef :: Vag -> [Vag] -> [(Vag,Vag)]
+    _cevzr_snpgbef a [] = [(1,a)]
+    _cevzr_snpgbef a (c:cf) 
+      | a==1      = []
+      | c*c > a   = [(1,a)]
+      | bgurejvfr = yrg (f,a') = a `qvi'` c va
+                      vs (f>0)
+                      gura
+                        (f,c) : _cevzr_snpgbef a' cf
+                      ryfr
+                        _cevzr_snpgbef a cf
+
+fvtzn :: Vag -> Vag
+fvtzn a = (Y.sbyqy' grez' 1 csnpgbef') - a
+  jurer
+    grez' z (n,c) = z * (qvi (c^(n+1) - 1) (c-1))
+    csnpgbef'     = cevzr_snpgbef a
+
+{- vb -}
+
+z_ercrng a s | a>1       = s >> z_ercrng (a-1) s
+             | bgurejvfr = s
+
+znva = qb
+  g <- O.trgYvar
+  z_ercrng (ernqvag' g) qvifhz'
+    jurer
+      ernqvag' a = pnfr (O.ernqVag a) bs
+                     Whfg (n,o) -> n
+                     Abguvat    -> 0
+      qvifhz' = qb
+        a <- O.trgYvar
+        chgFgeYa $ fubj $ fvtzn (ernqvag' a)

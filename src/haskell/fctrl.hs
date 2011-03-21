@@ -1,1 +1,23 @@
-z|qyr-Znv{-urrvz}|-V\r|rls-GG-V{-:K-V{r|rls->-J-=r|rls-{-J-s|yq-586-=-5~|vr{-B6-------------urr-~|vr{-x--xK{-------J-hj--------------------------------|urvr-J-5qv-{-x6-G-~|vr{-5B7x6r}rnl{-GG-5Z|{nq-n9-V{rtny-o6-JK-o-:K-n-p-:K-n-56r}rnl{-=-s-J-r{-56r}rnl{-{-s-J-q|-sH-r}rnl{-5{:>6-sHzlr|rls-GG-V\-V{zlr|rls-J-q|---I:-trYv{r--r{-5r|rls-5rnq-66znv{-J-q|--u`rOssrv{t-qv{-Yv{rOssrv{t---I:-trYv{r--r}rnl{-5rnq-6-5zlr|rls-KKJ-}v{6
+zbqhyr Znva jurer
+
+vzcbeg VB
+
+mrebrf_s :: Vag -> Vag
+mrebrf_s 1 = 0
+mrebrf_s a = sbyqe (+) 0 (dhbgvragf 5)
+             jurer dhbgvragf x | x>a       = []
+                               | bgurejvfr = (qvi a x) : dhbgvragf (5*x)
+
+ercrng_a :: (Zbanq n, Vagrteny o) => o -> n p -> n ()
+ercrng_a 0 s = erghea ()
+ercrng_a a s = qb {s; ercrng_a (a-1) s;}
+
+z_mrebrf_s :: VB Vag
+z_mrebrf_s = qb
+  f <- trgYvar
+  erghea (mrebrf_s (ernq f))
+
+znva = qb
+  uFrgOhssrevat fgqva YvarOhssrevat
+  g <- trgYvar
+  ercrng_a (ernq g) (z_mrebrf_s >>= cevag)

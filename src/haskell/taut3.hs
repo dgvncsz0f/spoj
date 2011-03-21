@@ -1,1 +1,133 @@
-z|qyr-Znv{-5znv{6-urrvz}|-P|{|y;Z|{nq;`nrvz}|-P|{|y;Z|{nq;_rnqrvz}|-P|{|y;Z|{nqvz}|-Qnn;Znor-5s|zW6vz}|-~nyvsvrq-Qnn;Zn}-n-Zqnn-O||yR}-J---VaR-O||yR}-O||yR}-O||yR}-----------------aR_Z-Pun-----------------gr|-----------------\{r--qrvv{t-5R~9\q9`u|6::-qnn-S|yq\}-n-o-J-S|yq\}--s|yql|---GG-o-:K-o-:K-o::----------------------------9-s|yqln{q--GG-o-:K-o-:K-o::----------------------------9-s|yql{|--GG-o-:K-o::----------------------------9-s|yqlrz-GG-n-:K-o::----------------------------::-::-s|yq-GG-S|yq\}-n-o-:K-O||yR}-:K-o::-s|yq-s-5\_-}-~6--J-s|yql|-s-5s|yq-s-}6-5s|yq-s-~6::-s|yq-s-5N[Q-}-~6-J-s|yqln{q-s-5s|yq-s-}6-5s|yq-s-~6::-s|yq-s-5[\a-}6---J-s|yql{|-s-5s|yq-s-}6::-s|yq-s-5aR_Z-n6--J-s|yqlrz-s-n::-qvvor-GG-5O||yR}-:K-O||yR}-:K-O||yR}6-:K-O||yR}-:K-O||yR}-:K-O||yR}::-qvvor-|}-}-5\_-~=-~>6--J-\_-5qvvor-|}-}-~=6-5qvvor-|}-}-~>6::-qvvor-|}-}-5N[Q-~=-~>6-J-N[Q-5qvvor-|}-}-~=6-5qvvor-|}-}-~>6::-qvvor-|}-5\_-}=-}>6-~--J-\_-5qvvor-|}-}=-~6-5qvvor-|}-}>-~6::-qvvor-|}-5N[Q-}=-}>6-~-J-N[Q-5qvvor-|}-}=-~6-5qvvor-|}-}>-~6::-qvvor-|}-}-~-----------J-}-m|}m-~::-{r}r-P[S-n-J-P[S-O||yR}::-::--u}G<<r{;vxv}rqvn;|t<vxv<Qvw{pvrl{|znyls|z::-p{s-GG-O||yR}-:K-P[S-n::-p{s-J-P[S-;-s|yq-5S|yq\}-s-t-u-6::---urr-s-J-zx|::---------t-J-qvvor-N[Q::---------u-J-zx{|::----------J-aR_Z::-{r}r-Q[S-n-J-Q[S-O||yR}::-::--u}G<<r{;vxv}rqvn;|t<vxv<P|{w{pvrl{|znyls|z::-q{s-GG-O||yR}-:K-Q[S-n::-q{s-J-Q[S-;-s|yq-5S|yq\}-s-t-u-6::---urr-s-J-qvvor-\_-::---------t-J-zxn{q::---------u-J-zx{|::----------J-aR_Zzxvss-GG-O||yR}-:K-O||yR}-:K-O||yR}zxvss-}-~-J-5zxvz}yvr-}-~6-mzxn{qm-5zxvz}yvr-~-}6zxvz}yvr-GG-O||yR}-:K-O||yR}-:K-O||yR}zxvz}yvr-}-~-J-zxvr-}-~-\{rzx{|-GG-O||yR}-:K-O||yR}zx{|-}-J-zxvr-}-gr|-\{rzx|-GG-O||yR}-:K-O||yR}-:K-O||yR}zx|-}-~-J-zxvr-}-\{r-~zxn{q-GG-O||yR}-:K-O||yR}-:K-O||yR}zxn{q-}-~-J-zxvr-}-~-gr|zxvr-GG-O||yR}-:K-O||yR}-:K-O||yR}-:K-O||yR}zxvr-gr|-l-u-J-uzxvr-\{r-t-l--J-tzxvr-s-\{r-u---uIs-------J-VaR-u-\{r-s----------------|urvr-J-VaR-s-\{r-uzxvr-s-t-gr|--tIs-------J-VaR-t-s-gr|----------------|urvr-J-VaR-s-t-gr|zxvr-s-t-\{r---tIs-------J-VaR-5zx{|-t6-5zx{|-s6-\{r----------------|urvr-J-VaR-s-t-\{rzxvr-s-gr|-u--uIs-------J-VaR-5zx{|-u6-gr|-5zx{|-s6----------------|urvr-J-VaR-s-gr|-uzxvr-s-t-u----J-VaR-s-t-u}nr-GG-`nr-5`v{t9Z;Zn}-Pun-O||y6-O||yR}}nr-J-tr-KKJ-i596-:K---------pnr----------|s-54[4G6-:K-yr-5}9=6-J-{`nr-}nr-596------------------------v{-q|-}-=------------------------------r{-5zx{|-}6------------54Q4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zx|-}-~6------------54P4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zxn{q-}-~6------------54V4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zxvz}yvr-}-~6------------54R4G6-:K-yr-5}9=6-J-{`nr-}nr-596----------------------------5~9>6-J-{`nr-}nr-=------------------------v{-q|-}->------------------------------r{-5zxvss-}-~6------------5G6---:K-q|-}-59Z;v{r--Snyr-6---------------------------r{-5aR_Z-6------------l--------:K-r|-/}nrG-}nr-r|/rny-GG-O||yR}-:K-_rnqr-5Z;Zn}-Pun-O||y6-O||yrny-5VaR-v--r6-J-rny-v-KKJ-ip|{q-:K-------------------vs-p|{q-------------------ur{-rny--------------------ryr-rny-rrny-5aR_Z-x6----J-szn}-5s|zW-;-Z;y||x}-x6-nxrny-gr|--------J-r{-Snyrrny-\{r---------J-r{-arp|z}r-GG-_rnqr-5Z;Zn}-Pun-O||y6-O||y-:K-Z;Zn}-Pun-O||y-:K-O||yp|z}r-pvpv-J-{_rnqr-pvpvn|y|t-GG-`v{t-:K-O||yn|y|t--J-purpxn-xr-n--urr-5r}95l9n66-----J-{`nr-}nr-59Z;rz}6--------xr----------------J-Z;xr-n--------pvpv-------------J-p|z}r-5rny-r}6--------purpxn-hj-l------J-ar--------purpxn-5xGx6-s-J----pvpv-------------------------------33-pvpv-s------------------------------33-purpxn-x-s------------------------------33-purpxn-x-----------urr--J-Z;v{r-x-ar-sznv{-GG-V\-56znv{-J-q|-{-I:-szn}-rnq-trYv{r----------v{rnp-5{yv{r-;-zn}-55i-:K-vs--ur{-/fR`/-ryr-/[\/6-;-n|y|t6-;-nxr-{-;-yv{r6
+zbqhyr Znva (znva) jurer
+
+vzcbeg Pbageby.Zbanq.Fgngr
+vzcbeg Pbageby.Zbanq.Ernqre
+vzcbeg Pbageby.Zbanq
+vzcbeg Qngn.Znlor (sebzWhfg)
+vzcbeg dhnyvsvrq Qngn.Znc nf Z
+
+qngn ObbyRkce =   VGR ObbyRkce ObbyRkce ObbyRkce
+                | GREZ Pune
+                | Mreb
+                | Bar
+  qrevivat (Rd,Beq,Fubj)
+
+-- qngn SbyqBcf n o = SbyqBcf { sbyq_be   :: o -> o -> o
+--                            , sbyq_naq  :: o -> o -> o
+--                            , sbyq_abg  :: o -> o
+--                            , sbyq_grez :: n -> o
+--                            }
+-- 
+-- sbyq :: SbyqBcf n o -> ObbyRkce -> o
+-- sbyq s (BE c d)  = sbyq_be s (sbyq s c) (sbyq s d)
+-- sbyq s (NAQ c d) = sbyq_naq s (sbyq s c) (sbyq s d)
+-- sbyq s (ABG c)   = sbyq_abg s (sbyq s c)
+-- sbyq s (GREZ n)  = sbyq_grez s n
+
+-- qvfgevohgr :: (ObbyRkce -> ObbyRkce -> ObbyRkce) -> ObbyRkce -> ObbyRkce -> ObbyRkce
+-- qvfgevohgr bc c (BE d0 d1)  = BE (qvfgevohgr bc c d0) (qvfgevohgr bc c d1)
+-- qvfgevohgr bc c (NAQ d0 d1) = NAQ (qvfgevohgr bc c d0) (qvfgevohgr bc c d1)
+-- qvfgevohgr bc (BE c0 c1) d  = BE (qvfgevohgr bc c0 d) (qvfgevohgr bc c1 d)
+-- qvfgevohgr bc (NAQ c0 c1) d = NAQ (qvfgevohgr bc c0 d) (qvfgevohgr bc c1 d)
+-- qvfgevohgr bc c d           = c `bc` d
+
+-- arjglcr PAS n = PAS ObbyRkce
+-- -- | uggc://ra.jvxvcrqvn.bet/jvxv/Qvfwhapgvir_abezny_sbez
+-- pas :: ObbyRkce -> PAS n
+-- pas = PAS . sbyq (SbyqBcf s t u j)
+--   jurer s = zxbe
+--         t = qvfgevohgr NAQ
+--         u = zxabg
+--         j = GREZ
+
+-- arjglcr QAS n = QAS ObbyRkce
+-- -- | uggc://ra.jvxvcrqvn.bet/jvxv/Pbawhapgvir_abezny_sbez
+-- qas :: ObbyRkce -> QAS n
+-- qas = QAS . sbyq (SbyqBcf s t u j)
+--   jurer s = qvfgevohgr BE 
+--         t = zxnaq
+--         u = zxabg
+--         j = GREZ
+
+zxvss :: ObbyRkce -> ObbyRkce -> ObbyRkce
+zxvss c d = (zxvzcyvrf c d) `zxnaq` (zxvzcyvrf d c)
+
+zxvzcyvrf :: ObbyRkce -> ObbyRkce -> ObbyRkce
+zxvzcyvrf c d = zxvgr c d Bar
+
+zxabg :: ObbyRkce -> ObbyRkce
+zxabg c = zxvgr c Mreb Bar
+
+zxbe :: ObbyRkce -> ObbyRkce -> ObbyRkce
+zxbe c d = zxvgr c Bar d
+
+zxnaq :: ObbyRkce -> ObbyRkce -> ObbyRkce
+zxnaq c d = zxvgr c d Mreb
+
+zxvgr :: ObbyRkce -> ObbyRkce -> ObbyRkce -> ObbyRkce
+zxvgr Mreb _ u = u
+zxvgr Bar t _  = t
+zxvgr s Bar u  | u<s       = VGR u Bar s
+               | bgurejvfr = VGR s Bar u
+zxvgr s t Mreb | t<s       = VGR t s Mreb
+               | bgurejvfr = VGR s t Mreb
+zxvgr s t Bar  | t<s       = VGR (zxabg t) (zxabg s) Bar
+               | bgurejvfr = VGR s t Bar
+zxvgr s Mreb u | u<s       = VGR (zxabg u) Mreb (zxabg s)
+               | bgurejvfr = VGR s Mreb u
+zxvgr s t u    = VGR s t u
+
+cnefre :: Fgngr (Fgevat,Z.Znc Pune Obby) ObbyRkce
+cnefre = trg >>= \(f,i) ->
+         pnfr f
+         bs ('A':kf) -> yrg (c,f0) = ehaFgngr cnefre (kf,i)
+                        va qb chg f0
+                              erghea (zxabg c)
+            ('Q':kf) -> yrg (c,f0) = ehaFgngr cnefre (kf,i)
+                            (d,f1) = ehaFgngr cnefre f0
+                        va qb chg f1
+                              erghea (zxbe c d)
+            ('P':kf) -> yrg (c,f0) = ehaFgngr cnefre (kf,i)
+                            (d,f1) = ehaFgngr cnefre f0
+                        va qb chg f1
+                              erghea (zxnaq c d)
+            ('V':kf) -> yrg (c,f0) = ehaFgngr cnefre (kf,i)
+                            (d,f1) = ehaFgngr cnefre f0
+                        va qb chg f1
+                              erghea (zxvzcyvrf c d)
+            ('R':kf) -> yrg (c,f0) = ehaFgngr cnefre (kf,i)
+                            (d,f1) = ehaFgngr cnefre f0
+                        va qb chg f1
+                              erghea (zxvss c d)
+            (k:kf)   -> qb chg (kf,Z.vafreg k Snyfr i)
+                           erghea (GREZ k)
+            _        -> reebe "cnefre: cnefr reebe"
+
+riny :: ObbyRkce -> Ernqre (Z.Znc Pune Obby) Obby
+riny (VGR v g r) = riny v >>= \pbaq ->
+                   vs pbaq
+                   gura riny g
+                   ryfr riny r
+riny (GREZ x)    = sznc (sebzWhfg . Z.ybbxhc x) nfx
+riny Mreb        = erghea Snyfr
+riny Bar         = erghea Gehr
+
+pbzchgr :: Ernqre (Z.Znc Pune Obby) Obby -> Z.Znc Pune Obby -> Obby
+pbzchgr pvephvg = ehaErnqre pvephvg
+
+gnhgbybtl :: Fgevat -> Obby
+gnhgbybtl f = purpxgnhg xrlf inef
+  jurer (rkce,(_,inef))     = ehaFgngr cnefre (f,Z.rzcgl)
+        xrlf                = Z.xrlf inef
+        pvephvg             = pbzchgr (riny rkce)
+        purpxgnhg [] _      = Gehr
+        purpxgnhg (x:xf) is =    pvephvg ig
+                              && pvephvg is
+                              && purpxgnhg xf is
+                              && purpxgnhg xf ig
+          jurer ig = Z.vafreg x Gehr is
+
+znva :: VB ()
+znva = qb a <- sznc ernq trgYvar
+          vagrenpg (hayvarf . znc ((\i -> vs i gura "LRF" ryfr "AB") . gnhgbybtl) . gnxr a . yvarf)
+

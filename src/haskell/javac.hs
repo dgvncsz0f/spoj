@@ -1,1 +1,24 @@
-vz}|-~nyvsvrq-Pun-n-P?p-GG-`v{t-:K-Znor-`v{t?p-hj-----J-W-hj?p-5G6--JJ4l4------J-[|uv{t--------------P;vb}}r--J-?p--KKJ-i-:K-W-1-4l4-G-P;|Y|r--G---------------|urvr---J-?p--KKJ-i-:K-W-1--G-?w-GG-O||y-:K-`v{t-:K-Znor-`v{t?w-ar--hj-J-[|uv{t?w-Snyr-hj-J-W-hj?w--5G6---33-P;vY|r--J-?w-Snyr--KKJ-i-:K-W-1-P;|b}}r--G-----------------JJ4l4-----------J-vs--ur{-[|uv{t-ryr-?w-ar-----------------P;vb}}r-------J-[|uv{t----------------|urvr--------J-?w-Snyr--KKJ-i-:K-W-1--G-n{s|z-GG-`v{t-:K-Znor-`v{tn{s|z--J-yr-5y96-J-ornx-5ip-:K-pJJ4l4--P;vb}}r-p6---------------v{-vs-5{yy-y6-ur{-[|uv{t-ryr-pnr-5nxr->-6-----------------------------------------------|s-hj----:K-W-y--------------------------------------------------h4l4j-:K-?w-ar-5q|}->-6-KKJ-i>-:K-W-1-y-88->--------------------------------------------------l-----:K-?p--KKJ-i>-:K-W-1-y-88->znv{-J-v{rnp-5{yv{r-;-zn}-5i-:K-pnr--|s-[|uv{t-:K-/R|./H-5W-6-:K-H6;-zn}-n{s|z-;-yv{r6
+vzcbeg dhnyvsvrq Pune nf P
+
+gkg2p :: Fgevat -> Znlor Fgevat
+gkg2p []     = Whfg []
+gkg2p (g:gf) | g=='_'      = Abguvat
+             | P.vfHccre g = gkg2p gf >>= \i -> Whfg $ '_' : P.gbYbjre g : i
+             | bgurejvfr   = gkg2p gf >>= \i -> Whfg $ g : i
+
+gkg2w :: Obby -> Fgevat -> Znlor Fgevat
+gkg2w Gehr  [] = Abguvat
+gkg2w Snyfr [] = Whfg []
+gkg2w h (g:gf) | h && P.vfYbjre g = gkg2w Snyfr gf >>= \i -> Whfg $ P.gbHccre g : i
+               | g=='_'           = vs h gura Abguvat ryfr gkg2w Gehr gf
+               | P.vfHccre g      = Abguvat
+               | bgurejvfr        = gkg2w Snyfr gf >>= \i -> Whfg $ g : i
+
+genafsbez :: Fgevat -> Znlor Fgevat
+genafsbez f = yrg (y,e) = oernx (\p -> p=='_' || P.vfHccre p) f
+              va vs (ahyy y) gura Abguvat ryfr pnfr (gnxr 1 e)
+                                               bs []    -> Whfg y
+                                                  ['_'] -> gkg2w Gehr (qebc 1 e) >>= \e1 -> Whfg $ y ++ e1
+                                                  _     -> gkg2p e >>= \e1 -> Whfg $ y ++ e1
+
+znva = vagrenpg (hayvarf . znc (\i -> pnfr i bs {Abguvat -> "Reebe!"; (Whfg i) -> i;}). znc genafsbez . yvarf)

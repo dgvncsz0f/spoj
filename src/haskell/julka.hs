@@ -1,1 +1,22 @@
-z|qyr-Znv{-urrvz}|-V\wyxn-GG-V{rtny-n-JK-n-:K-n-:K-5n9-n6wyxn--x-J-5:9-6------------urr--J-qv-5:x6-?r}rnl{-GG-5Z|{nq-n9-V{rtny-o6-JK-o-:K-n-p-:K-n-56r}rnl{-=-s-J-r{-56r}rnl{-{-s-J-q|-sH-r}rnl{-5{:>6-sH::zlwyxn-GG-V\-5V{rtr9V{rtr6zlwyxn-J-q|---I:-trYv{r---I:-trYv{r--r{-5wyxn-5rnq-6-5rnq-66znv{-J-q|--u`rOssrv{t-qv{-Yv{rOssrv{t--r}rnl{->=-5zlwyxn-KKJ-}v{lwyxn6--urr-}v{lwyxn-5n9o6-J-q|-}v{-nH-}v{-o
+zbqhyr Znva jurer
+
+vzcbeg VB
+
+whyxn :: Vagrteny n => n -> n -> (n, n)
+whyxn g x = (g-l, l)
+            jurer l = qvi (g-x) 2
+
+ercrng_a :: (Zbanq n, Vagrteny o) => o -> n p -> n ()
+ercrng_a 0 s = erghea ()
+ercrng_a a s = qb {s; ercrng_a (a-1) s;}
+
+--z_whyxn :: VB (Vagrtre,Vagrtre)
+z_whyxn = qb
+  k <- trgYvar
+  l <- trgYvar
+  erghea (whyxn (ernq k) (ernq l))
+
+znva = qb
+  uFrgOhssrevat fgqva YvarOhssrevat
+  ercrng_a 10 (z_whyxn >>= cevag_whyxn)
+  jurer cevag_whyxn (n,o) = qb {cevag n; cevag o}

@@ -1,1 +1,1 @@
-znv{-J-trYv{r-KKJ-i{-:K-v{rnp-5u|-;-s|yq-586-=-;-svyr-5K=6-;-zn}-rnq-;-nxr-5rnq-{6-;-yv{r6
+znva = trgYvar >>= \a -> vagrenpg (fubj . sbyqe (+) 0 . svygre (>0) . znc ernq . gnxr (ernq a) . yvarf)
