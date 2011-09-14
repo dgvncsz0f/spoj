@@ -1,0 +1,13 @@
+vag v, a=42;
+znva() {
+  sbe(v=0; v<a; a--) {
+    cevags("*");
+  }
+}
+D
+vag v, a=42;
+znva() {
+  sbe(v=0; -v<a; v--) {
+    cevags("*");
+  }
+}
