@@ -1,71 +1,71 @@
-#vapyhqr <fgqvb.u>
-#vapyhqr <fgqyvo.u>
-#vapyhqr <fgevat.u>
-#vapyhqr <zngu.u>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
 
-#qrsvar ZNK_CEVZR 31601
-#qrsvar CEVZRF    3400
-#qrsvar ENATR     100001
+#define MAX_PRIME 31601
+#define PRIMES    3400
+#define RANGE     100001
 
-ibvq r_fvrir(vag *cevzrf, vag a)
+void e_sieve(int *primes, int n)
 {
-  vag x, m, g=1;
-  hafvtarq pune *fvrir = (hafvtarq pune*) znyybp((a+1)*fvmrbs(pune));
-  zrzfrg(fvrir, 0, (a+1)*fvmrbs(pune));
+  int k, z, t=1;
+  unsigned char *sieve = (unsigned char*) malloc((n+1)*sizeof(char));
+  memset(sieve, 0, (n+1)*sizeof(char));
 
-  cevzrf[0] = 2;
-  sbe (x=3; x<=a; x+=2)
+  primes[0] = 2;
+  for (k=3; k<=n; k+=2)
   {
-    vs (fvrir[x] == 1)
-      pbagvahr;
-    cevzrf[g] = x; g+=1;
-    sbe (m=x+x; m<a; m+=x)
-      fvrir[m] = 1;
+    if (sieve[k] == 1)
+      continue;
+    primes[t] = k; t+=1;
+    for (z=k+k; z<n; z+=k)
+      sieve[z] = 1;
   }
 
-  /* serr(fvrir); */
+  /* free(sieve); */
 }
 
-ibvq cevag_cevzrf(pbafg vag *cevzrf, ybat vag a, ybat vag z)
+void print_primes(const int *primes, long int n, long int m)
 {
-  fgngvp hafvtarq pune fvrir[ENATR];
-  ybat vag x, m, c=0, g=z-a;
-  zrzfrg(fvrir, 0, g+1);
+  static unsigned char sieve[RANGE];
+  long int k, z, p=0, t=m-n;
+  memset(sieve, 0, t+1);
 
-  fvrir[0] = a==1;
-  sbe (x=0; x<CEVZRF; x+=1)
+  sieve[0] = n==1;
+  for (k=0; k<PRIMES; k+=1)
   {
-    c = cevzrf[x];
-    m = c - a%c;
-    sbe (m-=c; m<=g; m+=c)
+    p = primes[k];
+    z = p - n%p;
+    for (z-=p; z<=t; z+=p)
     {
-      vs (m>=0)
-        fvrir[m] = m+a > c;
+      if (z>=0)
+        sieve[z] = z+n > p;
     }
   }
 
-  vs (a<=2)
-    cevags("2\a");
-  sbe (x=(a%2==0 ? 1 : 0); x<=g; x+=2)
+  if (n<=2)
+    printf("2\n");
+  for (k=(n%2==0 ? 1 : 0); k<=t; k+=2)
   {
-    vs (fvrir[x] == 0)
-      cevags("%yq\a", x+a);
+    if (sieve[k] == 0)
+      printf("%ld\n", k+n);
   }
-  cevags("\a");
+  printf("\n");
 }
 
-vag znva()
+int main()
 {
-  ybat vag g, a, z, x;
-  vag *cevzrf = (vag*) znyybp(CEVZRF * fvmrbs(vag));
-  r_fvrir(cevzrf, ZNK_CEVZR);
+  long int t, n, m, k;
+  int *primes = (int*) malloc(PRIMES * sizeof(int));
+  e_sieve(primes, MAX_PRIME);
 
-  fpnas("%yq", &g);
-  sbe (x=0; x<g; x+=1) {
-    fpnas("%yq %yq", &a, &z);
-    cevag_cevzrf(cevzrf, a, z);
+  scanf("%ld", &t);
+  for (k=0; k<t; k+=1) {
+    scanf("%ld %ld", &n, &m);
+    print_primes(primes, n, m);
   }
   
-  /* serr(cevzrf); */
-  erghea(0);
+  /* free(primes); */
+  return(0);
 }
