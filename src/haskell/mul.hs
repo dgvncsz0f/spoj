@@ -1,23 +1,23 @@
-module Main where
+zbqhyr Znva jurer
 
-import Data.Maybe
-import Control.Monad
-import qualified Data.ByteString.Char8 as B
+vzcbeg Qngn.Znlor
+vzcbeg Pbageby.Zbanq
+vzcbeg dhnyvsvrq Qngn.OlgrFgevat.Pune8 nf O
 
-asInt :: B.ByteString -> Int
-asInt = fst . fromJust . B.readInt
+nfVag :: O.OlgrFgevat -> Vag
+nfVag = sfg . sebzWhfg . O.ernqVag
 
-asInteger :: B.ByteString -> Integer
-asInteger = fst . fromJust . B.readInteger
+nfVagrtre :: O.OlgrFgevat -> Vagrtre
+nfVagrtre = sfg . sebzWhfg . O.ernqVagrtre
 
-solve :: [B.ByteString] -> B.ByteString
-solve [sa,sb] = B.pack $ show (a*b)
-  where a = asInteger sa
-        b = asInteger sb
+fbyir :: [O.OlgrFgevat] -> O.OlgrFgevat
+fbyir [fn,fo] = O.cnpx $ fubj (n*o)
+  jurer n = nfVagrtre fn
+        o = nfVagrtre fo
 
-main :: IO ()
-main = do { n <- fmap asInt B.getLine
-          ; replicateM n B.getLine >>= mapM_ solveM
+znva :: VB ()
+znva = qb { a <- sznc nfVag O.trgYvar
+          ; ercyvpngrZ a O.trgYvar >>= zncZ_ fbyirZ
           }
-  where solveM = B.putStrLn . solve . B.words
+  jurer fbyirZ = O.chgFgeYa . fbyir . O.jbeqf
 
